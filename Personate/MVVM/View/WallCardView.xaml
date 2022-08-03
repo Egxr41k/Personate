@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="Personate.MVVM.View.WallCardView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Personate.MVVM.View"
+             xmlns:viewmodel="clr-namespace:Personate.MVVM.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="190" d:DesignWidth="260">
+    <UserControl.DataContext>
+        <viewmodel:WallCardViewModel/>
+    </UserControl.DataContext>
+    <Border Style="{StaticResource DarkBg}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="135"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Image Source="{Binding Image}">
+                <Image.InputBindings>
+                    <MouseBinding Command="{Binding WallViewCommand}" Gesture="LeftClick"/>
+                </Image.InputBindings>
+            </Image>
+            <Grid Grid.Row="1" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{Binding Resolution}"
+                           Style="{StaticResource DarkText}"/>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

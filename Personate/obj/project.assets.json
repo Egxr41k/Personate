@@ -1,0 +1,334 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Microsoft.Win32.SystemEvents/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.Windows.CsWin32/0.1.635-beta": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.Win32Docs": "0.1.7-alpha",
+          "Microsoft.Windows.SDK.Win32Metadata": "17.0.2-preview",
+          "System.Memory": "4.5.4"
+        },
+        "build": {
+          "build/netstandard1.0/Microsoft.Windows.CsWin32.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.Win32Docs/0.1.7-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "build": {
+          "buildTransitive/netstandard1.0/Microsoft.Windows.SDK.Win32Docs.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.Win32Metadata/17.0.2-preview": {
+        "type": "package",
+        "build": {
+          "buildTransitive/netstandard1.0/Microsoft.Windows.SDK.Win32Metadata.props": {}
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "sha512": "hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll",
+        "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Windows.CsWin32/0.1.635-beta": {
+      "sha512": "brXs1R12DrxiC/iKvG9c86UzXflw/pdhY3HPJjZlbu8Md/lwN9X3H24N5ywCsszLhoTXQc0deJQcLilPzbNsDg==",
+      "type": "package",
+      "path": "microsoft.windows.cswin32/0.1.635-beta",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NOTICE.txt",
+        "README.md",
+        "analyzers/cs/MessagePack.Annotations.dll",
+        "analyzers/cs/MessagePack.dll",
+        "analyzers/cs/Microsoft.Bcl.AsyncInterfaces.dll",
+        "analyzers/cs/Microsoft.Windows.CsWin32.dll",
+        "analyzers/cs/Microsoft.Windows.SDK.Win32Docs.dll",
+        "analyzers/cs/System.Buffers.dll",
+        "analyzers/cs/System.Memory.dll",
+        "analyzers/cs/System.Numerics.Vectors.dll",
+        "analyzers/cs/System.Runtime.CompilerServices.Unsafe.dll",
+        "analyzers/cs/System.Text.Encodings.Web.dll",
+        "analyzers/cs/System.Text.Json.dll",
+        "analyzers/cs/System.Threading.Tasks.Extensions.dll",
+        "build/Microsoft.Windows.CsWin32.props",
+        "build/net20/Microsoft.Windows.CsWin32.props",
+        "build/netstandard1.0/Microsoft.Windows.CsWin32.props",
+        "microsoft.windows.cswin32.0.1.635-beta.nupkg.sha512",
+        "microsoft.windows.cswin32.nuspec",
+        "readme.txt",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Microsoft.Windows.SDK.Win32Docs/0.1.7-alpha": {
+      "sha512": "+8ygOfBME88Sq75zMopFfqCdxBxZoKDlizPK6iYxzSGf6j51rd9ISNJ20UKfOSr746tgn9GNyVI+jc0JXfnuZA==",
+      "type": "package",
+      "path": "microsoft.windows.sdk.win32docs/0.1.7-alpha",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "apidocs.msgpack",
+        "buildTransitive/Microsoft.Windows.SDK.Win32Docs.props",
+        "buildTransitive/net20/Microsoft.Windows.SDK.Win32Docs.props",
+        "buildTransitive/netstandard1.0/Microsoft.Windows.SDK.Win32Docs.props",
+        "images/windows.png",
+        "lib/netstandard2.0/Microsoft.Windows.SDK.Win32Docs.dll",
+        "lib/netstandard2.0/Microsoft.Windows.SDK.Win32Docs.xml",
+        "microsoft.windows.sdk.win32docs.0.1.7-alpha.nupkg.sha512",
+        "microsoft.windows.sdk.win32docs.nuspec"
+      ]
+    },
+    "Microsoft.Windows.SDK.Win32Metadata/17.0.2-preview": {
+      "sha512": "1sI2+VPcO0HK1/OI1n1iZQluv4vL+P8kfbkJJIN8fbjZbNJhJLwpKyixNyuele+hg63Q7LKAPwJpft/hIEgZSg==",
+      "type": "package",
+      "path": "microsoft.windows.sdk.win32metadata/17.0.2-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Windows.Win32.Interop.dll",
+        "Windows.Win32.winmd",
+        "build/Microsoft.Windows.SDK.Win32Metadata.props",
+        "build/net20/Microsoft.Windows.SDK.Win32Metadata.props",
+        "build/netstandard1.0/Microsoft.Windows.SDK.Win32Metadata.props",
+        "buildTransitive/Microsoft.Windows.SDK.Win32Metadata.props",
+        "buildTransitive/net20/Microsoft.Windows.SDK.Win32Metadata.props",
+        "buildTransitive/netstandard1.0/Microsoft.Windows.SDK.Win32Metadata.props",
+        "images/windows.png",
+        "microsoft.windows.sdk.win32metadata.17.0.2-preview.nupkg.sha512",
+        "microsoft.windows.sdk.win32metadata.nuspec"
+      ]
+    },
+    "System.Drawing.Common/6.0.0": {
+      "sha512": "NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "type": "package",
+      "path": "system.drawing.common/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/net461/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/netcoreapp3.1/System.Drawing.Common.dll",
+        "lib/netcoreapp3.1/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/unix/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.xml",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.xml",
+        "system.drawing.common.6.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Microsoft.Windows.CsWin32 >= 0.1.635-beta",
+      "System.Drawing.Common >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\code\\.NET code\\C#Dev\\Personate tf4.7.2\\Personate tf6.0\\Personate\\Personate.csproj",
+      "projectName": "Personate",
+      "projectPath": "C:\\code\\.NET code\\C#Dev\\Personate tf4.7.2\\Personate tf6.0\\Personate\\Personate.csproj",
+      "packagesPath": "C:\\Users\\Егор Кравченко\\.nuget\\packages\\",
+      "outputPath": "C:\\code\\.NET code\\C#Dev\\Personate tf4.7.2\\Personate tf6.0\\Personate\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Егор Кравченко\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Microsoft.Windows.CsWin32": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[0.1.635-beta, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

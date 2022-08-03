@@ -1,0 +1,110 @@
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate.csproj.AssemblyReference.cache
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkBtn.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkMenu.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkScrollBar.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkText.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkTitle.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\General\IconsTheme.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\FontsView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\IconsView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\SettingsView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\TaskbarView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\ThemesView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\WallsMenuView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\WallView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\App.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate_MarkupCompile.cache
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate_MarkupCompile.lref
+C:\code\.NET code\Personate\Personate\bin\Debug\net6.0-windows\Personate.exe
+C:\code\.NET code\Personate\Personate\bin\Debug\net6.0-windows\Personate.deps.json
+C:\code\.NET code\Personate\Personate\bin\Debug\net6.0-windows\Personate.runtimeconfig.json
+C:\code\.NET code\Personate\Personate\bin\Debug\net6.0-windows\Personate.dll
+C:\code\.NET code\Personate\Personate\bin\Debug\net6.0-windows\ref\Personate.dll
+C:\code\.NET code\Personate\Personate\bin\Debug\net6.0-windows\Personate.pdb
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\MainWindow.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\App.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\FontsView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\IconsView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\MainWindow.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\SettingsView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\TaskbarView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\ThemesView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\WallsMenuView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\WallView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate.g.resources
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate.AssemblyInfoInputs.cache
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate.AssemblyInfo.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate.csproj.CoreCompileInputs.cache
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate.dll
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\ref\Personate.dll
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate.pdb
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate.genruntimeconfig.cache
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\Personate_Content.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkBg.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorsMenuView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorsMenuView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorCardView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorCardView.baml
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\WallCardView.g.cs
+C:\code\.NET code\Personate\Personate\obj\Debug\net6.0-windows\MVVM\View\WallCardView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\bin\Debug\net6.0-windows\Personate.exe
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\bin\Debug\net6.0-windows\Personate.deps.json
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\bin\Debug\net6.0-windows\Personate.runtimeconfig.json
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\bin\Debug\net6.0-windows\Personate.dll
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\bin\Debug\net6.0-windows\ref\Personate.dll
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\bin\Debug\net6.0-windows\Personate.pdb
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate.csproj.AssemblyReference.cache
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkBg.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkBtn.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkMenu.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkScrollBar.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkText.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\DarkUI\DarkTitle.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\Themes\General\IconsTheme.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorCardView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorsMenuView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\FontsView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\IconsView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\MainWindow.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\SettingsView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\TaskbarView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\ThemesView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\WallCardView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\WallsMenuView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\WallView.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\App.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate_Content.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate_MarkupCompile.cache
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate_MarkupCompile.lref
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\App.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorCardView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorsMenuView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\CursorView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\FontsView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\IconsView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\MainWindow.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\SettingsView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\TaskbarView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\ThemesView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\WallCardView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\WallsMenuView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\MVVM\View\WallView.baml
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate.g.resources
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate.AssemblyInfoInputs.cache
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate.AssemblyInfo.cs
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate.csproj.CoreCompileInputs.cache
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate.dll
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\ref\Personate.dll
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate.pdb
+C:\code\.NET code\C#Dev\Personate tf6.0\Personate\obj\Debug\net6.0-windows\Personate.genruntimeconfig.cache

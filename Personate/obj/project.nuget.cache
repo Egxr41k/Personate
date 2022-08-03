@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "l4YM9U0ylZWUcyXXewirskZ2CRtjH44IY7hNrJp5b86lRyn8gI5Wtu9LHOTeU8l/m/D/Io5ZO/4S3rm8EH6OTA==",
+  "success": true,
+  "projectFilePath": "C:\\code\\.NET code\\C#Dev\\Personate tf4.7.2\\Personate tf6.0\\Personate\\Personate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\microsoft.windows.cswin32\\0.1.635-beta\\microsoft.windows.cswin32.0.1.635-beta.nupkg.sha512",
+    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\microsoft.windows.sdk.win32docs\\0.1.7-alpha\\microsoft.windows.sdk.win32docs.0.1.7-alpha.nupkg.sha512",
+    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\microsoft.windows.sdk.win32metadata\\17.0.2-preview\\microsoft.windows.sdk.win32metadata.17.0.2-preview.nupkg.sha512",
+    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
