@@ -80,7 +80,7 @@
             <StackPanel Background="Transparent" Width="700"/>
             <StackPanel Orientation="Horizontal">
                 <StackPanel Height="30" Width="30">
-                    <Image Source="C:\code\.NET code\Personate\Personate\Resources\Icons/minimize.png"
+                    <Image Source="{Binding MinimizeIcon}"
                            Height="25" Width="25"
                            Margin="2.5"
                            Style="{DynamicResource IconsTheme}">
@@ -90,7 +90,7 @@
                     </Image>
                 </StackPanel>
                 <StackPanel Height="30" Width="30">
-                    <Image Source="C:\code\.NET code\Personate\Personate\Resources\Icons/maximize.png"
+                    <Image Source="{Binding MaximizeIcon}"
                            Height="25" Width="25" Margin="2.5"
                            Style="{DynamicResource IconsTheme}">
                         <Image.InputBindings>
@@ -99,7 +99,7 @@
                     </Image>
                 </StackPanel>
                 <StackPanel Height="30" Width="30">
-                    <Image Source="C:\code\.NET code\Personate\Personate\Resources\Icons/close.png"
+                    <Image Source="{Binding CloseIcon}"
                            Height="25" Width="25" Margin="2.5"
                            Style="{DynamicResource IconsTheme}">
                         <Image.InputBindings>

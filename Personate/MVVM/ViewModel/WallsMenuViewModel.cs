@@ -2,7 +2,7 @@
 class WallsMenuViewModel : Base.MenuViewModel
 {
     readonly string[] PathToWallpapers = Directory.GetFiles(
-        MainViewModel.RESOURCEPATH + "\\Wallpapers");
+        MainViewModel.RESOURCEPATH + "\\PersonateLib\\Wallpapers");
     public static Base.Command? UploadImageCommand { get; set; }
 
     private void WallGridInit()
@@ -14,8 +14,11 @@ class WallsMenuViewModel : Base.MenuViewModel
         {
             for (int column = 0; column < 3; column++)
             {
-                WallpaperModel.path = PathToWallpapers[index];
-                walls[index] = new();
+                //WallCardViewModel wallCard = new();
+                walls[index] = new()
+                {
+                    path = PathToWallpapers[index]
+                };
 
                 controls[index] = new()
                 {

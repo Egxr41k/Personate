@@ -1,13 +1,13 @@
 ﻿namespace Personate.MVVM.Model;
 static class WallpaperModel
 {
-    public static string path = "";
+    private static string path;
     public static bool OpenImage()
     {
         bool result = false;
         OpenFileDialog ofd = new()
         {
-            //Filter = "Image files (*.jpg)|*.jpg|All Files (*.*)|*.*",
+            Filter = "Image files (*.jpg)|*.jpg|All Files (*.*)|*.*",
             InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures)
         };
         if (ofd.ShowDialog() == true)
@@ -25,7 +25,9 @@ static class WallpaperModel
             Filter = "Image files (*.jpg)|*.jpg|All Files (*.*)|*.*",
             InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures)
         };
-        if (sfd.ShowDialog() == true) System.Drawing.Image.FromFile(path).Save(sfd.FileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+        if (sfd.ShowDialog() == true)
+            System.Drawing.Image.FromFile(path).Save(
+                sfd.FileName, System.Drawing.Imaging.ImageFormat.Jpeg);
     }
 
     public static void SetImageToBg()

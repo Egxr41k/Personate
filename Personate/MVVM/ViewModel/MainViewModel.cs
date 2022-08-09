@@ -5,11 +5,28 @@ global using System.Linq;
 global using System.IO;
 global using System.Windows.Controls;
 global using Microsoft.Win32;
+using System.Windows.Media.Imaging;
 
 namespace Personate.MVVM.ViewModel;
 class MainViewModel : Base.ViewModel
-{
-    public const string RESOURCEPATH = @"C:\code\.NET code\C#Dev\Personate tf6.0\Personate\Resources\PersonateLib";
+{    
+    public static string RESOURCEPATH = 
+        Path.GetFullPath(
+            Path.Combine(
+                AppDomain.CurrentDomain.BaseDirectory,
+                @"..\..\..\Resources"));
+    #region Icons
+    public BitmapImage MinimizeIcon { get => minimizeIcon; }
+    private BitmapImage minimizeIcon;
+
+    public BitmapImage MaximizeIcon { get => maximizeIcon; }
+    private BitmapImage maximizeIcon;
+
+    public BitmapImage CloseIcon { get => closeIcon; }
+    private BitmapImage closeIcon;
+
+    #endregion
+
     #region MenuVMs
     public HomeViewModel HomeVM { get; set; }
     public FontsViewModel FontsVM { get; set; }
@@ -21,7 +38,7 @@ class MainViewModel : Base.ViewModel
     public SettignsViewModel SettingsVM { get; set; }
     #endregion
 
-    #region commands
+    #region Commands
     public Base.Command? MaximizeCommand { get; set; }
     public Base.Command? MinimizeCommand { get; set; }
     public Base.Command? CloseCommand { get; set; }
@@ -34,7 +51,9 @@ class MainViewModel : Base.ViewModel
     public Base.Command? TaskbarViewCommand { get; set; }
     public Base.Command? CursorsMenuViewCommand { get; set; }
     public Base.Command? SettingsViewCommand { get; set; }
-    #endregion 
+    #endregion
+
+    #region AppProps
 
     private object currentView;
     public object CurrentView
@@ -42,7 +61,13 @@ class MainViewModel : Base.ViewModel
         get => currentView;
         set => Set(ref currentView, value);
     }
-    private static Window MainWindow { get => Application.Current.MainWindow; }
+    private static Window MainWindow
+    { 
+        get => Application.Current.MainWindow; 
+    }
+
+    #endregion
+
     private void AppCommandsInit()
     {
         MinimizeCommand = new(o =>
@@ -52,7 +77,8 @@ class MainViewModel : Base.ViewModel
 
         MaximizeCommand = new(o =>
         {
-            if(MainWindow.WindowState == WindowState.Normal) MainWindow.WindowState = WindowState.Maximized;
+            if(MainWindow.WindowState == WindowState.Normal) 
+                MainWindow.WindowState = WindowState.Maximized;
             else MainWindow.WindowState = WindowState.Normal;
         });
 
@@ -100,9 +126,20 @@ class MainViewModel : Base.ViewModel
             CurrentView = SettingsVM;
         });
     }
+
+    private void IconsInit()
+    {
+        string IconsDirectory = RESOURCEPATH + "\\Icons";
+        string[] IconsFiles = Directory.GetFiles(IconsDirectory);
+
+        closeIcon = new BitmapImage(new Uri(IconsFiles[0]));
+        maximizeIcon = new BitmapImage(new Uri(IconsFiles[3]));
+        minimizeIcon = new BitmapImage(new Uri(IconsFiles[4]));
+    }
     public MainViewModel()
     {
-        HomeVM = new HomeViewModel();
+        #region MenuVMs init
+        HomeVM = new();
         FontsVM = new();
         ThemesVM = new();
         IconsVM = new();
@@ -110,10 +147,11 @@ class MainViewModel : Base.ViewModel
         TaskbarVM = new();
         CursorsMenuVM = new();
         SettingsVM = new();
+        #endregion
 
-        currentView = CursorsMenuVM;
+        currentView = HomeVM;
 
-        #region commands
+        #region Commands init
         AppCommandsInit();
         MenuCommandsInit();
 
@@ -143,5 +181,6 @@ class MainViewModel : Base.ViewModel
 
         #endregion
 
+        IconsInit(); 
     }
 }

@@ -1,0 +1,12 @@
+is_global = true
+build_property.CsWin32InputMetadataPaths = C:\Users\Егор Кравченко\.nuget\packages\microsoft.windows.sdk.win32metadata\17.0.2-preview\buildTransitive\..\Windows.Win32.winmd
+build_property.CsWin32InputDocPaths = C:\Users\Егор Кравченко\.nuget\packages\microsoft.windows.sdk.win32docs\0.1.7-alpha\buildTransitive\..\apidocs.msgpack
+build_property.TargetFramework = net6.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Personate_3zulvymk_wpftmp
+build_property.ProjectDir = C:\code\.NET code\C#Dev\Personate tf6.0\Personate\

@@ -261,11 +261,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\.NET code\\C#Dev\\Personate tf4.7.2\\Personate tf6.0\\Personate\\Personate.csproj",
+      "projectUniqueName": "C:\\code\\.NET code\\C#Dev\\Personate tf6.0\\Personate\\Personate.csproj",
       "projectName": "Personate",
-      "projectPath": "C:\\code\\.NET code\\C#Dev\\Personate tf4.7.2\\Personate tf6.0\\Personate\\Personate.csproj",
+      "projectPath": "C:\\code\\.NET code\\C#Dev\\Personate tf6.0\\Personate\\Personate.csproj",
       "packagesPath": "C:\\Users\\Егор Кравченко\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\.NET code\\C#Dev\\Personate tf4.7.2\\Personate tf6.0\\Personate\\obj\\",
+      "outputPath": "C:\\code\\.NET code\\C#Dev\\Personate tf6.0\\Personate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

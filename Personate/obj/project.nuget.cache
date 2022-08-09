@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l4YM9U0ylZWUcyXXewirskZ2CRtjH44IY7hNrJp5b86lRyn8gI5Wtu9LHOTeU8l/m/D/Io5ZO/4S3rm8EH6OTA==",
+  "dgSpecHash": "g256HroC+FCXHMFx1MHCQm6vp7O2Iu0Y+2SGqlEuYboG7CBQGyamOSkVbIV0aUHBGFJ5NffHZ5glq0DR7rqPkQ==",
   "success": true,
-  "projectFilePath": "C:\\code\\.NET code\\C#Dev\\Personate tf4.7.2\\Personate tf6.0\\Personate\\Personate.csproj",
+  "projectFilePath": "C:\\code\\.NET code\\C#Dev\\Personate tf6.0\\Personate\\Personate.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Егор Кравченко\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Егор Кравченко\\.nuget\\packages\\microsoft.windows.cswin32\\0.1.635-beta\\microsoft.windows.cswin32.0.1.635-beta.nupkg.sha512",
