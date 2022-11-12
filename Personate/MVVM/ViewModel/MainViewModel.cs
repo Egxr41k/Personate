@@ -5,11 +5,29 @@ global using System.Linq;
 global using System.IO;
 global using System.Windows.Controls;
 global using Microsoft.Win32;
+using System.Windows.Media.Imaging;
 
 namespace Personate.MVVM.ViewModel;
 class MainViewModel : Base.ViewModel
 {
-    public const string RESOURCEPATH = @"C:\code\.NET code\C#Dev\Personate tf6.0\Personate\Resources\PersonateLib";
+    public static string RESOURCEPATH =
+        Path.GetFullPath(
+            Path.Combine(
+                AppDomain.CurrentDomain.BaseDirectory,
+                @"..\..\..\Resources"));
+
+    #region Icons
+    public BitmapImage MinimizeIcon { get => minimizeIcon; }
+    private BitmapImage minimizeIcon;
+
+    public BitmapImage MaximizeIcon { get => maximizeIcon; }
+    private BitmapImage maximizeIcon;
+
+    public BitmapImage CloseIcon { get => closeIcon; }
+    private BitmapImage closeIcon;
+
+    #endregion
+
     #region MenuVMs
     public HomeViewModel HomeVM { get; set; }
     public FontsViewModel FontsVM { get; set; }
@@ -100,6 +118,15 @@ class MainViewModel : Base.ViewModel
             CurrentView = SettingsVM;
         });
     }
+    private void IconsInit()
+    {
+        string IconsDirectory = RESOURCEPATH + "\\Icons";
+        string[] IconsFiles = Directory.GetFiles(IconsDirectory);
+
+        closeIcon = new BitmapImage(new Uri(IconsFiles[0]));
+        maximizeIcon = new BitmapImage(new Uri(IconsFiles[3]));
+        minimizeIcon = new BitmapImage(new Uri(IconsFiles[4]));
+    }
     public MainViewModel()
     {
         HomeVM = new HomeViewModel();
@@ -142,6 +169,7 @@ class MainViewModel : Base.ViewModel
         });
 
         #endregion
+        IconsInit();
 
     }
 }

@@ -2,7 +2,7 @@
 class WallsMenuViewModel : Base.MenuViewModel
 {
     readonly string[] PathToWallpapers = Directory.GetFiles(
-        MainViewModel.RESOURCEPATH + "\\Wallpapers");
+        MainViewModel.RESOURCEPATH + "\\PersonateLib\\Wallpapers");
     public static Base.Command? UploadImageCommand { get; set; }
 
     private void WallGridInit()

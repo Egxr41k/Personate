@@ -2,7 +2,7 @@
 class CursorsMenuViewModel : Base.MenuViewModel
 {
     readonly string[] PathToCursors = Directory.GetDirectories(
-        MainViewModel.RESOURCEPATH + "\\Cursors");
+        MainViewModel.RESOURCEPATH + "\\PersonateLib\\Cursors");
     public static Base.Command? UploadCursorCommand { get; set; }
 
     private void CursorGridInit()
