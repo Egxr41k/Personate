@@ -3,32 +3,23 @@
 namespace Personate.MVVM.ViewModel;
 internal class WallCardViewModel : Base.ViewModel
 {
-    public string path;
-    private string resolution;
+    public static Base.Command? WallViewCommand { get; set; }
+    
+    public Wallpaper wallpaper;
+
     public string Resolution
     {
-        get => resolution;
-        //set => Set(ref resolution, value);
+        get => wallpaper.resolution;
+        set => Set(ref wallpaper.resolution, value);
     }
-    public static Base.Command? WallViewCommand { get; set; }
-
-
-    private BitmapImage image;
     public BitmapImage Image
     {
-        get => image;
-        //set => Set(ref image, value);
-    }
-    public string Name;
-    protected virtual void Init()
-    {
-        image = new BitmapImage(new Uri(path));
-        Name = path.Split('\\').Last();
-        resolution = $"{Image.PixelWidth}" + "x" + $"{Image.PixelHeight}";
+        get => wallpaper.image;
+        set => Set(ref wallpaper.image, value);
     }
     public WallCardViewModel()
     {
-        Init();
+        wallpaper = WallsMenuViewModel.curwallpaper;
     }
 
 }

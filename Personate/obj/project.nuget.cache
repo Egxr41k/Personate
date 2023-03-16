@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "g256HroC+FCXHMFx1MHCQm6vp7O2Iu0Y+2SGqlEuYboG7CBQGyamOSkVbIV0aUHBGFJ5NffHZ5glq0DR7rqPkQ==",
+  "dgSpecHash": "klOugb4hskEB6f9fk+8+sKWxPVoj143BlMxLNO6DM8cuhGJ8WMV41gT80VtyuXuUTcFf+g+ipYLkSzpUR2b+uA==",
   "success": true,
-  "projectFilePath": "C:\\code\\.NET code\\C#Dev\\Personate tf6.0\\Personate\\Personate.csproj",
+  "projectFilePath": "C:\\code\\Egxr41k\\C#_Dev\\desctop applications\\Personate\\Personate\\Personate.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\microsoft.windows.cswin32\\0.1.635-beta\\microsoft.windows.cswin32.0.1.635-beta.nupkg.sha512",
-    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\microsoft.windows.sdk.win32docs\\0.1.7-alpha\\microsoft.windows.sdk.win32docs.0.1.7-alpha.nupkg.sha512",
-    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\microsoft.windows.sdk.win32metadata\\17.0.2-preview\\microsoft.windows.sdk.win32metadata.17.0.2-preview.nupkg.sha512",
-    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
-    "C:\\Users\\Егор Кравченко\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.windows.cswin32\\0.1.635-beta\\microsoft.windows.cswin32.0.1.635-beta.nupkg.sha512",
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.windows.sdk.win32docs\\0.1.7-alpha\\microsoft.windows.sdk.win32docs.0.1.7-alpha.nupkg.sha512",
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.windows.sdk.win32metadata\\17.0.2-preview\\microsoft.windows.sdk.win32metadata.17.0.2-preview.nupkg.sha512",
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

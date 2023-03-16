@@ -5,7 +5,7 @@ class WallViewModel : WallCardViewModel
     public Base.Command SaveFileCommand { get; set; }
     public WallViewModel()
     {
-        Init();
+        //Init();
 
         SetAsBgCommand = new(o =>
         {
