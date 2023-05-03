@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Personate"
              xmlns:viewModel="clr-namespace:Personate.MVVM.ViewModel"
              xmlns:view="clr-namespace:Personate.MVVM.View"   
-             StartupUri="MVVM/View/MainWindow.xaml">
+             >
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

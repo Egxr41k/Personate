@@ -48,11 +48,22 @@
             <Button Content="Default" 
                     Style="{StaticResource DarkMenuBtn}"/>
         </StackPanel>
-        <ScrollViewer Grid.Row="2">
-            <ContentControl Content="{Binding GridControl}"/>
-                <!--<Grid Name="MainGrid" Height="1000" Width="780"/>-->
-                <!--<ListBox ItemsSource="{Binding WallViews}"/>-->
-        </ScrollViewer>
+        <ListView Grid.Row="2" Background="Transparent"
+                      ItemsSource="{Binding WallCardViewModels}"
+                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                      BorderThickness="0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <local:WallCardView/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
         <Button Grid.Row="3" Content="Show more"
                         HorizontalAlignment="Center"
                         Width="150"

@@ -3,7 +3,7 @@
 namespace Personate.MVVM.Model;
 static class WallpaperModel
 {
-    private static string path;
+    public static string path;
 
     public static bool OpenImage()
     {
@@ -39,7 +39,7 @@ static class WallpaperModel
             Console.WriteLine("Error");
     }
 }
-class Wallpaper
+public class Wallpaper
 {
     public BitmapImage image;
     public string path;

@@ -7,7 +7,7 @@ using Personate.MVVM.ViewModel.Base;
 
 namespace Personate.MVVM.ViewModel
 {
-    class SettignsViewModel : Base.ViewModel
+    public class SettignsViewModel : Base.ViewModel
     {
     }
 }

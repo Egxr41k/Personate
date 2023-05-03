@@ -3,7 +3,8 @@ class WallViewModel : WallCardViewModel
 {
     public Base.Command SetAsBgCommand { get; set; }
     public Base.Command SaveFileCommand { get; set; }
-    public WallViewModel()
+    public WallViewModel(Wallpaper wallpaper) 
+        : base(wallpaper)
     {
         //Init();
 

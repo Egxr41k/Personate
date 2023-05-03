@@ -7,7 +7,7 @@ using Personate.MVVM.ViewModel.Base;
 
 namespace Personate.MVVM.ViewModel
 {
-    class FontsViewModel : Base.ViewModel
+    public class FontsViewModel : Base.ViewModel
     {
     }
 }

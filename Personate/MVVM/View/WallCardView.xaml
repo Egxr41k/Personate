@@ -7,9 +7,9 @@
              xmlns:viewmodel="clr-namespace:Personate.MVVM.ViewModel"
              mc:Ignorable="d" 
              d:DesignHeight="190" d:DesignWidth="260">
-    <UserControl.DataContext>
+    <!--<UserControl.DataContext>
         <viewmodel:WallCardViewModel/>
-    </UserControl.DataContext>
+    </UserControl.DataContext>-->
     <Border Style="{StaticResource DarkBg}">
         <Grid>
             <Grid.RowDefinitions>

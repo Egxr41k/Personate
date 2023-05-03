@@ -1,25 +1,25 @@
 ﻿using System.Windows.Media.Imaging;
 
 namespace Personate.MVVM.ViewModel;
-internal class WallCardViewModel : Base.ViewModel
+public class WallCardViewModel : Base.ViewModel
 {
     public static Base.Command? WallViewCommand { get; set; }
     
-    public Wallpaper wallpaper;
+    private Wallpaper _wallpaper;
 
     public string Resolution
     {
-        get => wallpaper.resolution;
-        set => Set(ref wallpaper.resolution, value);
+        get => _wallpaper.resolution;
+        set => Set(ref _wallpaper.resolution, value);
     }
     public BitmapImage Image
     {
-        get => wallpaper.image;
-        set => Set(ref wallpaper.image, value);
+        get => _wallpaper.image;
+        set => Set(ref _wallpaper.image, value);
     }
-    public WallCardViewModel()
+    public WallCardViewModel(Wallpaper wallpaper)
     {
-        wallpaper = WallsMenuViewModel.curwallpaper;
+        this._wallpaper = wallpaper;
     }
 
 }

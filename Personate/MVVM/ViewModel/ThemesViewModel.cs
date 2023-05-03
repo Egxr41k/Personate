@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Personate.MVVM.ViewModel
 {
-    class ThemesViewModel : Base.ViewModel
+    public class ThemesViewModel : Base.ViewModel
     {
     }
 }

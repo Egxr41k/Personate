@@ -1,53 +1,51 @@
-﻿namespace Personate.MVVM.ViewModel;
-class WallsMenuViewModel : Base.MenuViewModel
+﻿using Personate.MVVM.ViewModel.Base;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Threading.Tasks;
+
+namespace Personate.MVVM.ViewModel;
+public class WallsMenuViewModel : Base.ViewModel
 {
     readonly string[] PathToWallpapers = Directory.GetFiles(
         MainViewModel.RESOURCEPATH + "\\PersonateLib\\Wallpapers");
     public static Base.Command? UploadImageCommand { get; set; }
-    public static Wallpaper curwallpaper;
-    private void WallGridInit()
+    public Base.Command ShowMoreCommand { get; set; }
+
+    private int index = 0; // counter
+
+
+    private ObservableCollection<WallCardViewModel> _wallCardViewModels;
+    public IEnumerable<WallCardViewModel> WallCardViewModels => _wallCardViewModels;
+
+
+    private async Task WallGridInit()
     {
-        WallCardViewModel[] wallsVMs = new WallCardViewModel[36];
-        ContentControl[] controls = new ContentControl[36];
-        var wallpapers = new Wallpaper[36];
-        object curControl;
-        for (int row = 0; row < 3; row++)
+        for (int column = 0; column < 23; column++)
         {
-            for (int column = 0; column < 3; column++)
+            if (index < PathToWallpapers.Length)
             {
-                wallpapers[index] = new Wallpaper(
-                    PathToWallpapers[index]);
-                curwallpaper = wallpapers[index];
-                wallsVMs[index] = new();
-                //wallsVMs[index].wallpaper = new(PathToWallpapers[index]);
-
-                controls[index] = new()
-                {
-                    Content = wallsVMs[index]
-                };
-
-                var test = wallsVMs[index].Image;
-                var test1 = wallsVMs[index].Resolution;
-                curControl = controls[index].Content;
-                var test2 = MainGrid;
-                //var test3 = walls[index].Name;
-
-                SetToGrid(controls[index], row, column);
+                _wallCardViewModels.Add(
+                    new WallCardViewModel(
+                        new Wallpaper(
+                            PathToWallpapers[index]
+                        )
+                    )
+                );
                 index++;
             }
-        
-         }
+        }
     }
-    
+
     public WallsMenuViewModel()
     {
-        ColumnsInit(3);
-        RowsInit(3, 195);
+        _wallCardViewModels =
+                new ObservableCollection<WallCardViewModel>();
+
         WallGridInit();
-        ShowMoreCommand = new(o =>
+
+        ShowMoreCommand = new(async o =>
         {
-            //helper.RowsInit(3, 195);
+            await WallGridInit();
         });
-        GridControl = MainGrid;
     }
 }

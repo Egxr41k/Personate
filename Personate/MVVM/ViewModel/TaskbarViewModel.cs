@@ -7,7 +7,7 @@ using Personate.MVVM.ViewModel.Base;
 
 namespace Personate.MVVM.ViewModel
 {
-    class TaskbarViewModel : Base.ViewModel
+    public class TaskbarViewModel : Base.ViewModel
     {
     }
 }

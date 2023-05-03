@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Personate.MVVM.View"
+        xmlns:view="clr-namespace:Personate.MVVM.View"
+        xmlns:local="clr-namespace:Personate"
         xmlns:global="clr-namespace:Personate"
         xmlns:viewmodel="clr-namespace:Personate.MVVM.ViewModel"
         mc:Ignorable="d" ResizeMode="NoResize" 
@@ -19,13 +20,14 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="80"/>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="50"/>
             <RowDefinition/>
             
         </Grid.RowDefinitions>
 
         <StackPanel VerticalAlignment="Center"
-                    HorizontalAlignment="Center">
+                    HorizontalAlignment="Center" Grid.RowSpan="2">
             <StackPanel>
                 <TextBlock Text="Personate"
                            FontSize="24"
@@ -36,7 +38,7 @@
             </StackPanel>
         </StackPanel>
 
-        <Border Style="{StaticResource DarkBg}" x:Name="Menu" Grid.Row="1">
+        <Border Style="{StaticResource DarkBg}" x:Name="Menu" Grid.Row="2">
             <StackPanel VerticalAlignment="Center">
 
                 <Button Content="Home" 
@@ -74,42 +76,10 @@
             </StackPanel>
         </Border>
 
-        <StackPanel Grid.Column="1"
-                    Orientation="Horizontal"
-                    VerticalAlignment="Top" HorizontalAlignment="Right">
-            <StackPanel Background="Transparent" Width="700"/>
-            <StackPanel Orientation="Horizontal">
-                <StackPanel Height="30" Width="30">
-                    <Image Source="{Binding MinimizeIcon}"
-                           Height="25" Width="25"
-                           Margin="2.5"
-                           Style="{DynamicResource IconsTheme}">
-                        <Image.InputBindings>
-                            <MouseBinding Command="{Binding MinimizeCommand}" Gesture="LeftClick"/>
-                        </Image.InputBindings>
-                    </Image>
-                </StackPanel>
-                <StackPanel Height="30" Width="30">
-                    <Image Source="{Binding MaximizeIcon}"
-                           Height="25" Width="25" Margin="2.5"
-                           Style="{DynamicResource IconsTheme}">
-                        <Image.InputBindings>
-                            <MouseBinding Command="{Binding MaximizeCommand}" Gesture="LeftClick"/>
-                        </Image.InputBindings>
-                    </Image>
-                </StackPanel>
-                <StackPanel Height="30" Width="30">
-                    <Image Source="{Binding CloseIcon}"
-                           Height="25" Width="25" Margin="2.5"
-                           Style="{DynamicResource IconsTheme}">
-                        <Image.InputBindings>
-                            <MouseBinding Command="{Binding CloseCommand}" Gesture="LeftClick"/>
-                        </Image.InputBindings>
-                    </Image>
-                </StackPanel>
-            </StackPanel>
-            <Frame Name="Mainsection" Grid.Column="1" Grid.RowSpan="3" Margin="0, 30, 0, 0"/>
-        </StackPanel>
+        <local:CustomTitleBar
+            Grid.Row="0"
+            Grid.Column="1"/>
+
 
         <ContentControl Grid.Column="1"
                         Grid.RowSpan="2"

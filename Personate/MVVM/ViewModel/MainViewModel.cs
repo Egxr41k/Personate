@@ -27,17 +27,6 @@ class MainViewModel : Base.ViewModel
 
     #endregion
 
-    #region MenuVMs
-    public HomeViewModel HomeVM { get; set; }
-    public FontsViewModel FontsVM { get; set; }
-    public ThemesViewModel ThemesVM { get; set; }
-    public IconsViewModel IconsVM { get; set; }
-    public WallsMenuViewModel WallsMenuVM { get; set; }
-    public TaskbarViewModel TaskbarVM { get; set; }
-    public CursorsMenuViewModel CursorsMenuVM { get; set; }
-    public SettignsViewModel SettingsVM { get; set; }
-    #endregion
-
     #region Commands
     public Base.Command? MaximizeCommand { get; set; }
     public Base.Command? MinimizeCommand { get; set; }
@@ -88,42 +77,42 @@ class MainViewModel : Base.ViewModel
     {
         HomeViewCommand = new(o =>
         {
-            CurrentView = HomeVM;
+            CurrentView = App.HomeVM;
         });
 
         FontsViewCommand = new(o =>
         {
-            CurrentView = FontsVM;
+            CurrentView = App.FontsVM;
         });
 
         ThemesViewCommand = new(o =>
         {
-            CurrentView = ThemesVM;
+            CurrentView = App.ThemesVM;
         });
 
         IconsViewCommand = new(o =>
         {
-            CurrentView = IconsVM;
+            CurrentView = App.IconsVM;
         });
 
         WallsMenuViewCommand = new(o =>
         {
-            CurrentView = WallsMenuVM;
+            CurrentView = App.WallsMenuVM;
         });
 
         TaskbarViewCommand = new(o =>
         {
-            CurrentView = TaskbarVM;
+            CurrentView = App.TaskbarVM;
         });
 
         CursorsMenuViewCommand = new(o =>
         {
-            CurrentView = CursorsMenuVM;
+            CurrentView = App.CursorsMenuVM;
         });
 
         SettingsViewCommand = new(o =>
         {
-            CurrentView = SettingsVM;
+            CurrentView = App.SettingsVM;
         });
     }
 
@@ -138,18 +127,8 @@ class MainViewModel : Base.ViewModel
     }
     public MainViewModel()
     {
-        #region MenuVMs init
-        HomeVM = new();
-        FontsVM = new();
-        ThemesVM = new();
-        IconsVM = new();
-        WallsMenuVM = new();
-        TaskbarVM = new();
-        CursorsMenuVM = new();
-        SettingsVM = new();
-        #endregion
 
-        currentView = HomeVM;
+        currentView = App.HomeVM;
 
         #region Commands init
         AppCommandsInit();
@@ -159,13 +138,14 @@ class MainViewModel : Base.ViewModel
         {
             if(WallpaperModel.OpenImage() == true)
             {
-                CurrentView = new WallViewModel();
+                CurrentView = new WallViewModel(
+                    new Wallpaper(WallpaperModel.path));
             }
         });
 
         WallCardViewModel.WallViewCommand = new(o =>
         {
-            CurrentView = new WallViewModel();
+            //CurrentView = new WallViewModel();
         });
 
         CursorsMenuViewModel.UploadCursorCommand = new(o =>
