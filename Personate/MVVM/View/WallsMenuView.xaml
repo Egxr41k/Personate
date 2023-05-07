@@ -49,9 +49,11 @@
                     Style="{StaticResource DarkMenuBtn}"/>
         </StackPanel>
         <ListView Grid.Row="2" Background="Transparent"
-                      ItemsSource="{Binding WallCardViewModels}"
-                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                      BorderThickness="0">
+                  ItemsSource="{Binding WallCardViewModels}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                  ScrollViewer.IsDeferredScrollingEnabled="True"
+                  VirtualizingStackPanel.CacheLength="30"
+                  BorderThickness="0">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <local:WallCardView/>
