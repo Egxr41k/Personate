@@ -28,8 +28,23 @@
     <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\Personate.UWP.exe">
       <PackagePath>entrypoint\Personate.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Egxr41k\.nuget\packages\communitytoolkit.mvvm\8.2.0\lib\netstandard2.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Egxr41k\.nuget\packages\microsoft.bcl.asyncinterfaces\7.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Egxr41k\.nuget\packages\system.runtime.compilerservices.unsafe\6.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\PublicAssemblies\Axe.Windows.Win32.dll">
+      <PackagePath>Axe.Windows.Win32.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\PublicAssemblies\Axe.Windows.SystemAbstractions.dll">
+      <PackagePath>Axe.Windows.SystemAbstractions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22000.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -63,6 +78,1710 @@
     <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\Icons\close.png">
+      <PackagePath>Resources\Icons\close.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\Icons\download.png">
+      <PackagePath>Resources\Icons\download.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\Icons\like.png">
+      <PackagePath>Resources\Icons\like.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\Icons\maximize.png">
+      <PackagePath>Resources\Icons\maximize.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\Icons\minimize.png">
+      <PackagePath>Resources\Icons\minimize.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\Icons\moreact.png">
+      <PackagePath>Resources\Icons\moreact.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\Icons\settings.png">
+      <PackagePath>Resources\Icons\settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Abstract_1.png">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Abstract_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Abstract_2.png">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Abstract_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Dark_2.png">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Dark_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Dark_3.png">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Dark_3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Neon_5.png">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Neon_5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Neon_6.png">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Neon_6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Neon_7.png">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Neon_7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Neon_8.png">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Neon_8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Neon_9.png">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Neon_9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Anathema\light\Anathema White Handwriting Version 2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Anathema\light\Anathema White Handwriting Version 2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Anathema\light\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Anathema\light\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Anathema\light\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Anathema\light\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Anathema\light\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Anathema\light\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Anathema\light\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Anathema\light\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Anathema\light\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Anathema\light\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\link-acount.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\link-acount.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\link-place.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\link-place.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\unavailiable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\unavailiable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\account.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\account.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\place.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\place.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\unavailiable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\unavailiable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\account.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\account.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\handwriting.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\handwriting.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\place.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\place.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\unavailiable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\unavailiable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\account.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\account.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\handwriting.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\handwriting.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\place.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\place.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\unavailiable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\unavailiable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\Help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\Help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\person.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\person.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\pin.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\pin.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\unavailiable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\unavailiable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\person.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\person.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\pin.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\pin.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\unavailiable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\unavailiable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\handwriting.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\handwriting.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\person.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\person.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\pin.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\pin.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\unavailiable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\unavailiable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\person.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\person.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\pin.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\pin.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\unavailiable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\unavailiable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold_blue.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold_blue.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold_orange.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold_orange.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold_purple.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold_purple.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold_red.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold_red.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold_red_dark.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\arrow_bold_red_dark.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\beam.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\beam.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\Cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\Cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\left_right_bold.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\left_right_bold.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\pen_bold.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\pen_bold.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\top_left_bold.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\top_left_bold.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\top_right_bold.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\top_right_bold.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\up_bold.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\up_bold.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\up_down_bold.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\up_down_bold.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light_blue.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light_blue.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light_orange.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light_orange.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light_purple.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light_purple.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light_red.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light_red.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light_red_dark.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\arrow_light_red_dark.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\beam.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\beam.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\left_right_light.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\left_right_light.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\move_light.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\move_light.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\pen_light.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\pen_light.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\top_left_light.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\top_left_light.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\top_right_light.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\top_right_light.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\up_down_light.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\up_down_light.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\up_light.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\up_light.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra_green.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra_green.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra_magenta.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra_magenta.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra_orange.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra_orange.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra_purple.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra_purple.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra_red.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\arrow_ultra_red.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\beam.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\beam.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\diagonal_left_ultra.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\diagonal_left_ultra.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\diagonal_right_ultra.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\diagonal_right_ultra.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\left_right_ultra.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\left_right_ultra.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\move_ultra.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\move_ultra.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\pen_ultra.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\pen_ultra.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\up_down_ultra.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\up_down_ultra.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\up_ultra.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\up_ultra.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\text.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\text.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_blue.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_blue.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_blue_dark.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_blue_dark.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_orange.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_orange.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_purple.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_purple.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_red.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_red.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_red_dark.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\arrow_red_dark.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\beam.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\beam.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\left_right.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\left_right.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\pen.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\pen.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\top_left.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\top_left.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\top_right.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\top_right.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\up.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\up.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\up_down.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\up_down.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\beam.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\beam.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\cross.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\cross.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\hand.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\hand.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\person.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\person.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\pin.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\pin.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\alternate.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\alternate.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\beam.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\beam.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\dgn1.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\dgn1.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\dgn2.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\dgn2.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\handwriting.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\handwriting.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\help.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\help.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\horz.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\horz.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\link.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\link.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\move.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\move.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\person.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\person.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\pin.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\pin.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\pointer.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\pointer.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\precision.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\precision.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\unavailable.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\unavailable.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\vert.cur">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\vert.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Anathema\light\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Anathema\light\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\blue\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\blue\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Android\green\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Android\green\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\small\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\small\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\dark\standard\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\dark\standard\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\small\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\small\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Material\light\standard\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Material\light\standard\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\dark\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\dark\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Numix\light\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Numix\light\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\black\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\black\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\blue\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\blue\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\dark\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\dark\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\green\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\green\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\light_pink\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\light_pink\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\lime\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\lime\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\orange\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\orange\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\pink\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\pink\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\purple\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\purple\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\red\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\red\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\violet\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\violet\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Oreo\white\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Oreo\white\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black+\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black+\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\black\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\black\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white+\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white+\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Point.er\white\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Point.er\white\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\install_orange.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\install_orange.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\install_purple.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\install_purple.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\install_red.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Bold\install_red.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\install_orange.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\install_orange.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\install_purple.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\install_purple.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\install_red.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Light\install_red.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\install_green.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\install_green.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\install_magenta.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\install_magenta.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\install_orange.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\install_orange.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\install_purple.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\colors\install_purple.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans Ultra\install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\install_orange.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\install_orange.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\install_purple.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\install_purple.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Sans\Cursor Sans\install_red.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Sans\Cursor Sans\install_red.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\dark\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\dark\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Cursors\Win11_Concept\light\Install.inf">
+      <PackagePath>Resources\PersonateLib\Cursors\Win11_Concept\light\Install.inf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Personate.ico">
+      <PackagePath>Resources\PersonateLib\Personate.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Abstract_3.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Abstract_3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Abstract_4.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Abstract_4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Abstract_5.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Abstract_5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Abstract_6.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Abstract_6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Dark_1.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Dark_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Mountains_1.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Mountains_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Mountains_2.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Mountains_2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Mountains_3.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Mountains_3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Mountains_4.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Mountains_4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Mountains_5.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Mountains_5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Mountains_6.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Mountains_6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Mountains_7.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Mountains_7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Mountains_8.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Mountains_8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Nature5.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Nature5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Nature_1.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Nature_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Nature_2.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Nature_2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Nature_3.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Nature_3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Nature_4.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Nature_4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Nature_6.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Nature_6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Neon_1.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Neon_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Neon_10.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Neon_10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Neon_2.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Neon_2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Neon_3.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Neon_3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Neon_4.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Neon_4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_1.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_10.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_12.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_12.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_13.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_13.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_14.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_14.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_15.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_15.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_16.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_16.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_17.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_17.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_18.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_18.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_19.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_19.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_2.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_20.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_20.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_21.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_21.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_22.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_22.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_23.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_23.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_24.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_24.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_25.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_25.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_26.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_26.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_27.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_27.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_28.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_28.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_29.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_3.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_30.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_30.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_31.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_31.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_4.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_5.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_6.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_7.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_8.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win11_9.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win11_9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\PersonateLib\Wallpapers\Win_11.jpg">
+      <PackagePath>Resources\PersonateLib\Wallpapers\Win_11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\Resources\Fonts\Montserrat.ttf">
+      <PackagePath>Resources\Fonts\Montserrat.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\Personate.UWP.xr.xml">
       <PackagePath>Personate.UWP.xr.xml</PackagePath>

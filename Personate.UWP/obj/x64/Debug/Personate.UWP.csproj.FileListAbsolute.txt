@@ -43,3 +43,9 @@ C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\obj\x64\Debu
 C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\obj\x64\Debug\ProjectArchitectures.txt
 C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637934914560000000.json
+C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\CommunityToolkit.Mvvm.dll
+C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\CommunityToolkit.Mvvm.pdb
+C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\Axe.Windows.Win32.dll
+C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\Axe.Windows.SystemAbstractions.dll

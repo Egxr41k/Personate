@@ -45,7 +45,8 @@ public class WallsMenuViewModel : Base.ViewModel
                             )
                         )
                     );
-                } catch( Exception ex ) { break; }
+                }
+                catch (Exception ex) { break; }
                 index++;
             }
         }

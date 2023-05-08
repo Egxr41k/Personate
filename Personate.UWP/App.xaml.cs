@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Personate.UWP.MVVM.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,8 +27,26 @@ namespace Personate.UWP
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
+        /// 
+
+        public static HomeViewModel HomeVM;
+        public static FontsViewModel FontsVM;
+        public static ThemesViewModel ThemesVM;
+        public static IconsViewModel IconsVM;
+        public static WallsMenuViewModel WallsMenuVM;
+        public static TaskbarViewModel TaskbarVM;
+        public static CursorsMenuViewModel CursorsMenuVM;
+        public static SettignsViewModel SettingsVM;
         public App()
         {
+            HomeVM = new HomeViewModel();
+            FontsVM = new FontsViewModel();
+            ThemesVM = new ThemesViewModel();
+            IconsVM = new IconsViewModel();
+            WallsMenuVM = new WallsMenuViewModel();
+            TaskbarVM = new TaskbarViewModel();
+            CursorsMenuVM = new CursorsMenuViewModel();
+            SettingsVM = new SettignsViewModel();
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }
