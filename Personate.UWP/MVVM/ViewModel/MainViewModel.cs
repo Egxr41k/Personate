@@ -93,9 +93,12 @@ namespace Personate.UWP.MVVM.ViewModel
             WallsMenuViewModel.UploadImageCommand = new RelayCommand(() =>
             {
 
-                CurrentView = new WallViewModel(
-                    new Wallpaper(
-                        Wallpaper.OpenImage().Result));
+                CurrentView = new WallViewModel()
+                {
+                    _wallpaper = new Wallpaper(
+                            Wallpaper.OpenImage().Result)
+                };
+
                 
 
             });
@@ -115,6 +118,11 @@ namespace Personate.UWP.MVVM.ViewModel
             //{
             //    CurrentView = new CursorViewModel();
             //});
+
+            //текущий баг находиться в App.xaml и состоит в том что изза того что не удаеться правильно задать datatemplate
+            // обьект CurrentView принимая в себя значения типа ObservableObject, не правильно отображаеться во view
+            // нужно каким то образом все таки установить datatemplate с учетом платформы UWP, єто самый короткий
+            // теоретичски возможній путь к решению єтой ошибки
             #endregion
 
 

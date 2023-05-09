@@ -134,6 +134,15 @@
     <Compile Include="MVVM\ViewModel\WallCardViewModel.cs" />
     <Compile Include="MVVM\ViewModel\WallsMenuViewModel.cs" />
     <Compile Include="MVVM\ViewModel\WallViewModel.cs" />
+    <Compile Include="MVVM\View\WallCardView.xaml.cs">
+      <DependentUpon>WallCardView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\WallsMenuView.xaml.cs">
+      <DependentUpon>WallsMenuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\WallView.xaml.cs">
+      <DependentUpon>WallView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -727,6 +736,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="MVVM\View\WallCardView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MVVM\View\WallsMenuView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MVVM\View\WallView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm">
@@ -736,9 +757,7 @@
       <Version>6.2.14</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MVVM\View\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Reference Include="Axe.Windows.Win32, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
   </ItemGroup>

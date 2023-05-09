@@ -6,8 +6,8 @@ namespace Personate.UWP.MVVM.ViewModel
 {
     public class CursorsMenuViewModel : ObservableObject
     {
-        readonly string[] PathToCursors = Directory.GetDirectories(
-            MainViewModel.RESOURCEPATH + "\\PersonateLib\\Cursors");
+        //readonly string[] PathToCursors = Directory.GetDirectories(
+        //    MainViewModel.RESOURCEPATH + "\\PersonateLib\\Cursors");
         public static ICommand UploadCursorCommand { get; set; }
 
         //private void CursorGridInit()

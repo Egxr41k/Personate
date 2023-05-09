@@ -9,8 +9,7 @@ namespace Personate.UWP.MVVM.ViewModel
     {
         public ICommand SetAsBgCommand { get; set; }
         public ICommand SaveFileCommand { get; set; }
-        public WallViewModel(Wallpaper wallpaper)
-            : base(wallpaper)
+        public WallViewModel()
         {
             //Init();
 

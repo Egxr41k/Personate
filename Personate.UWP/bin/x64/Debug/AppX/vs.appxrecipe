@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-08T12:42:00.045</Modified>
+      <Modified>2023-05-09T15:04:03.471</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\Personate.UWP.exe">
       <PackagePath>entrypoint\Personate.UWP.exe</PackagePath>
-      <Modified>2023-05-08T12:41:58.902</Modified>
+      <Modified>2023-05-09T15:04:02.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Egxr41k\.nuget\packages\communitytoolkit.mvvm\8.2.0\lib\netstandard2.0\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
@@ -2378,15 +2378,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\Personate.UWP.xr.xml">
       <PackagePath>Personate.UWP.xr.xml</PackagePath>
-      <Modified>2023-05-07T14:24:40.927</Modified>
+      <Modified>2023-05-09T15:04:02.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-05-08T12:41:58.777</Modified>
+      <Modified>2023-05-09T15:04:02.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-05-08T12:41:58.777</Modified>
+      <Modified>2023-05-09T15:04:02.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\MVVM\View\WallCardView.xbf">
+      <PackagePath>MVVM\View\WallCardView.xbf</PackagePath>
+      <Modified>2023-05-09T15:04:02.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\MVVM\View\WallsMenuView.xbf">
+      <PackagePath>MVVM\View\WallsMenuView.xbf</PackagePath>
+      <Modified>2023-05-09T15:04:02.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\MVVM\View\WallView.xbf">
+      <PackagePath>MVVM\View\WallView.xbf</PackagePath>
+      <Modified>2023-05-09T15:04:02.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22000.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -2394,11 +2406,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-08T12:41:59.273</Modified>
+      <Modified>2023-05-09T14:57:08.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\Core\Personate.UWP.exe">
       <PackagePath>Personate.UWP.exe</PackagePath>
-      <Modified>2023-05-08T12:42:00.040</Modified>
+      <Modified>2023-05-09T15:04:03.464</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

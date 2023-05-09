@@ -7,6 +7,9 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 MainPage.xbf
+MVVM\View\WallCardView.xbf
+MVVM\View\WallsMenuView.xbf
+MVVM\View\WallView.xbf
 Personate.UWP.xr.xml
 Properties\Default.rd.xml
 Resources\Fonts\Montserrat.ttf

@@ -1792,6 +1792,15 @@
     <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\MVVM\View\WallCardView.xbf">
+      <PackagePath>MVVM\View\WallCardView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\MVVM\View\WallsMenuView.xbf">
+      <PackagePath>MVVM\View\WallsMenuView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\code\Egxr41k\C#_Dev\desctop applications\Personate\Personate.UWP\bin\x64\Debug\MVVM\View\WallView.xbf">
+      <PackagePath>MVVM\View\WallView.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22000.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

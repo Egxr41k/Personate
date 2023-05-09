@@ -8,7 +8,7 @@ namespace Personate.UWP.MVVM.ViewModel
     {
         //public static Base.Command? WallViewCommand { get; set; }
 
-        private Wallpaper _wallpaper;
+        public Wallpaper _wallpaper;
 
         public string Resolution
         {
@@ -20,9 +20,9 @@ namespace Personate.UWP.MVVM.ViewModel
             get => _wallpaper.image;
             set => SetProperty(ref _wallpaper.image, value);
         }
-        public WallCardViewModel(Wallpaper wallpaper)
+        public WallCardViewModel()
         {
-            this._wallpaper = wallpaper;
+            
         }
 
     }
