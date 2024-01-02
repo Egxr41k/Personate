@@ -1,15 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "KlqnYSwFGAWAyMn35jK2c7ALwDgiC+Ba2UTDsAoKUrZrWyRXyZV5mHkueX3Gc68MCTwuSID5A629brcx5T3VFA==",
+  "dgSpecHash": "aBzJt8H4lLTf/B61PAOkksOf3Y+EVWtrq+DJXsmsMbIGVF3q2M1OuD0qQMyNAzs5mhT8BRYCeLqpJpw/jH9a1A==",
   "success": true,
   "projectFilePath": "C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate\\Personate.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.windows.cswin32\\0.1.635-beta\\microsoft.windows.cswin32.0.1.635-beta.nupkg.sha512",
     "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.windows.sdk.win32docs\\0.1.7-alpha\\microsoft.windows.sdk.win32docs.0.1.7-alpha.nupkg.sha512",
     "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.windows.sdk.win32metadata\\17.0.2-preview\\microsoft.windows.sdk.win32metadata.17.0.2-preview.nupkg.sha512",
     "C:\\Users\\Egxr41k\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
-    "C:\\Users\\Egxr41k\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.31\\microsoft.windows.sdk.net.ref.10.0.22621.31.nupkg.sha512",
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }
