@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WHCBUEXqdLqbRDUwrFUnivsKbs+Y1en5V7FkqdJEkfwo47pb4VXu/9hC0F4yKts4owDqf2UaVYGkWTDQk04PyA==",
+  "dgSpecHash": "KlqnYSwFGAWAyMn35jK2c7ALwDgiC+Ba2UTDsAoKUrZrWyRXyZV5mHkueX3Gc68MCTwuSID5A629brcx5T3VFA==",
   "success": true,
-  "projectFilePath": "C:\\code\\Egxr41k\\C#_Dev\\desctop applications\\Personate\\Personate\\Personate.csproj",
+  "projectFilePath": "C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate\\Personate.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.windows.cswin32\\0.1.635-beta\\microsoft.windows.cswin32.0.1.635-beta.nupkg.sha512",
