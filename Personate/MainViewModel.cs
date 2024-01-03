@@ -21,11 +21,11 @@ internal class MainViewModel : ObservableObject
     public RelayCommand SettingsViewCommand { get; set; }
     #endregion
 
-    private object currentView;
-    public object CurrentView
+    private ObservableObject currentViewModel;
+    public ObservableObject CurrentViewModel
     {
-        get => currentView;
-        set => SetProperty(ref currentView, value);
+        get => currentViewModel;
+        set => SetProperty(ref currentViewModel, value);
     }
 
     public HomeViewModel HomeVM;
@@ -43,42 +43,42 @@ internal class MainViewModel : ObservableObject
     {
         HomeViewCommand = new(() =>
         {
-            CurrentView = HomeVM;
+            CurrentViewModel = HomeVM;
         });
 
         FontsViewCommand = new(() =>
         {
-            //CurrentView = FontsVM;
+            //CurrentViewModel = FontsVM;
         });
 
         ThemesViewCommand = new(() =>
         {
-            //CurrentView = ThemesVM;
+            //CurrentViewModel = ThemesVM;
         });
 
         IconsViewCommand = new(() =>
         {
-            //CurrentView = App.IconsVM;
+            //CurrentViewModel = App.IconsVM;
         });
 
         WallsMenuViewCommand = new(() =>
         {
-            CurrentView = WallsMenuVM;
+            CurrentViewModel = WallsMenuVM;
         });
 
         TaskbarViewCommand = new(() =>
         {
-            //CurrentView = App.TaskbarVM;
+            //CurrentViewModel = App.TaskbarVM;
         });
 
         CursorsMenuViewCommand = new(() =>
         {
-            CurrentView = CursorsMenuVM;
+            CurrentViewModel = CursorsMenuVM;
         });
 
         SettingsViewCommand = new(() =>
         {
-            CurrentView = SettingsVM;
+            CurrentViewModel = SettingsVM;
         });
     }
 
@@ -95,7 +95,7 @@ internal class MainViewModel : ObservableObject
         SettingsVM = new();
 
 
-        currentView = HomeVM;
+        CurrentViewModel = HomeVM;
 
         #region Commands init
 
@@ -105,7 +105,7 @@ internal class MainViewModel : ObservableObject
         {
             if (WallpaperModel.OpenImage() == true)
             {
-                CurrentView = new WallViewModel(
+                CurrentViewModel = new WallViewModel(
                     new Wallpaper(WallpaperModel.path));
             }
         });
@@ -118,12 +118,12 @@ internal class MainViewModel : ObservableObject
         CursorsMenuViewModel.UploadCursorCommand = new(() =>
         {
             CursorModel.OpenCursor();
-            CurrentView = new CursorViewModel();
+            CurrentViewModel = new CursorViewModel();
         });
 
         CursorCardViewModel.CursorViewCommand = new(() =>
         {
-            CurrentView = new CursorViewModel();
+            CurrentViewModel = new CursorViewModel();
         });
 
         #endregion

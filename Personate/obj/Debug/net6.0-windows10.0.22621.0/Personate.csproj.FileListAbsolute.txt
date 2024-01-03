@@ -25,3 +25,10 @@ C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.2262
 C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\GeneratedInternalTypeHelper.g.cs
 C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\Personate_MarkupCompile.cache
 C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\Personate_MarkupCompile.lref
+C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\MenuView.g.cs
+C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\Modules\CursorSwitcher\CursorCardView.g.cs
+C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\Modules\CursorSwitcher\CursorsMenuView.g.cs
+C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\Modules\CursorSwitcher\CursorView.g.cs
+C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\Modules\WallpapperSwitcher\WallCardView.g.cs
+C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\Modules\WallpapperSwitcher\WallsMenuView.g.cs
+C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\Modules\WallpapperSwitcher\WallView.g.cs

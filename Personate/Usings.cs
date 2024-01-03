@@ -1,6 +1,5 @@
 ﻿global using System;
 global using System.Windows;
-global using Personate.MVVM.Model;
 global using System.Linq;
 global using System.IO;
 global using System.Windows.Controls;

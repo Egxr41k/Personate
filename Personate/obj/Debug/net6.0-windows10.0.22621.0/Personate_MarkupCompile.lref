@@ -1,17 +1,11 @@
-﻿C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net6.0-windows10.0.22621.0\GeneratedInternalTypeHelper.g.cs
+﻿
 FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\App.xaml;;
 FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\CustomTitleBar.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\CursorCardView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\CursorsMenuView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\CursorView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\FontsView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\HomeView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\IconsView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\MainWindow.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\SettingsView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\TaskbarView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\ThemesView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\WallCardView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\WallsMenuView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MVVM\View\WallView.xaml;;
+FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MenuView.xaml;;
+FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\CursorSwitcher\CursorCardView.xaml;;
+FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\CursorSwitcher\CursorsMenuView.xaml;;
+FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\CursorSwitcher\CursorView.xaml;;
+FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\WallpapperSwitcher\WallCardView.xaml;;
+FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\WallpapperSwitcher\WallsMenuView.xaml;;
+FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\WallpapperSwitcher\WallView.xaml;;
 

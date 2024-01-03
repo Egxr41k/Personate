@@ -1,15 +1,11 @@
-﻿<UserControl x:Class="Personate.MVVM.View.CursorCardView"
+﻿<UserControl x:Class="Personate.Modules.CursorSwitcher.CursorCardView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Personate.MVVM.View"
-             xmlns:viewmodel="clr-namespace:Personate.MVVM.ViewModel"
+             xmlns:local="clr-namespace:Personate.Modules.CursorSwitcher"
              mc:Ignorable="d" 
              d:DesignHeight="220" d:DesignWidth="195">
-    <UserControl.DataContext>
-        <viewmodel:CursorCardViewModel/>
-    </UserControl.DataContext>
     <Border Style="{StaticResource DarkBg}">
         <Grid>
             <Grid.RowDefinitions>

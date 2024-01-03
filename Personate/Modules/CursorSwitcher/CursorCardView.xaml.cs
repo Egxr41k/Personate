@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Personate.MVVM.View
+namespace Personate.Modules.CursorSwitcher
 {
     /// <summary>
     /// Interaction logic for CursorCardView.xaml

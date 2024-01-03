@@ -13,10 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Personate.MVVM.View
+namespace Personate.Modules.WallpapperSwitcher
 {
     /// <summary>
-    /// Логика взаимодействия для WallView.xaml
+    /// Interaction logic for WallView.xaml
     /// </summary>
     public partial class WallView : UserControl
     {
