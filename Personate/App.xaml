@@ -1,81 +1,20 @@
 ﻿<Application x:Class="Personate.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Personate"
-             xmlns:viewModel="clr-namespace:Personate.MVVM.ViewModel"
-             xmlns:view="clr-namespace:Personate.MVVM.View"   
-             >
+             xmlns:local="clr-namespace:Personate">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
 
+                <ResourceDictionary Source="Themes/DarkUI/DarkBtn.xaml"/>
+                <ResourceDictionary Source="Themes/DarkUI/DarkBg.xaml"/>
+                <ResourceDictionary Source="Themes/DarkUI/DarkMenu.xaml"/>
+                <ResourceDictionary Source="Themes/DarkUI/DarkScrollBar.xaml"/>
+                <ResourceDictionary Source="Themes/DarkUI/DarkText.xaml"/>
 
-                <ResourceDictionary Source="MVVM/View/Themes/DarkUI/DarkBtn.xaml"/>
-                <ResourceDictionary Source="MVVM/View/Themes/DarkUI/DarkBg.xaml"/>
-                <ResourceDictionary Source="MVVM/View/Themes/DarkUI/DarkMenu.xaml"/>
-                <ResourceDictionary Source="MVVM/View/Themes/DarkUI/DarkScrollBar.xaml"/>
-                <ResourceDictionary Source="MVVM/View/Themes/DarkUI/DarkText.xaml"/>
-
-                <ResourceDictionary Source="MVVM/View/Themes/General/IconsTheme.xaml"/>
-
-
+                <ResourceDictionary Source="Themes/General/IconsTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
-
-            <!-- Other app resources here -->
-            <DataTemplate DataType="{x:Type viewModel:MainViewModel}">
-                <view:MainWindow/>
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
-                <view:HomeView/>
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type viewModel:FontsViewModel}">
-                <view:FontsView/>
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type viewModel:ThemesViewModel}">
-                <view:ThemesView/>
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type viewModel:IconsViewModel}">
-                <view:IconsView/>
-            </DataTemplate>
-
-            <!--<DataTemplate DataType="{x:Type viewModel:WallsMenuViewModel}">
-                <view:WallsMenuView/>
-            </DataTemplate>-->
-
-            <DataTemplate DataType="{x:Type viewModel:WallCardViewModel}">
-                <view:WallCardView/>
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type viewModel:WallViewModel}">
-                <view:WallView/>
-            </DataTemplate>
-
-
-
-            <DataTemplate DataType="{x:Type viewModel:TaskbarViewModel}">
-                <view:TaskbarView/>
-            </DataTemplate>
-            
-            <DataTemplate DataType="{x:Type viewModel:CursorsMenuViewModel}">
-                <view:CursorsMenuView/>
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type viewModel:CursorCardViewModel}">
-                <view:CursorCardView/>
-            </DataTemplate>
-
-            <DataTemplate DataType="{x:Type viewModel:CursorViewModel}">
-                <view:CursorView/>
-            </DataTemplate>
-
-
-            <DataTemplate DataType="{x:Type viewModel:SettignsViewModel}">
-                <view:SettingsView/>
-            </DataTemplate>
+            <!--Other app resources here--> 
         </ResourceDictionary>
     </Application.Resources>
 </Application>

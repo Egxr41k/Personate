@@ -11244,11 +11244,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\Egxr41k\\C#_Dev\\desctop applications\\Personate\\Personate.UWP\\Personate.UWP.csproj",
+      "projectUniqueName": "C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate.UWP\\Personate.UWP.csproj",
       "projectName": "Personate.UWP",
-      "projectPath": "C:\\code\\Egxr41k\\C#_Dev\\desctop applications\\Personate\\Personate.UWP\\Personate.UWP.csproj",
+      "projectPath": "C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate.UWP\\Personate.UWP.csproj",
       "packagesPath": "C:\\Users\\Egxr41k\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\Egxr41k\\C#_Dev\\desctop applications\\Personate\\Personate.UWP\\obj\\",
+      "outputPath": "C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
