@@ -14,14 +14,15 @@ internal class CursorViewModel : ObservableObject
     {
         SetAsCursorCommand = new(() =>
         {
-            CursorModel.SetCursor();
-            path = CursorModel.path;
+            //Cursor.SetCursor();
+            //path = Cursor.path;
         });
+
         ToDefaultCommand = new(() =>
         {
-            CursorModel.path = @"C:\Windows\ToDefault.inf";
-            CursorModel.SetCursor();
-            path = CursorModel.path;
+            //Cursor.path = @"C:\Windows\ToDefault.inf";
+            //Cursor.SetCursor();
+            //path = Cursor.path;
         });
     }
 }

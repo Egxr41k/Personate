@@ -4,43 +4,47 @@ using System.Collections.ObjectModel;
 namespace Personate.Modules.WallpapperSwitcher;
 internal class WallsMenuViewModel : ObservableObject
 {
-    readonly string[] PathToWallpapers = Directory.GetFiles(
-        MainViewModel.RESOURCEPATH + "\\PersonateLib\\Wallpapers");
+    private static string WallpaperDirectory = MainViewModel.ResourcesPath + "\\PersonateLib\\Wallpapers";
+    private readonly string[] wallpaperPaths = Directory.GetFiles(WallpaperDirectory);
 
-    public static RelayCommand? UploadImageCommand { get; set; }
+    private const int InitialWallCardCount = 10;
+    private const int WallCardsToShowPerClick = 5;
+
+    public RelayCommand UploadImageCommand { get; set; }
     public RelayCommand ShowMoreCommand { get; set; }
+    public RelayCommand WallViewCommand { get; set; }
 
+    public IEnumerable<WallCardViewModel> WallCardViewModels => wallCardViewModels;
+    private readonly ObservableCollection<WallCardViewModel> wallCardViewModels = [];
 
-    private ObservableCollection<WallCardViewModel> _wallCardViewModels;
-    public IEnumerable<WallCardViewModel> WallCardViewModels => _wallCardViewModels;
-
-
-    private List<WallCardViewModel> WallCardVMsInit(int cardsCount)
+    private WallCardViewModel selectedWallCardViewModel;
+    public WallCardViewModel SelectedWallCardViewModel
     {
-        var result = new List<WallCardViewModel>();
-        int targetCount = _wallCardViewModels.Count + cardsCount;
-        for (int i = _wallCardViewModels.Count; i < targetCount; i++)
-        {
-            if (i >= PathToWallpapers.Length) break;
-            result.Add(new WallCardViewModel(new Wallpaper(PathToWallpapers[i])));
-        }
-        return result;
-    }
-
-    private void ShowWallCardVMs(int cardsCount)
-    {
-        WallCardVMsInit(cardsCount).ForEach(card => _wallCardViewModels.Add(card));
+        get => selectedWallCardViewModel;
+        set => SetProperty(ref selectedWallCardViewModel, value);
     }
 
     public WallsMenuViewModel()
     {
-        _wallCardViewModels = new ObservableCollection<WallCardViewModel>();
+        ShowWallCards(InitialWallCardCount);
+        ShowMoreCommand = new(() => ShowWallCards(WallCardsToShowPerClick));
+    }
 
-        ShowWallCardVMs(10);
+    private void ShowWallCards(int cardsCount)
+    {
+        int initialCount = wallCardViewModels.Count;
+        int targetCount = initialCount + cardsCount;
+        int maxCount = wallpaperPaths.Length;
 
-        ShowMoreCommand = new(() =>
+        for (int i = initialCount; i < targetCount; i++)
         {
-            ShowWallCardVMs(5);
-        });
+            if (i == maxCount) break;
+            wallCardViewModels.Add(InitWallCard(wallpaperPaths[i]));
+        }
+    }
+
+    private WallCardViewModel InitWallCard(string path)
+    {
+        return new WallCardViewModel(new Wallpaper(path));
     }
 }

@@ -4,13 +4,23 @@ using Personate.Modules.WallpapperSwitcher;
 namespace Personate;
 internal class MainViewModel : ObservableObject
 {
-    public static string RESOURCEPATH =
+    public static string ResourcesPath =
         Path.GetFullPath(
             Path.Combine(
                 AppDomain.CurrentDomain.BaseDirectory,
                 @"..\..\..\Resources"));
 
-    #region Commands 
+    private ObservableObject currentViewModel;
+    public ObservableObject CurrentViewModel
+    {
+        get => currentViewModel;
+        set => SetProperty(ref currentViewModel, value);
+    }
+    private void NavigateTo(ObservableObject target)
+    {
+        CurrentViewModel = target;
+    }
+
     public RelayCommand HomeViewCommand { get; set; }
     public RelayCommand FontsViewCommand { get; set; }
     public RelayCommand ThemesViewCommand { get; set; }
@@ -19,113 +29,46 @@ internal class MainViewModel : ObservableObject
     public RelayCommand TaskbarViewCommand { get; set; }
     public RelayCommand CursorsMenuViewCommand { get; set; }
     public RelayCommand SettingsViewCommand { get; set; }
-    #endregion
-
-    private ObservableObject currentViewModel;
-    public ObservableObject CurrentViewModel
-    {
-        get => currentViewModel;
-        set => SetProperty(ref currentViewModel, value);
-    }
-
-    public HomeViewModel HomeVM;
-    //public FontsViewModel FontsVM;
-    //public ThemesViewModel ThemesVM;
-    //public IconsViewModel IconsVM;
-    public WallsMenuViewModel WallsMenuVM;
-    //public TaskbarViewModel TaskbarVM;
-    public CursorsMenuViewModel CursorsMenuVM;
-    public SettignsViewModel SettingsVM;
 
 
+    public HomeViewModel HomeVM = new();
+    //public FontsViewModel FontsVM = new();
+    //public ThemesViewModel ThemesVM = new();
+    //public IconsViewModel IconsVM = new();
+    public WallsMenuViewModel WallsMenuVM = new();
+    //public TaskbarViewModel TaskbarVM = new();
+    public CursorsMenuViewModel CursorsMenuVM = new();
+    public SettignsViewModel SettingsVM = new();
 
     private void MenuCommandsInit()
     {
-        HomeViewCommand = new(() =>
-        {
-            CurrentViewModel = HomeVM;
-        });
-
-        FontsViewCommand = new(() =>
-        {
-            //CurrentViewModel = FontsVM;
-        });
-
-        ThemesViewCommand = new(() =>
-        {
-            //CurrentViewModel = ThemesVM;
-        });
-
-        IconsViewCommand = new(() =>
-        {
-            //CurrentViewModel = App.IconsVM;
-        });
-
-        WallsMenuViewCommand = new(() =>
-        {
-            CurrentViewModel = WallsMenuVM;
-        });
-
-        TaskbarViewCommand = new(() =>
-        {
-            //CurrentViewModel = App.TaskbarVM;
-        });
-
-        CursorsMenuViewCommand = new(() =>
-        {
-            CurrentViewModel = CursorsMenuVM;
-        });
-
-        SettingsViewCommand = new(() =>
-        {
-            CurrentViewModel = SettingsVM;
-        });
+        HomeViewCommand = new(() => NavigateTo(HomeVM));
+        //FontsViewCommand = new(() => NavigateTo(FontsVM);
+        //ThemesViewCommand = new(() => NavigateTo(ThemesVM);
+        //IconsViewCommand = new(() => NavigateTo(IconsVM);
+        WallsMenuViewCommand = new(() => NavigateTo(WallsMenuVM));
+        //TaskbarViewCommand = new(() => NavigateTo(TaskbarVM);
+        CursorsMenuViewCommand = new(() => NavigateTo(CursorsMenuVM));
+        SettingsViewCommand = new(() => NavigateTo(SettingsVM));
     }
 
     public MainViewModel()
     {
-
-        HomeVM = new();
-        //FontsVM = new();
-        //ThemesVM = new();
-        //IconsVM = new();
-        WallsMenuVM = new();
-        //TaskbarVM = new();
-        CursorsMenuVM = new();
-        SettingsVM = new();
-
-
         CurrentViewModel = HomeVM;
-
-        #region Commands init
 
         MenuCommandsInit();
 
-        WallsMenuViewModel.UploadImageCommand = new(() =>
+        WallsMenuVM.UploadImageCommand = new(() =>
         {
-            if (WallpaperModel.OpenImage() == true)
-            {
-                CurrentViewModel = new WallViewModel(
-                    new Wallpaper(WallpaperModel.path));
-            }
+            var wallViewModel = new WallViewModel(new Wallpaper());
+            NavigateTo(wallViewModel);        
         });
 
-        WallCardViewModel.WallViewCommand = new(() =>
+        CursorsMenuVM.UploadCursorCommand = new(() =>
         {
-            //CurrentView = new WallViewModel();
+            Cursor.OpenCursor();
+            NavigateTo(new CursorViewModel());
         });
 
-        CursorsMenuViewModel.UploadCursorCommand = new(() =>
-        {
-            CursorModel.OpenCursor();
-            CurrentViewModel = new CursorViewModel();
-        });
-
-        CursorCardViewModel.CursorViewCommand = new(() =>
-        {
-            CurrentViewModel = new CursorViewModel();
-        });
-
-        #endregion
     }
 }

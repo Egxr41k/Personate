@@ -44,15 +44,15 @@
             <Button Content="Default" 
                     Style="{StaticResource DarkMenuBtn}"/>
         </StackPanel>
-        <ListView Grid.Row="2" Background="Transparent"
-                      ItemsSource="{Binding WallCardViewModels}"
-                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                      BorderThickness="0">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <local:WallCardView/>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
+        <ListView Grid.Row="2" Background="Transparent" BorderThickness="0"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                  ItemsSource="{Binding WallCardViewModels}"
+                  SelectedItem="{Binding SelectedWallCardViewModel}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <local:WallCardView/>
+                </DataTemplate>
+            </ListView.ItemTemplate>        
 
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>

@@ -3,18 +3,10 @@ internal class WallViewModel : ObservableObject
 {
     public RelayCommand SetImageToBgCommand { get; set; }
     public RelayCommand SaveFileCommand { get; set; }
-    public WallViewModel(Wallpaper wallpaper) // : base(wallpaper)
+    public WallViewModel(Wallpaper wallpaper)
     {
-        //Init();
+        SetImageToBgCommand = new(() => wallpaper.SetToBg());
 
-        SetImageToBgCommand = new(() =>
-        {
-            WallpaperModel.SetImageToBg();
-        });
-
-        SaveFileCommand = new(() =>
-        {
-            WallpaperModel.SaveImage();
-        });
+        SaveFileCommand = new(() => wallpaper.Save());
     }
 }
