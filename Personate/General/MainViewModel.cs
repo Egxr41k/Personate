@@ -66,6 +66,13 @@ internal class MainViewModel : ObservableObject
             NavigateTo(wallViewModel);
         });
 
+        WallsMenuVM.WallViewCommand = new(() =>
+        {
+            var wallpaper = WallsMenuVM.SelectedWallCardViewModel.wallpaper;
+            var wallViewModel = new WallViewModel(wallpaper);
+            NavigateTo(wallViewModel);
+        });
+
         CursorsMenuVM.UploadCursorCommand = new(() =>
         {
             //Cursor.Open();

@@ -22,7 +22,11 @@ internal class WallsMenuViewModel : ObservableObject
     public WallCardViewModel SelectedWallCardViewModel
     {
         get => selectedWallCardViewModel;
-        set => SetProperty(ref selectedWallCardViewModel, value);
+        set
+        {
+            SetProperty(ref selectedWallCardViewModel, value);
+            WallViewCommand.Execute(null);
+        }
     }
 
     public WallsMenuViewModel()
