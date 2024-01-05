@@ -1,4 +1,4 @@
-﻿namespace Personate.Modules.HomePage;
+﻿namespace Personate.Modules.Home;
 internal class HomeViewModel : ObservableObject
 {
 }

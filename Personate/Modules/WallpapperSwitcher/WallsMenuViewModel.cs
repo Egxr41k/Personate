@@ -5,7 +5,7 @@ using Personate.General;
 namespace Personate.Modules.WallpapperSwitcher;
 internal class WallsMenuViewModel : ObservableObject
 {
-    private static string WallpaperDirectory = MainViewModel.ResourcesPath + "\\PersonateLib\\Wallpapers";
+    private static string WallpaperDirectory = MainViewModel.PersonateLibPath + "\\Wallpapers";
     private readonly string[] wallpaperPaths = Directory.GetFiles(WallpaperDirectory);
 
     private const int InitialWallCardCount = 10;

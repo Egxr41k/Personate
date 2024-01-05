@@ -21,9 +21,9 @@
                         Style="{StaticResource DarkBtn}"
                         Margin="10"
                         Command="{Binding SetAsBgCommand}"/>
-                <Image Grid.Column="2" Source="C:\code\.NET code\Personate\Personate\Resources\Icons/download.png"
+                <Image Grid.Column="2" Source="/Resources/Icons/download.png"
                            Height="25" Width="25" Margin="2.5"
-                           Style="{DynamicResource IconsTheme}">
+                           Style="{StaticResource IconsTheme}">
                     <Image.InputBindings>
                         <MouseBinding Command="{Binding SaveFileCommand}" Gesture="LeftClick"/>
                     </Image.InputBindings>

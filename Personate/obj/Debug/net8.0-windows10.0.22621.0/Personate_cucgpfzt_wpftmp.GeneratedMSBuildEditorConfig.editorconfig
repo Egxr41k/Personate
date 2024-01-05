@@ -1,0 +1,15 @@
+is_global = true
+build_property.CsWin32InputMetadataPaths = C:\Users\Egxr41k\.nuget\packages\microsoft.windows.sdk.win32metadata\17.0.2-preview\buildTransitive\..\Windows.Win32.winmd
+build_property.CsWin32InputDocPaths = C:\Users\Egxr41k\.nuget\packages\microsoft.windows.sdk.win32docs\0.1.7-alpha\buildTransitive\..\apidocs.msgpack
+build_property.TargetFramework = net8.0-windows10.0.22621.0
+build_property.TargetPlatformMinVersion = 10.0.22621.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Personate_cucgpfzt_wpftmp
+build_property.ProjectDir = C:\code\Egxr41k\CSharp_Dev\Personate\Personate\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

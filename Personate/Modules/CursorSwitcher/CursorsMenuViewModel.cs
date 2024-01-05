@@ -3,8 +3,8 @@
 namespace Personate.Modules.CursorSwitcher;
 internal class CursorsMenuViewModel : ObservableObject
 {
-    readonly string[] PathToCursors = Directory.GetDirectories(
-        MainViewModel.ResourcesPath + "\\PersonateLib\\Cursors");
+    private static string CursorDirectory = MainViewModel.PersonateLibPath + "\\Cursors";
+    readonly string[] PathToCursors = Directory.GetDirectories(CursorDirectory);
     public RelayCommand UploadCursorCommand { get; set; }
 
     public CursorsMenuViewModel()

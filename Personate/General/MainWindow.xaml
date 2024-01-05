@@ -3,9 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Personate.General"
+        xmlns:local="clr-namespace:Personate"
         xmlns:wallpapperSwitcher="clr-namespace:Personate.Modules.WallpapperSwitcher"
         xmlns:cursorSwitcher="clr-namespace:Personate.Modules.CursorSwitcher"
+        xmlns:home="clr-namespace:Personate.Modules.Home"
+        xmlns:settings="clr-namespace:Personate.Modules.Settings"
         mc:Ignorable="d" ResizeMode="NoResize" 
         Title="Personate" Height="540" Width="960"
         WindowStyle="None" Background="Black"
@@ -78,13 +80,12 @@
 
 
         <ContentControl Grid.Column="1"
-                        Grid.Row="1"
-                        Grid.RowSpan="2"
+                        Grid.Row="2"
                         Margin="10"
                         Content="{Binding CurrentViewModel}">
             <ContentControl.Resources>
-                <DataTemplate DataType="{x:Type local:HomeViewModel}">
-                    <local:HomeView/>
+                <DataTemplate DataType="{x:Type home:HomeViewModel}">
+                    <home:HomeView/>
                 </DataTemplate>
 
                 <!--<DataTemplate DataType="{x:Type viewModel:FontsViewModel}">
@@ -127,8 +128,8 @@
                     <cursorSwitcher:CursorView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type local:SettignsViewModel}">
-                    <local:SettingsView/>
+                <DataTemplate DataType="{x:Type settings:SettignsViewModel}">
+                    <settings:SettingsView/>
                 </DataTemplate>
             </ContentControl.Resources>
         </ContentControl>

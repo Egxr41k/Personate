@@ -1,16 +1,16 @@
 ﻿using Personate.Modules.CursorSwitcher;
-using Personate.Modules.HomePage;
+using Personate.Modules.Home;
 using Personate.Modules.Settings;
 using Personate.Modules.WallpapperSwitcher;
 
 namespace Personate.General;
 internal class MainViewModel : ObservableObject
 {
-    public static string ResourcesPath =
+    public static string PersonateLibPath =
         Path.GetFullPath(
             Path.Combine(
                 AppDomain.CurrentDomain.BaseDirectory,
-                @"..\..\..\Resources"));
+                @"..\..\..\PersonateLib"));
 
     private ObservableObject currentViewModel;
     public ObservableObject CurrentViewModel

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Personate
+namespace Personate.Modules.Settings
 {
     /// <summary>
     /// Логика взаимодействия для SettingsView.xaml
