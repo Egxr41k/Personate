@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\code\Egxr41k\CSharp_Dev\Personate\Personate\App.xaml
-171690446767
+1793376912
 11324764946
-25881075169
+251647452705
 202-1916579350
-CustomTitleBar.xaml;HomeView.xaml;MainWindow.xaml;Modules\CursorSwitcher\CursorCardView.xaml;Modules\CursorSwitcher\CursorsMenuView.xaml;Modules\CursorSwitcher\CursorView.xaml;Modules\WallpapperSwitcher\WallCardView.xaml;Modules\WallpapperSwitcher\WallsMenuView.xaml;Modules\WallpapperSwitcher\WallView.xaml;SettingsView.xaml;Themes\DarkUI\DarkBg.xaml;Themes\DarkUI\DarkBtn.xaml;Themes\DarkUI\DarkMenu.xaml;Themes\DarkUI\DarkScrollBar.xaml;Themes\DarkUI\DarkText.xaml;Themes\DarkUI\DarkTitle.xaml;Themes\General\IconsTheme.xaml;
+CustomTitleBar.xaml;General\MainWindow.xaml;Modules\CursorSwitcher\CursorCardView.xaml;Modules\CursorSwitcher\CursorsMenuView.xaml;Modules\CursorSwitcher\CursorView.xaml;Modules\Home\HomeView.xaml;Modules\Settings\SettingsView.xaml;Modules\WallpapperSwitcher\WallCardView.xaml;Modules\WallpapperSwitcher\WallsMenuView.xaml;Modules\WallpapperSwitcher\WallView.xaml;Themes\DarkUI\DarkBg.xaml;Themes\DarkUI\DarkBtn.xaml;Themes\DarkUI\DarkMenu.xaml;Themes\DarkUI\DarkScrollBar.xaml;Themes\DarkUI\DarkText.xaml;Themes\DarkUI\DarkTitle.xaml;Themes\General\IconsTheme.xaml;
 
-False
+True
 

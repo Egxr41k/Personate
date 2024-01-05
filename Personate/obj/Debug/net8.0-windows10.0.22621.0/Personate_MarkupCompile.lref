@@ -1,13 +1,13 @@
 ﻿
 FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\App.xaml;;
 FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\CustomTitleBar.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\HomeView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\MainWindow.xaml;;
 FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\CursorSwitcher\CursorCardView.xaml;;
 FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\CursorSwitcher\CursorsMenuView.xaml;;
 FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\CursorSwitcher\CursorView.xaml;;
 FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\WallpapperSwitcher\WallCardView.xaml;;
 FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\WallpapperSwitcher\WallsMenuView.xaml;;
 FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\WallpapperSwitcher\WallView.xaml;;
-FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\SettingsView.xaml;;
+FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\General\MainWindow.xaml;;
+FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\Home\HomeView.xaml;;
+FC:\code\Egxr41k\CSharp_Dev\Personate\Personate\Modules\Settings\SettingsView.xaml;;
 

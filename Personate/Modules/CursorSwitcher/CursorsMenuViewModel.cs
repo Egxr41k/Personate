@@ -1,4 +1,6 @@
-﻿namespace Personate.Modules.CursorSwitcher;
+﻿using Personate.General;
+
+namespace Personate.Modules.CursorSwitcher;
 internal class CursorsMenuViewModel : ObservableObject
 {
     readonly string[] PathToCursors = Directory.GetDirectories(

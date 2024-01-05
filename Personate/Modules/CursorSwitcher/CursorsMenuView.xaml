@@ -9,7 +9,6 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
-            <RowDefinition Height="40"/>
             <RowDefinition/>
             <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
@@ -30,24 +29,8 @@
                     Style="{StaticResource DarkBtn}"
                     Command="{Binding UploadCursorCommand}"/>
         </Grid>
-        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Top">
-            <Button Content="section" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-            <Button Content="section" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-            <Button Content="Pixel" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-            <Button Content="section" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-            <Button Content="section" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-            <Button Content="section" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-        </StackPanel>
-        <ScrollViewer Grid.Row="2">
-            <ContentControl Content="{Binding GridControl}"/>
-        </ScrollViewer>
-        <Button Grid.Row="3"
+
+        <Button Grid.Row="2"
                 Content="Show more"
                 HorizontalAlignment="Center"
                 Width="150"

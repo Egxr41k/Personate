@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Personate;
+namespace Personate.General;
 internal static class Win32
 {
     [DllImport("user32.dll", SetLastError = true)]
@@ -13,8 +13,8 @@ internal static class Win32
 
     [DllImport("Setupapi.dll", EntryPoint = "InstallHinfSection", CallingConvention = CallingConvention.StdCall)]
     public static extern void InstallHinfSection(
-        [In] IntPtr hwnd,
-        [In] IntPtr ModuleHandle,
+        [In] nint hwnd,
+        [In] nint ModuleHandle,
         [In, MarshalAs(UnmanagedType.LPWStr)] string CmdLineBuffer,
         int nCmdShow);
 

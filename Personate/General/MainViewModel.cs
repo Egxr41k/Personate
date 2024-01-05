@@ -1,7 +1,9 @@
 ﻿using Personate.Modules.CursorSwitcher;
+using Personate.Modules.HomePage;
+using Personate.Modules.Settings;
 using Personate.Modules.WallpapperSwitcher;
 
-namespace Personate;
+namespace Personate.General;
 internal class MainViewModel : ObservableObject
 {
     public static string ResourcesPath =
@@ -61,7 +63,7 @@ internal class MainViewModel : ObservableObject
         WallsMenuVM.UploadImageCommand = new(() =>
         {
             var wallViewModel = new WallViewModel(new Wallpaper());
-            NavigateTo(wallViewModel);        
+            NavigateTo(wallViewModel);
         });
 
         CursorsMenuVM.UploadCursorCommand = new(() =>

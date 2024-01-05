@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using Personate.General;
 
 namespace Personate.Modules.WallpapperSwitcher;
 internal class WallsMenuViewModel : ObservableObject

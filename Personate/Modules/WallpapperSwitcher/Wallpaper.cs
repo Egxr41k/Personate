@@ -1,4 +1,5 @@
 ﻿using System.Windows.Media.Imaging;
+using Personate.General;
 
 namespace Personate.Modules.WallpapperSwitcher;
 internal class Wallpaper

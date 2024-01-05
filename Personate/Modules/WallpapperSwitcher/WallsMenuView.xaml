@@ -9,7 +9,6 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
-            <RowDefinition Height="40"/>
             <RowDefinition/>
             <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
@@ -30,21 +29,7 @@
                     Style="{StaticResource DarkBtn}"
                     Command="{Binding UploadImageCommand}"/>
         </Grid>
-        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Top">
-            <Button Content="All" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-            <Button Content="Anime" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-            <Button Content="Pixel" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-            <Button Content="Neon" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-            <Button Content="Nature" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-            <Button Content="Default" 
-                    Style="{StaticResource DarkMenuBtn}"/>
-        </StackPanel>
-        <ListView Grid.Row="2" Background="Transparent" BorderThickness="0"
+        <ListView Grid.Row="1" Background="Transparent" BorderThickness="0"
                   ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                   ItemsSource="{Binding WallCardViewModels}"
                   SelectedItem="{Binding SelectedWallCardViewModel}">
@@ -60,7 +45,7 @@
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
         </ListView>
-        <Button Grid.Row="3" Content="Show more"
+        <Button Grid.Row="2" Content="Show more"
                         HorizontalAlignment="Center"
                         Width="150"
                         Height="30"

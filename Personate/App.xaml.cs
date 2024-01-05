@@ -1,4 +1,6 @@
-﻿namespace Personate
+﻿using Personate.General;
+
+namespace Personate
 {
     /// <summary>
     /// Interaction logic for App.xaml
