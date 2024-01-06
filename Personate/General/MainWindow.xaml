@@ -57,7 +57,7 @@
 
                 <Button Content="Wallpapers"
                         Style="{DynamicResource DarkMenuBtn}"
-                        Command="{Binding WallsMenuViewCommand}"/>
+                        Command="{Binding WallpappersMenuCommand}"/>
 
                 <Button Content="Taskbar"
                         Style="{DynamicResource DarkMenuBtn}"
@@ -65,7 +65,7 @@
 
                 <Button Content="Cursors"
                         Style="{DynamicResource DarkMenuBtn}"
-                        Command="{Binding CursorsMenuViewCommand}"/>
+                        Command="{Binding CursorsMenuCommand}"/>
                 
                 <Button Content="Settings"
                         Style="{DynamicResource DarkMenuBtn}"
@@ -80,7 +80,8 @@
 
 
         <ContentControl Grid.Column="1"
-                        Grid.Row="2"
+                        Grid.Row="1"
+                        Grid.RowSpan="2"
                         Margin="10"
                         Content="{Binding CurrentViewModel}">
             <ContentControl.Resources>
@@ -100,32 +101,32 @@
                     <view:IconsView/>
                 </DataTemplate>-->
 
-                <DataTemplate DataType="{x:Type wallpapperSwitcher:WallsMenuViewModel}">
-                    <wallpapperSwitcher:WallsMenuView/>
+                <DataTemplate DataType="{x:Type wallpapperSwitcher:MenuViewModel}">
+                    <wallpapperSwitcher:MenuView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type wallpapperSwitcher:WallCardViewModel}">
-                    <wallpapperSwitcher:WallCardView/>
+                <DataTemplate DataType="{x:Type wallpapperSwitcher:ItemViewModel}">
+                    <wallpapperSwitcher:ItemView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type wallpapperSwitcher:WallViewModel}">
-                    <wallpapperSwitcher:WallView/>
+                <DataTemplate DataType="{x:Type wallpapperSwitcher:DetailsViewModel}">
+                    <wallpapperSwitcher:DetailsView/>
                 </DataTemplate>
 
                 <!--<DataTemplate DataType="{x:Type viewModel:TaskbarViewModel}">
                     <view:TaskbarView/>
                 </DataTemplate>-->
 
-                <DataTemplate DataType="{x:Type cursorSwitcher:CursorsMenuViewModel}">
-                    <cursorSwitcher:CursorsMenuView/>
+                <DataTemplate DataType="{x:Type cursorSwitcher:MenuViewModel}">
+                    <cursorSwitcher:MenuView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type cursorSwitcher:CursorCardViewModel}">
-                    <cursorSwitcher:CursorCardView/>
+                <DataTemplate DataType="{x:Type cursorSwitcher:ItemViewModel}">
+                    <cursorSwitcher:ItemView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type cursorSwitcher:CursorViewModel}">
-                    <cursorSwitcher:CursorView/>
+                <DataTemplate DataType="{x:Type cursorSwitcher:DetailsViewModel}">
+                    <cursorSwitcher:DetailsView/>
                 </DataTemplate>
 
                 <DataTemplate DataType="{x:Type settings:SettignsViewModel}">

@@ -27,9 +27,9 @@ internal class MainViewModel : ObservableObject
     public RelayCommand FontsViewCommand { get; set; }
     public RelayCommand ThemesViewCommand { get; set; }
     public RelayCommand IconsViewCommand { get; set; }
-    public RelayCommand WallsMenuViewCommand { get; set; }
+    public RelayCommand WallpappersMenuCommand { get; set; }
     public RelayCommand TaskbarViewCommand { get; set; }
-    public RelayCommand CursorsMenuViewCommand { get; set; }
+    public RelayCommand CursorsMenuCommand { get; set; }
     public RelayCommand SettingsViewCommand { get; set; }
 
 
@@ -37,9 +37,9 @@ internal class MainViewModel : ObservableObject
     //public FontsViewModel FontsVM = new();
     //public ThemesViewModel ThemesVM = new();
     //public IconsViewModel IconsVM = new();
-    public WallsMenuViewModel WallsMenuVM = new();
+    public Modules.WallpapperSwitcher.MenuViewModel WallpappersMenu = new();
     //public TaskbarViewModel TaskbarVM = new();
-    public CursorsMenuViewModel CursorsMenuVM = new();
+    public Modules.CursorSwitcher.MenuViewModel CursorsMenu = new();
     public SettignsViewModel SettingsVM = new();
 
     private void MenuCommandsInit()
@@ -48,9 +48,9 @@ internal class MainViewModel : ObservableObject
         //FontsViewCommand = new(() => NavigateTo(FontsVM);
         //ThemesViewCommand = new(() => NavigateTo(ThemesVM);
         //IconsViewCommand = new(() => NavigateTo(IconsVM);
-        WallsMenuViewCommand = new(() => NavigateTo(WallsMenuVM));
+        WallpappersMenuCommand = new(() => NavigateTo(WallpappersMenu));
         //TaskbarViewCommand = new(() => NavigateTo(TaskbarVM);
-        CursorsMenuViewCommand = new(() => NavigateTo(CursorsMenuVM));
+        CursorsMenuCommand = new(() => NavigateTo(CursorsMenu));
         SettingsViewCommand = new(() => NavigateTo(SettingsVM));
     }
 
@@ -60,31 +60,31 @@ internal class MainViewModel : ObservableObject
 
         MenuCommandsInit();
 
-        WallsMenuVM.UploadCommand = new(() =>
+        WallpappersMenu.UploadCommand = new(() =>
         {
-            Wallpaper wallpaper = new(null);
-            WallViewModel wallViewModel = new(wallpaper);
+            Modules.WallpapperSwitcher.Model wallpaper = new(null);
+            Modules.WallpapperSwitcher.DetailsViewModel wallViewModel = new(wallpaper);
             NavigateTo(wallViewModel);
         });
 
-        WallsMenuVM.WallViewCommand = new(() =>
+        WallpappersMenu.ToDetailsCommand = new(() =>
         {
-            Wallpaper wallpaper = WallsMenuVM.SelectedWallCardViewModel.Wallpaper;
-            WallViewModel wallViewModel = new(wallpaper);
+            Modules.WallpapperSwitcher.Model wallpaper = WallpappersMenu.SelectedItem.Wallpaper;
+            Modules.WallpapperSwitcher.DetailsViewModel wallViewModel = new(wallpaper);
             NavigateTo(wallViewModel);
         });
 
-        CursorsMenuVM.UploadCommand = new(() =>
+        CursorsMenu.UploadCommand = new(() =>
         {
-            Cursor cursor = new(null);
-            CursorViewModel cursorViewModel = new(cursor);
+            Modules.CursorSwitcher.Model cursor = new(null);
+            Modules.CursorSwitcher.DetailsViewModel cursorViewModel = new(cursor);
             NavigateTo(cursorViewModel);
         });
 
-        CursorsMenuVM.CursorViewCommand = new(() =>
+        CursorsMenu.DetailsViewCommand = new(() =>
         {
-            Cursor cursor = new(null);
-            CursorViewModel cursorViewModel = new(cursor);
+            Modules.CursorSwitcher.Model cursor = CursorsMenu.SelectedItem.Cursor;
+            Modules.CursorSwitcher.DetailsViewModel cursorViewModel = new(cursor);
             NavigateTo(cursorViewModel);
         });
 
