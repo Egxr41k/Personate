@@ -5,13 +5,13 @@ using Personate.General;
 namespace Personate.Modules.WallpapperSwitcher;
 internal class WallsMenuViewModel : ObservableObject
 {
-    private static string WallpaperDirectory = MainViewModel.PersonateLibPath + "\\Wallpapers";
-    private readonly string[] wallpaperPaths = Directory.GetFiles(WallpaperDirectory);
+    private readonly static string WallpaperDirectory = MainViewModel.PersonateLibPath + "\\Wallpapers";
+    private readonly string[] PathToWallpapers = Directory.GetFiles(WallpaperDirectory);
 
     private const int InitialWallCardCount = 10;
     private const int WallCardsToShowPerClick = 5;
 
-    public RelayCommand UploadImageCommand { get; set; }
+    public RelayCommand UploadCommand { get; set; }
     public RelayCommand ShowMoreCommand { get; set; }
     public RelayCommand WallViewCommand { get; set; }
 
@@ -39,12 +39,12 @@ internal class WallsMenuViewModel : ObservableObject
     {
         int initialCount = wallCardViewModels.Count;
         int targetCount = initialCount + cardsCount;
-        int maxCount = wallpaperPaths.Length;
+        int maxCount = PathToWallpapers.Length;
 
         for (int i = initialCount; i < targetCount; i++)
         {
             if (i == maxCount) break;
-            wallCardViewModels.Add(InitWallCard(wallpaperPaths[i]));
+            wallCardViewModels.Add(InitWallCard(PathToWallpapers[i]));
         }
     }
 

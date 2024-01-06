@@ -3,12 +3,14 @@
 namespace Personate.Modules.WallpapperSwitcher;
 internal class WallCardViewModel : ObservableObject
 {
-    public Wallpaper wallpaper { get; private set; }
+    public Wallpaper Wallpaper { get; private set; }
+    public BitmapImage Image => Wallpaper.Image;
+    public string Name => Wallpaper.Name;
+    public string Resolution => Wallpaper.Resolution;
     public RelayCommand WallViewCommand { get; set; }
-    public string Resolution => wallpaper.resolution;
-    public BitmapImage Image => wallpaper.image;
+
     public WallCardViewModel(Wallpaper wallpaper)
     {
-        this.wallpaper = wallpaper;
+        Wallpaper = wallpaper;
     }
 }

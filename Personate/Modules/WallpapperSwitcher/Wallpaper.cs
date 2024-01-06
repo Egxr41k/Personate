@@ -4,20 +4,19 @@ using Personate.General;
 namespace Personate.Modules.WallpapperSwitcher;
 internal class Wallpaper
 {
-    public BitmapImage image;
-    public string path;
-    public string resolution;
-    public string name;
+    public BitmapImage Image;
+    public string Name;
+    public string Path;
 
-    public Wallpaper(string path)
+    public string Resolution;
+
+    public Wallpaper(string? path)
     {
-        this.path = path;
-        image = new BitmapImage(new Uri(path));
-        name = path.Split('\\').Last();
-        resolution = $"{image.PixelWidth}" + "x" + $"{image.PixelHeight}";
+        Path = path ?? Open();
+        Image = new BitmapImage(new Uri(Path));
+        Name = Path.Split('\\').Last();
+        Resolution = $"{Image.PixelWidth}" + "x" + $"{Image.PixelHeight}";
     }
-
-    public Wallpaper() => path = Open();
 
     public string Open()
     {
@@ -38,13 +37,13 @@ internal class Wallpaper
             InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures)
         };
         if (sfd.ShowDialog() == true)
-            System.Drawing.Image.FromFile(path).Save(
+            System.Drawing.Image.FromFile(Path).Save(
                 sfd.FileName, System.Drawing.Imaging.ImageFormat.Jpeg);
     }
 
-    public void SetToBg()
+    public void Set()
     {
-        if (!Win32.SystemParametersInfo(0x14, 0, path, 0x01 | 0x02))
+        if (!Win32.SystemParametersInfo(0x14, 0, Path, 0x01 | 0x02))
             Console.WriteLine("Error");
     }
 

@@ -5,7 +5,7 @@ internal class WallViewModel : WallCardViewModel
     public RelayCommand SaveFileCommand { get; set; }
     public WallViewModel(Wallpaper wallpaper) : base(wallpaper)
     {
-        SetImageToBgCommand = new(() => wallpaper.SetToBg());
+        SetImageToBgCommand = new(() => wallpaper.Set());
 
         SaveFileCommand = new(() => wallpaper.Save());
     }

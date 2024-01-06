@@ -1,28 +1,23 @@
 ﻿namespace Personate.Modules.CursorSwitcher;
 internal class CursorViewModel : ObservableObject
 {
-    public RelayCommand ToDefaultCommand { get; set; }
-    public RelayCommand SetAsCursorCommand { get; set; }
+    public Cursor Cursor { get; private set; }
 
-    private string path = "";
-    public string Path
+    public RelayCommand ToDefaultCommand { get; set; }
+    public RelayCommand SetCommand { get; set; }
+
+    public CursorViewModel(Cursor cursor)
     {
-        get => path;
-        set => SetProperty(ref path, value);
-    }
-    public CursorViewModel()
-    {
-        SetAsCursorCommand = new(() =>
+        Cursor = cursor;
+
+        SetCommand = new(() =>
         {
-            //Cursor.SetCursor();
-            //path = Cursor.path;
+            Cursor.Set();
         });
 
         ToDefaultCommand = new(() =>
         {
-            //Cursor.path = @"C:\Windows\ToDefault.inf";
-            //Cursor.SetCursor();
-            //path = Cursor.path;
+            Cursor.ToDefault();
         });
     }
 }
