@@ -5,29 +5,39 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.CursorSwitcher"
              mc:Ignorable="d" 
-             d:DesignHeight="220" d:DesignWidth="195">
+             Height="220" Width="195">
     <Border Style="{StaticResource DarkBg}">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition Height="120"/>
+                <RowDefinition Height="175"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
 
+            <Image
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Source="{Binding Image}"/>
 
-            <TextBlock Text="{Binding CursorTitle}"
-                       Style="{StaticResource DarkText}"/>
-            <TextBlock Grid.Row="1" Text="{Binding CursorCount}"
-                       Style="{StaticResource DarkText}"/>
-            <Image Grid.Row="2" Source="{Binding CursorImg}">
+            <TextBlock
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Text="{Binding Name}"
+                Style="{StaticResource DarkText}"/>
+
+            <Image Grid.Row="1"
+                   Grid.Column="2"
+                   Source="\Resources\Icons\moreact.png">
                 <Image.InputBindings>
-                    <MouseBinding Command="{Binding CursorViewCommand}" Gesture="LeftClick"/>
-                </Image.InputBindings>
-            </Image>
-            <Image Grid.Row="3" Source="C:\code\.NET code\Personate\Personate\Resources\Icons\moreact.png">
-                <Image.InputBindings>
-                    <MouseBinding Command="{Binding }" Gesture="LeftClick"/>
+                    <MouseBinding
+                        Command="{Binding }"
+                        Gesture="LeftClick"/>
                 </Image.InputBindings>
             </Image>
         </Grid>

@@ -44,12 +44,10 @@ internal class WallsMenuViewModel : ObservableObject
         for (int i = initialCount; i < targetCount; i++)
         {
             if (i == maxCount) break;
-            wallCardViewModels.Add(InitWallCard(PathToWallpapers[i]));
-        }
-    }
 
-    private WallCardViewModel InitWallCard(string path)
-    {
-        return new WallCardViewModel(new Wallpaper(path));
+            Wallpaper wallpaper = new(PathToWallpapers[i]);
+            WallCardViewModel card = new(wallpaper);
+            wallCardViewModels.Add(card);
+        }
     }
 }

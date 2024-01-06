@@ -14,7 +14,7 @@ internal class CursorsMenuViewModel : ObservableObject
 
     public RelayCommand UploadCommand { get; set; }
     public RelayCommand ShowMoreCommand { get; set; }
-    public RelayCommand CursorsViewCommand { get; set; }
+    public RelayCommand CursorViewCommand { get; set; }
 
     public IEnumerable<CursorCardViewModel> CursorCardViewModels => cursorCardViewModels;
     private readonly ObservableCollection<CursorCardViewModel> cursorCardViewModels = [];
@@ -26,7 +26,7 @@ internal class CursorsMenuViewModel : ObservableObject
         set
         {
             SetProperty(ref selectedCursorCardViewModel, value);
-            CursorsViewCommand.Execute(null);
+            CursorViewCommand.Execute(null);
         }
     }
 
@@ -46,19 +46,9 @@ internal class CursorsMenuViewModel : ObservableObject
         {
             if (i == maxCount) break;
 
+            Cursor cursor = new(PathToCursors[i]);
+            CursorCardViewModel card = new(cursor);
+            cursorCardViewModels.Add(card);
         }
-
-        for (int i = 0; i < PathToCursors.Length; i++)
-        {
-            string[] CursorColors = Directory.GetDirectories(PathToCursors[i]);
-            for (int j = 0; j < CursorColors.Length; j++)
-            {
-                cursorCardViewModels.Add(InitCursorCard(CursorColors[j]));
-            }
-        }
-    }
-    private CursorCardViewModel InitCursorCard(string path)
-    {
-        return new CursorCardViewModel(new Cursor(path));
     }
 }

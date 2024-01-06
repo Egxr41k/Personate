@@ -62,22 +62,29 @@ internal class MainViewModel : ObservableObject
 
         WallsMenuVM.UploadCommand = new(() =>
         {
-            Wallpaper wallpaper = new Wallpaper(null);
-            WallViewModel wallViewModel = new WallViewModel(wallpaper);
+            Wallpaper wallpaper = new(null);
+            WallViewModel wallViewModel = new(wallpaper);
             NavigateTo(wallViewModel);
         });
 
         WallsMenuVM.WallViewCommand = new(() =>
         {
             Wallpaper wallpaper = WallsMenuVM.SelectedWallCardViewModel.Wallpaper;
-            WallViewModel wallViewModel = new WallViewModel(wallpaper);
+            WallViewModel wallViewModel = new(wallpaper);
             NavigateTo(wallViewModel);
         });
 
         CursorsMenuVM.UploadCommand = new(() =>
         {
-            Cursor cursor = new Cursor(null);
-            CursorViewModel cursorViewModel = new CursorViewModel(cursor);
+            Cursor cursor = new(null);
+            CursorViewModel cursorViewModel = new(cursor);
+            NavigateTo(cursorViewModel);
+        });
+
+        CursorsMenuVM.CursorViewCommand = new(() =>
+        {
+            Cursor cursor = new(null);
+            CursorViewModel cursorViewModel = new(cursor);
             NavigateTo(cursorViewModel);
         });
 
