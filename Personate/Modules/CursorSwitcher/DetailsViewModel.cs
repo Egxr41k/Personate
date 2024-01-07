@@ -1,15 +1,11 @@
 ﻿namespace Personate.Modules.CursorSwitcher;
-internal class DetailsViewModel : ObservableObject
+internal class DetailsViewModel : ItemViewModel
 {
-    public Model Cursor { get; private set; }
-
     public RelayCommand ToDefaultCommand { get; set; }
     public RelayCommand SetCommand { get; set; }
 
-    public DetailsViewModel(Model cursor)
+    public DetailsViewModel(Model cursor) : base(cursor)
     {
-        Cursor = cursor;
-
         SetCommand = new(() =>
         {
             Cursor.Set();

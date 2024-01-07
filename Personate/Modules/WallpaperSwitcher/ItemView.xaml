@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.WallpaperSwitcher"
              mc:Ignorable="d" 
-             Height="190" Width="240">
+             Height="200" Width="240">
     <Border Style="{StaticResource DarkBg}">
         <Grid>
             <Grid.RowDefinitions>
@@ -17,7 +17,7 @@
                 Grid.Row="0"
                 Grid.ColumnSpan="2"
                 Source="{Binding Image}"
-                Stretch="Fill"/>
+                Stretch="UniformToFill"/>
 
             <Image
                 Grid.Row="1"

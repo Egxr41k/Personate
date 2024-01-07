@@ -5,35 +5,25 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.CursorSwitcher"
              mc:Ignorable="d" 
-             Height="220" Width="180">
+             Height="200" Width="180">
     <Border Style="{StaticResource DarkBg}">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="175"/>
+                <RowDefinition Height="150"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
 
             <Image
                 Grid.Row="0"
-                Grid.Column="0"
                 Grid.ColumnSpan="2"
-                Source="{Binding Image}"/>
-
-            <TextBlock
-                Grid.Row="1"
-                Grid.Column="0"
-                Text="{Binding Name}"
-                Style="{StaticResource DarkText}"/>
+                Source="{Binding Image}"
+                Stretch="Fill"/>
 
             <Image
                 Grid.Row="1"
-                Grid.Column="1"
+                Grid.Column="0"
                 Source="\Resources\Icons\moreact.png">
-                
+
                 <Image.InputBindings>
                     <MouseBinding
                         Command="{Binding }"

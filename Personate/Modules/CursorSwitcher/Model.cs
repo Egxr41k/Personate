@@ -15,7 +15,7 @@ internal class Model
     public Model(string? path)
     {
         Path = path ?? Open();
-        //Image = new BitmapImage(new Uri(Path));
+        Image = InitImage(Path + "\\pointer.cur");
         Name = Path.Split('\\').Last();
     }
 
@@ -38,5 +38,19 @@ internal class Model
     public void ToDefault()
     {
         Win32.InstallHinfSection(IntPtr.Zero, IntPtr.Zero, PATH_TO_DEFAULT, 1);
+    }
+
+    private BitmapImage InitImage(string pathToCursor)
+    {
+        if (!File.Exists(pathToCursor)) return new BitmapImage();
+
+        using (var stream = new FileStream(pathToCursor, FileMode.Open, FileAccess.Read))
+        {
+            var image = new BitmapImage();
+            image.BeginInit();
+            image.StreamSource = stream;
+            image.EndInit();
+            return image;
+        }
     }
 }

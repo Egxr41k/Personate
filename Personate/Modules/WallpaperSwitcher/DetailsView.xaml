@@ -23,7 +23,7 @@
                 Grid.Column="0"
                 Grid.ColumnSpan="3"
                 Source="{Binding Image}"
-                Stretch="Fill"/>
+                Stretch="UniformToFill"/>
 
             <StackPanel
                 Grid.Row="0"

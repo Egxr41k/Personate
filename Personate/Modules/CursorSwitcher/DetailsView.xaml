@@ -6,28 +6,86 @@
              xmlns:local="clr-namespace:Personate.Modules.CursorSwitcher"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Border Height="462" Width="672" Style="{StaticResource DarkBg}">
+    <Border Style="{StaticResource DarkBg}">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition/>
-                <RowDefinition Height="120"/>
+                <RowDefinition Height="70"/>
             </Grid.RowDefinitions>
-            <!--<TextBlock Text="{Binding Path}" Style="{StaticResource DarkText}" Width="100"/>-->
-            <Grid Grid.Row="1">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Button Content="Set as Cursor"
-                        Style="{StaticResource DarkBtn}"
-                        Margin="10"
-                        Command="{Binding SetCommand}"/>
-                <Button Grid.Column="1" Content="Back to default"
-                        Style="{StaticResource DarkBtn}"
-                        Margin="10"
-                        Command="{Binding ToDefaultCommand}"/>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="140"/>
+            </Grid.ColumnDefinitions>
 
-            </Grid>
+            <Image
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"
+                Source="{Binding Image}"
+                Stretch="Fill"/>
+
+            <StackPanel
+                Grid.Row="0"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Center"
+                Orientation="Horizontal"
+                Background="Black"
+                Opacity="0.5">
+
+                <TextBlock
+                    Foreground="White"
+                    FontSize="18"
+                    Margin="5"
+                    Text="{Binding Name}"/>
+
+                <TextBlock
+                    Foreground="White"
+                    FontSize="18"
+                    Margin="5"
+                    Text="{Binding Resolution}"/>
+
+            </StackPanel>
+
+            <Button
+                Grid.Row="1"
+                Grid.Column="1"
+                Content="Set as Cursor"
+                Style="{StaticResource DarkBtn}"
+                Command="{Binding SetCommand}"/>
+            <Button
+                Grid.Row="1"
+                Grid.Column="2"
+                Content="Back to default"
+                Style="{StaticResource DarkBtn}"
+                Command="{Binding ToDefaultCommand}"/>
+
+            <Image
+                Grid.Row="1"
+                Grid.Column="3"
+                Source="/Resources/Icons/download.png"
+                Height="50"
+                Width="50"
+                Style="{StaticResource IconsTheme}">
+                <Image.InputBindings>
+                    <MouseBinding Command="{Binding SaveCommand}" Gesture="LeftClick"/>
+                </Image.InputBindings>
+            </Image>
+
+            <Image
+                Grid.Row="1"
+                Grid.Column="0"
+                Source="/Resources/Icons/like.png"
+                Height="50"
+                Width="50"
+                Style="{StaticResource IconsTheme}">
+                <Image.InputBindings>
+                    <MouseBinding Command="{Binding SaveCommand}" Gesture="LeftClick"/>
+                </Image.InputBindings>
+            </Image>
         </Grid>
     </Border>
 </UserControl>
