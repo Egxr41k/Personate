@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Personate"
-        xmlns:wallpapperSwitcher="clr-namespace:Personate.Modules.WallpapperSwitcher"
+        xmlns:wallpaperSwitcher="clr-namespace:Personate.Modules.WallpaperSwitcher"
         xmlns:cursorSwitcher="clr-namespace:Personate.Modules.CursorSwitcher"
         xmlns:home="clr-namespace:Personate.Modules.Home"
         xmlns:settings="clr-namespace:Personate.Modules.Settings"
@@ -57,7 +57,7 @@
 
                 <Button Content="Wallpapers"
                         Style="{DynamicResource DarkMenuBtn}"
-                        Command="{Binding WallpappersMenuCommand}"/>
+                        Command="{Binding WallpapersCommand}"/>
 
                 <Button Content="Taskbar"
                         Style="{DynamicResource DarkMenuBtn}"
@@ -65,7 +65,7 @@
 
                 <Button Content="Cursors"
                         Style="{DynamicResource DarkMenuBtn}"
-                        Command="{Binding CursorsMenuCommand}"/>
+                        Command="{Binding CursorsCommand}"/>
                 
                 <Button Content="Settings"
                         Style="{DynamicResource DarkMenuBtn}"
@@ -101,16 +101,16 @@
                     <view:IconsView/>
                 </DataTemplate>-->
 
-                <DataTemplate DataType="{x:Type wallpapperSwitcher:MenuViewModel}">
-                    <wallpapperSwitcher:MenuView/>
+                <DataTemplate DataType="{x:Type wallpaperSwitcher:MenuViewModel}">
+                    <wallpaperSwitcher:MenuView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type wallpapperSwitcher:ItemViewModel}">
-                    <wallpapperSwitcher:ItemView/>
+                <DataTemplate DataType="{x:Type wallpaperSwitcher:ItemViewModel}">
+                    <wallpaperSwitcher:ItemView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type wallpapperSwitcher:DetailsViewModel}">
-                    <wallpapperSwitcher:DetailsView/>
+                <DataTemplate DataType="{x:Type wallpaperSwitcher:DetailsViewModel}">
+                    <wallpaperSwitcher:DetailsView/>
                 </DataTemplate>
 
                 <!--<DataTemplate DataType="{x:Type viewModel:TaskbarViewModel}">

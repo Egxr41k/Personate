@@ -1,7 +1,7 @@
 ﻿using System.Windows.Media.Imaging;
 using Personate.General;
 
-namespace Personate.Modules.WallpapperSwitcher;
+namespace Personate.Modules.WallpaperSwitcher;
 internal class Model
 {
     public BitmapImage Image;

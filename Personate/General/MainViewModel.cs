@@ -1,7 +1,7 @@
-﻿using Personate.Modules.CursorSwitcher;
-using Personate.Modules.Home;
-using Personate.Modules.Settings;
-using Personate.Modules.WallpapperSwitcher;
+﻿using Cursors = Personate.Modules.CursorSwitcher;
+using Home = Personate.Modules.Home;
+using Settings = Personate.Modules.Settings;
+using Wallpapers = Personate.Modules.WallpaperSwitcher;
 
 namespace Personate.General;
 internal class MainViewModel : ObservableObject
@@ -27,20 +27,20 @@ internal class MainViewModel : ObservableObject
     public RelayCommand FontsViewCommand { get; set; }
     public RelayCommand ThemesViewCommand { get; set; }
     public RelayCommand IconsViewCommand { get; set; }
-    public RelayCommand WallpappersMenuCommand { get; set; }
+    public RelayCommand WallpapersCommand { get; set; }
     public RelayCommand TaskbarViewCommand { get; set; }
-    public RelayCommand CursorsMenuCommand { get; set; }
+    public RelayCommand CursorsCommand { get; set; }
     public RelayCommand SettingsViewCommand { get; set; }
 
 
-    public HomeViewModel HomeVM = new();
+    public Home.HomeViewModel HomeVM = new();
     //public FontsViewModel FontsVM = new();
     //public ThemesViewModel ThemesVM = new();
     //public IconsViewModel IconsVM = new();
-    public Modules.WallpapperSwitcher.MenuViewModel WallpappersMenu = new();
+    public Wallpapers.MenuViewModel WallpapersMenu = new();
     //public TaskbarViewModel TaskbarVM = new();
-    public Modules.CursorSwitcher.MenuViewModel CursorsMenu = new();
-    public SettignsViewModel SettingsVM = new();
+    public Cursors.MenuViewModel CursorsMenu = new();
+    public Settings.SettignsViewModel SettingsVM = new();
 
     private void MenuCommandsInit()
     {
@@ -48,9 +48,9 @@ internal class MainViewModel : ObservableObject
         //FontsViewCommand = new(() => NavigateTo(FontsVM);
         //ThemesViewCommand = new(() => NavigateTo(ThemesVM);
         //IconsViewCommand = new(() => NavigateTo(IconsVM);
-        WallpappersMenuCommand = new(() => NavigateTo(WallpappersMenu));
+        WallpapersCommand = new(() => NavigateTo(WallpapersMenu));
         //TaskbarViewCommand = new(() => NavigateTo(TaskbarVM);
-        CursorsMenuCommand = new(() => NavigateTo(CursorsMenu));
+        CursorsCommand = new(() => NavigateTo(CursorsMenu));
         SettingsViewCommand = new(() => NavigateTo(SettingsVM));
     }
 
@@ -60,32 +60,32 @@ internal class MainViewModel : ObservableObject
 
         MenuCommandsInit();
 
-        WallpappersMenu.UploadCommand = new(() =>
+        WallpapersMenu.UploadCommand = new(() =>
         {
-            Modules.WallpapperSwitcher.Model wallpaper = new(null);
-            Modules.WallpapperSwitcher.DetailsViewModel wallViewModel = new(wallpaper);
-            NavigateTo(wallViewModel);
+            Wallpapers.Model wallpaper = new(null);
+            Wallpapers.DetailsViewModel wallpaperDetails = new(wallpaper);
+            NavigateTo(wallpaperDetails);
         });
 
-        WallpappersMenu.ToDetailsCommand = new(() =>
+        WallpapersMenu.ToDetailsCommand = new(() =>
         {
-            Modules.WallpapperSwitcher.Model wallpaper = WallpappersMenu.SelectedItem.Wallpaper;
-            Modules.WallpapperSwitcher.DetailsViewModel wallViewModel = new(wallpaper);
-            NavigateTo(wallViewModel);
+            Wallpapers.Model wallpaper = WallpapersMenu.SelectedItem.Wallpaper;
+            Wallpapers.DetailsViewModel wallpaperDetails = new(wallpaper);
+            NavigateTo(wallpaperDetails);
         });
 
         CursorsMenu.UploadCommand = new(() =>
         {
-            Modules.CursorSwitcher.Model cursor = new(null);
-            Modules.CursorSwitcher.DetailsViewModel cursorViewModel = new(cursor);
-            NavigateTo(cursorViewModel);
+            Cursors.Model cursor = new(null);
+            Cursors.DetailsViewModel cursorDetails = new(cursor);
+            NavigateTo(cursorDetails);
         });
 
         CursorsMenu.DetailsViewCommand = new(() =>
         {
-            Modules.CursorSwitcher.Model cursor = CursorsMenu.SelectedItem.Cursor;
-            Modules.CursorSwitcher.DetailsViewModel cursorViewModel = new(cursor);
-            NavigateTo(cursorViewModel);
+            Cursors.Model cursor = CursorsMenu.SelectedItem.Cursor;
+            Cursors.DetailsViewModel cursorDetails = new(cursor);
+            NavigateTo(cursorDetails);
         });
 
     }

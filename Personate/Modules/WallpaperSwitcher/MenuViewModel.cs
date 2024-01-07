@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using Personate.General;
 
-namespace Personate.Modules.WallpapperSwitcher;
+namespace Personate.Modules.WallpaperSwitcher;
 internal class MenuViewModel : ObservableObject
 {
     private readonly static string WallpaperDirectory = MainViewModel.PersonateLibPath + "\\Wallpapers";

@@ -1,4 +1,4 @@
-﻿namespace Personate.Modules.WallpapperSwitcher;
+﻿namespace Personate.Modules.WallpaperSwitcher;
 internal class DetailsViewModel : ItemViewModel
 {
     public RelayCommand SetCommand { get; set; }

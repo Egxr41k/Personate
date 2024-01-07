@@ -16,7 +16,7 @@
     <Compile Update="Modules\CursorSwitcher\DetailsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Modules\WallpapperSwitcher\ItemView.xaml.cs">
+    <Compile Update="Modules\WallpaperSwitcher\ItemView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -33,7 +33,7 @@
     <Page Update="Modules\CursorSwitcher\DetailsView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Modules\WallpapperSwitcher\ItemView.xaml">
+    <Page Update="Modules\WallpaperSwitcher\ItemView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

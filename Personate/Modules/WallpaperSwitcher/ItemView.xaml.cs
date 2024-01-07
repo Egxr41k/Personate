@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Personate.Modules.WallpapperSwitcher
+namespace Personate.Modules.WallpaperSwitcher
 {
     /// <summary>
     /// Interaction logic for WallCardView.xaml
