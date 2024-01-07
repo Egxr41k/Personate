@@ -5,30 +5,79 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.WallpaperSwitcher"
              mc:Ignorable="d" 
-             d:DesignHeight="510" d:DesignWidth="810">
-    <Border Height="462" Width="672" Style="{StaticResource DarkBg}">
-        <StackPanel>
-            <Image Height="364" 
-                   VerticalAlignment="Top" 
-                   Source="{Binding Image}"/>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition Width="300"/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Button Grid.Column="1" Content="Set as background"
-                        Style="{StaticResource DarkBtn}"
-                        Margin="10"
-                        Command="{Binding SetCommand}"/>
-                <Image Grid.Column="2" Source="/Resources/Icons/download.png"
-                           Height="25" Width="25" Margin="2.5"
-                           Style="{StaticResource IconsTheme}">
-                    <Image.InputBindings>
-                        <MouseBinding Command="{Binding SaveCommand}" Gesture="LeftClick"/>
-                    </Image.InputBindings>
-                </Image>
-            </Grid>
-        </StackPanel>
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border Style="{StaticResource DarkBg}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Source="{Binding Image}"
+                Stretch="Fill"/>
+
+            <StackPanel
+                Grid.Row="0"
+                Grid.Column="1"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Center"
+                Orientation="Horizontal"
+                Background="Black"
+                Opacity="0.5">
+                
+                <TextBlock
+                    Foreground="White"
+                    FontSize="18"
+                    Margin="5"
+                    Text="{Binding Name}"/>
+
+                <TextBlock
+                    Foreground="White"
+                    FontSize="18"
+                    Margin="5"
+                    Text="{Binding Resolution}"/>
+                
+            </StackPanel>
+            
+            <Button
+                Grid.Row="1"
+                Grid.Column="1"
+                Content="Set as background"
+                Style="{StaticResource DarkBtn}"
+                Command="{Binding SetCommand}" Height="50"/>
+
+            <Image
+                Grid.Row="1"
+                Grid.Column="2"
+                Source="/Resources/Icons/download.png"
+                Height="50"
+                Width="50"
+                Style="{StaticResource IconsTheme}">
+                <Image.InputBindings>
+                    <MouseBinding Command="{Binding SaveCommand}" Gesture="LeftClick"/>
+                </Image.InputBindings>
+            </Image>
+
+            <Image
+                Grid.Row="1"
+                Grid.Column="0"
+                Source="/Resources/Icons/like.png"
+                Height="50"
+                Width="50"
+                Style="{StaticResource IconsTheme}">
+                <Image.InputBindings>
+                    <MouseBinding Command="{Binding SaveCommand}" Gesture="LeftClick"/>
+                </Image.InputBindings>
+            </Image>
+        </Grid>
     </Border>
 </UserControl>
