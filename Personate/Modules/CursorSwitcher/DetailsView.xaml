@@ -46,7 +46,7 @@
                     Foreground="White"
                     FontSize="18"
                     Margin="5"
-                    Text="{Binding Resolution}"/>
+                    Text="{Binding Color}"/>
 
             </StackPanel>
 

@@ -7,6 +7,8 @@ internal class ItemViewModel : ObservableObject
     public BitmapImage Image => Wallpaper.Image;
     public string Name => Wallpaper.Name;
     public string Resolution => Wallpaper.Resolution;
+
+    public string Color => Wallpaper.Color;
     public RelayCommand WallViewCommand { get; set; }
 
     public ItemViewModel(Model wallpaper)

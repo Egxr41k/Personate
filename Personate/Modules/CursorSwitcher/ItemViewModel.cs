@@ -7,6 +7,7 @@ internal class ItemViewModel : ObservableObject
     public BitmapImage Image => Cursor.Image;
     public string Name => Cursor.Name;
     public int Count => Cursor.Count;
+    public string Color => Cursor.Color;
 
     public static RelayCommand CursorViewCommand { get; set; }
     public ItemViewModel(Model cursor)

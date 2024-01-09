@@ -39,6 +39,12 @@
                     FontSize="18"
                     Margin="5"
                     Text="{Binding Name}"/>
+                
+                <TextBlock
+                    Foreground="White"
+                    FontSize="18"
+                    Margin="5"
+                    Text="{Binding Color}"/>
 
                 <TextBlock
                     Foreground="White"
