@@ -15,9 +15,13 @@
 
             <Image
                 Grid.Row="0"
-                Grid.ColumnSpan="2"
+                Source="\Resources\win10.jpg"
+                Stretch="UniformToFill"/>
+
+            <Image
+                Grid.Row="0"
                 Source="{Binding Image}"
-                Stretch="Fill"/>
+                Stretch="None"/>
 
             <Image
                 Grid.Row="1"

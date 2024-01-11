@@ -1,4 +1,5 @@
-﻿using System.Windows.Media.Imaging;
+﻿using System.Diagnostics;
+using System.Windows.Media.Imaging;
 using Personate.General;
 
 namespace Personate.Modules.CursorSwitcher;
@@ -37,12 +38,50 @@ internal class Model
 
     public void Set()
     {
-        Win32.InstallHinfSection(IntPtr.Zero, IntPtr.Zero, Path, 1);
+        InstallInfFile(Path + "\\Install.inf");
     }
 
     public void ToDefault()
     {
         Win32.InstallHinfSection(IntPtr.Zero, IntPtr.Zero, PATH_TO_DEFAULT, 1);
+    }
+
+    private bool InstallInfFile(string infPath)
+    {
+        try
+        {
+            // Формирование строки команды
+            string command = $"Rundll32.exe setupapi,InstallHinfSection DefaultInstall 128 {infPath}";
+
+            // Создание процесса и выполнение команды
+            Process process = new Process();
+            ProcessStartInfo startInfo = new ProcessStartInfo
+            {
+                FileName = "cmd.exe",
+                RedirectStandardInput = true,
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                CreateNoWindow = true
+            };
+            process.StartInfo = startInfo;
+            process.Start();
+
+            // Передача команды ввода в командную строку
+            process.StandardInput.WriteLine(command);
+            process.StandardInput.Flush();
+            process.StandardInput.Close();
+
+            // Ожидание завершения процесса
+            process.WaitForExit();
+
+            // Проверка успешного завершения процесса
+            return process.ExitCode == 0;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+            return false;
+        }
     }
 
     private BitmapImage InitImage(string pathToCursor)

@@ -9,6 +9,7 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/personate.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/win10.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/icons/close.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/icons/download.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/icons/like.png")]

@@ -11,10 +11,10 @@ false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\code\Egxr41k\CSharp_Dev\Personate\Personate\App.xaml
 17349324677
-8-501966099
+9-871379067
 27-555024326
 202-1916579350
 CustomTitleBar.xaml;General\MainWindow.xaml;Modules\CursorSwitcher\DetailsView.xaml;Modules\CursorSwitcher\ItemView.xaml;Modules\CursorSwitcher\MenuView.xaml;Modules\Home\HomeView.xaml;Modules\Settings\SettingsView.xaml;Modules\WallpaperSwitcher\DetailsView.xaml;Modules\WallpaperSwitcher\ItemView.xaml;Modules\WallpaperSwitcher\MenuView.xaml;Themes\DarkUI\DarkBg.xaml;Themes\DarkUI\DarkBtn.xaml;Themes\DarkUI\DarkMenu.xaml;Themes\DarkUI\DarkScrollBar.xaml;Themes\DarkUI\DarkText.xaml;Themes\DarkUI\DarkTitle.xaml;Themes\General\IconsTheme.xaml;
 
-True
+False
 

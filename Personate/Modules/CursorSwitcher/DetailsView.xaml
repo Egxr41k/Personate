@@ -23,8 +23,15 @@
                 Grid.Row="0"
                 Grid.Column="0"
                 Grid.ColumnSpan="4"
+                Source="\Resources\win10.jpg"
+                Stretch="UniformToFill"/>
+
+            <Image
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"
                 Source="{Binding Image}"
-                Stretch="Fill"/>
+                Stretch="None"/>
 
             <StackPanel
                 Grid.Row="0"

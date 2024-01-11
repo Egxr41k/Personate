@@ -59,3 +59,4 @@ C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net8.0-windows10.0.2262
 C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Modules\WallpaperSwitcher\DetailsView.baml
 C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Modules\WallpaperSwitcher\ItemView.baml
 C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Modules\WallpaperSwitcher\MenuView.baml
+C:\code\Egxr41k\CSharp_Dev\Personate\Personate\bin\Debug\net8.0-windows10.0.22621.0\Resources\win10.jpg
