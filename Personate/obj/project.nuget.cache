@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g0jGNaNWRfbAX4ON25pd1H4axFgviUL0MVCX1VvI3Hgd/uHto4z0pRXxAiU5mPNrjcqxOxvjjjkX0f6ADcPRPw==",
+  "dgSpecHash": "ydDlFF9H+THD46d4y4kVA+lc0sqvaj7dyJ/AeUFzgkKJJChSnYTK+tsqbQ12mcsPddkgLh+NknvAleFczyatxw==",
   "success": true,
-  "projectFilePath": "C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate\\Personate.csproj",
+  "projectFilePath": "C:\\Users\\Egxr41k\\Desktop\\Personate\\Personate\\Personate.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Egxr41k\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
@@ -13,12 +13,5 @@
     "C:\\Users\\Egxr41k\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Egxr41k\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.31\\microsoft.windows.sdk.net.ref.10.0.22621.31.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

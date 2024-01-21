@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\code\Egxr41k\CSharp_Dev\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\
+C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\
 Personate
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\code\Egxr41k\CSharp_Dev\Personate\Personate\App.xaml
+C:\Users\Egxr41k\Desktop\Personate\Personate\App.xaml
 17349324677
 9-871379067
 25869932510
-202-1916579350
+202-1522918422
 CustomTitleBar.xaml;General\MainWindow.xaml;Modules\CursorSwitcher\DetailsView.xaml;Modules\CursorSwitcher\ItemView.xaml;Modules\CursorSwitcher\MenuView.xaml;Modules\Home\HomeView.xaml;Modules\Settings\SettingsView.xaml;Modules\WallpaperSwitcher\DetailsView.xaml;Modules\WallpaperSwitcher\ItemView.xaml;Modules\WallpaperSwitcher\MenuView.xaml;Themes\DarkUI\DarkBg.xaml;Themes\DarkUI\DarkBtn.xaml;Themes\DarkUI\DarkMenu.xaml;Themes\DarkUI\DarkScrollBar.xaml;Themes\DarkUI\DarkText.xaml;Themes\DarkUI\DarkTitle.xaml;Themes\General\IconsTheme.xaml;
 
 False

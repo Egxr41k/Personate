@@ -316,21 +316,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Egxr41k\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate\\Personate.csproj",
+      "projectUniqueName": "C:\\Users\\Egxr41k\\Desktop\\Personate\\Personate\\Personate.csproj",
       "projectName": "Personate",
-      "projectPath": "C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate\\Personate.csproj",
+      "projectPath": "C:\\Users\\Egxr41k\\Desktop\\Personate\\Personate\\Personate.csproj",
       "packagesPath": "C:\\Users\\Egxr41k\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate\\obj\\",
+      "outputPath": "C:\\Users\\Egxr41k\\Desktop\\Personate\\Personate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Egxr41k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -403,16 +401,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\code\\Egxr41k\\CSharp_Dev\\Personate\\Personate\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

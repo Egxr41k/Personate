@@ -48,7 +48,7 @@ HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.ex
 "link.cur"
 
 [Strings]
-CUR_DIR         = "Cursors\Numix\dark"
+CUR_DIR         = "Cursors\Numix_dark"
 SCHEME_NAME     = "Numix dark"
 pointer		= "pointer.cur"
 help		= "help.cur"
