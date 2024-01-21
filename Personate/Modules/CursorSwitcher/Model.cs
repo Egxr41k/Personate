@@ -4,7 +4,7 @@ using Personate.General;
 namespace Personate.Modules.CursorSwitcher;
 internal class Model
 {
-    private const string PATH_TO_DEFAULT = "";
+    private static string PATH_TO_DEFAULT = MenuViewModel.CursorDirectory + "\\default\\Install.inf";
 
     public BitmapImage Image;
     public string Name;
@@ -42,7 +42,7 @@ internal class Model
 
     public void ToDefault()
     {
-        InstallInfFile(PATH_TO_DEFAULT);
+        InstallInfFile(MenuViewModel.PathToDefaultCursor + "\\Install.inf");
     }
 
     private void InstallInfFile(string pathToInfFile)

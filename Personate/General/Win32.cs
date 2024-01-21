@@ -14,21 +14,18 @@ internal static class Win32
 
     public static bool ExecuteWithCmd(string command)
     {
-        // Создание процесса и выполнение команды
-        Process process = new Process();
-        process.StartInfo = new ProcessStartInfo
+        Process process = new()
         {
-            FileName = "cmd.exe",
-            Verb = "runas",
-            UseShellExecute = true,
-            Arguments = "/c " + command,
-            CreateNoWindow = false,
+            StartInfo = new ProcessStartInfo
+            {
+                FileName = "cmd.exe",
+                Verb = "runas",
+                UseShellExecute = true,
+                Arguments = "/c " + command,
+                CreateNoWindow = true,
+            }
         };
-
-        // запускаем процесс
         process.Start();
-
-        // Ожидание завершения процесса
         process.WaitForExit();
 
         return process.ExitCode == 0;

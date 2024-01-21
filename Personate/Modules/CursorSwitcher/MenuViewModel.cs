@@ -8,6 +8,7 @@ internal class MenuViewModel : ObservableObject
 {
     private readonly static string CursorDirectory = MainViewModel.PersonateLibPath + "\\Cursors";
     private readonly string[] PathToCursors = Directory.GetDirectories(CursorDirectory);
+    public static string PathToDefaultCursor = CursorDirectory + "\\default";
 
     private const int InitialItemsCount = 10;
     private const int ItemsToShowPerClick = 5;
@@ -45,6 +46,7 @@ internal class MenuViewModel : ObservableObject
         for (int i = initialCount; i < targetCount; i++)
         {
             if (i == maxCount) break;
+            if (PathToCursors[i] == PathToDefaultCursor) continue;
 
             Model cursor = new(PathToCursors[i]);
             ItemViewModel item = new(cursor);
