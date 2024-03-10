@@ -1,0 +1,87 @@
+﻿<UserControl x:Class="TBStyler.WPF.Views.ExtraView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TBStyler.WPF.Views"
+             mc:Ignorable="d"
+             Height="350" Width="500">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left">
+            <CheckBox 
+                ToolTip="Only center the primary/default taskbar on your main monitor." 
+                x:Name="CheckBox2" 
+                Content="Only Center Primary Taskbar" 
+                Width="250" 
+                IsChecked="{Binding OnlyCenterPrimaryTaskbar, Mode=TwoWay}"
+                />
+            <CheckBox 
+                ToolTip="Only center the secondary taskbar(s) on your secondary monitor(s)." 
+                x:Name="CheckBox3" 
+                Content="Only Center Secondary Taskbar" 
+                Width="250"
+                IsChecked="{Binding OnlyCenterSecondaryTaskbar, Mode=TwoWay}"
+                />
+            <CheckBox 
+                ToolTip="Do you have custom toolbars like NetSpeedMonitor?
+                    Enable this to update the toolbars position when the size of the tray changes." 
+                x:Name="CheckBox4" 
+                Content="Update Taskbar Toolbars" 
+                Width="250" 
+                IsChecked="{Binding UpdateTaskbarToolbars, Mode=TwoWay}"
+                />
+            <CheckBox 
+                ToolTip="Are you a gamer? 
+                    Well MSAA may interfere with your game while playing. 
+                    It can cause keyboard ghosting in some games. 
+                    Enable this to Pause TaskbarX when you are running a game in fullscreen." 
+                x:Name="Checkbox9" 
+                Content="Pause looper when fullscreen app is running" 
+                Width="250"
+                IsChecked="{Binding PauseLooperWhenFullScreen, Mode=TwoWay}"                
+                />
+            <CheckBox 
+                ToolTip="Hide the Primary Start button." 
+                Content="Hide Primary Start button" 
+                x:Name="Checkbox12" 
+                Width="250" 
+                IsChecked="{Binding HidePrimaryStartButton, Mode=TwoWay}"                                
+                />
+            <CheckBox 
+                ToolTip="Hide the Secondary Start button." 
+                Content="Hide Secondary Start button" 
+                x:Name="Checkbox13" 
+                Width="250" 
+                IsChecked="{Binding HideSecondaryStartButton, Mode=TwoWay}"                                                
+                />
+            <CheckBox 
+                ToolTip="Hide the Primary Tray area with the clock."
+                Content="Hide Primary Tray area" 
+                x:Name="Checkbox14" 
+                Width="250" 
+                IsChecked="{Binding HidePrimaryTrayArea, Mode=TwoWay}"                                                                
+                />
+            <CheckBox 
+                ToolTip="Hide the Secondary Tray area with the clock." 
+                x:Name="Checkbox15" 
+                Content="Hide Secondary Tray area" 
+                Width="250" 
+                IsChecked="{Binding HideSecondaryTrayArea, Mode=TwoWay}"                                                                
+                />
+            <CheckBox  
+                ToolTip="Show console output for debugging." 
+                x:Name="checkboxconsole" 
+                Content="Show Console"
+                Width="250" 
+                IsChecked="{Binding ShowConsole, Mode=TwoWay}"                                                                                
+                />
+            <CheckBox 
+                ToolTip="Show a trayicon to quickly restart and stop TaskbarX." 
+                Content="Show Tray icon" 
+                x:Name="Checkbox16" 
+                Visibility="{Binding EnableTohowTrayIcon, Mode=TwoWay}" 
+                Width="250" 
+                />
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -16,6 +16,9 @@
     <Compile Update="Modules\CursorSwitcher\DetailsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Modules\TBStyler\Views\MenuView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Modules\WallpaperSwitcher\ItemView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -31,6 +34,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Modules\CursorSwitcher\DetailsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Modules\TBStyler\Views\MenuView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Modules\WallpaperSwitcher\ItemView.xaml">

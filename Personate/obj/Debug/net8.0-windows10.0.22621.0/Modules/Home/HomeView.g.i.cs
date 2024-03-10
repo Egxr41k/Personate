@@ -53,7 +53,7 @@ namespace Personate.Modules.Home {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Personate;component/modules/home/homeview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Personate;V1.0.0.0;component/modules/home/homeview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Modules\Home\HomeView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
