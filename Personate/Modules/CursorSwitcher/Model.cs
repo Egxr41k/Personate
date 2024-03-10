@@ -4,19 +4,22 @@ using Personate.General;
 namespace Personate.Modules.CursorSwitcher;
 internal class Model
 {
-    private static string PATH_TO_DEFAULT = MenuViewModel.CursorDirectory + "\\default\\Install.inf";
+    public BitmapImage Image { get; private set; }
+    public string Name { get; private set; }
+    public string Path { get; private set; }
+    public int Id { get; private set; }
+    public int Count { get; private set; }
+    public string Color { get; private set; }
 
-    public BitmapImage Image;
-    public string Name;
-    public string Path;
-    public int Id;
-
-    public int Count;
-    public string Color;
-
-    public Model(string? path)
+    public static Model FromFileExplorer()
     {
-        Path = path ?? Open();
+        string path = Open();
+        return new Model(path);
+    }
+
+    public Model(string path)
+    {
+        Path = path;
         Image = InitImage(Path + "\\pointer.cur");
 
         var Name_Color = Path.Split("\\").Last();
@@ -24,7 +27,7 @@ internal class Model
         Color = Name_Color.Split("_").Last();
     }
 
-    public string Open()
+    private static string Open()
     {
         OpenFileDialog ofd = new()
         {

@@ -62,7 +62,7 @@ internal class MainViewModel : ObservableObject
 
         WallpapersMenu.UploadCommand = new(() =>
         {
-            Wallpapers.Model wallpaper = new(null);
+            Wallpapers.Model wallpaper = Wallpapers.Model.FromFileExplorer();
             Wallpapers.DetailsViewModel wallpaperDetails = new(wallpaper);
             NavigateTo(wallpaperDetails);
         });
@@ -76,7 +76,7 @@ internal class MainViewModel : ObservableObject
 
         CursorsMenu.UploadCommand = new(() =>
         {
-            Cursors.Model cursor = new(null);
+            Cursors.Model cursor = Cursors.Model.FromFileExplorer();
             Cursors.DetailsViewModel cursorDetails = new(cursor);
             NavigateTo(cursorDetails);
         });

@@ -116,9 +116,9 @@ C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.
 C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Personate.AssemblyInfo.cs
 C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Personate.csproj.CoreCompileInputs.cache
 C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Personate.sourcelink.json
-C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Personate.csproj.CopyComplete
 C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Personate.dll
 C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\refint\Personate.dll
 C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Personate.pdb
 C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Personate.genruntimeconfig.cache
 C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\ref\Personate.dll
+C:\Users\Egxr41k\Desktop\Personate\Personate\obj\Debug\net8.0-windows10.0.22621.0\Personate.csproj.Up2Date

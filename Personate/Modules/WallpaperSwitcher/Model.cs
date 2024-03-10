@@ -8,17 +8,23 @@ using Personate.General;
 namespace Personate.Modules.WallpaperSwitcher;
 internal class Model
 {
-    public BitmapImage Image;
-    public string Name;
-    public string Path;
-    public int Id;
+    public BitmapImage Image { get; private set; }
+    public string Name { get; private set; }
+    public string Path { get; private set; }
+    public int Id { get; private set; }
 
     public string Resolution;
     public string Color;
 
-    public Model(string? path)
+    public static Model FromFileExplorer()
     {
-        Path = path ?? Open();
+        string path = Open();
+        return new Model(path);
+    }
+
+    public Model(string path)
+    {
+        Path = path;
         Image = new BitmapImage(new Uri(Path));
         var Name_Id = Path.Split("\\").Last();
 
@@ -27,7 +33,7 @@ internal class Model
         Resolution = $"{Image.PixelWidth}" + "x" + $"{Image.PixelHeight}";
     }
 
-    public string Open()
+    public static string Open()
     {
         OpenFileDialog ofd = new()
         {
