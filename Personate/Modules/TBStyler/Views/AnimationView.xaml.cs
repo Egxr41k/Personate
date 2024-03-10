@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TBStyler.WPF.Views
+namespace Personate.Modules.TBStyler.Views
 {
     /// <summary>
     /// Interaction logic for AnimationView.xaml

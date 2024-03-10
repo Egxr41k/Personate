@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using TBStyler.Settings;
+using Personate.Settings;
 
-namespace TBStyler.WPF;
+namespace Personate.Modules.TBStyler.Models;
 
 class MainModel
 {

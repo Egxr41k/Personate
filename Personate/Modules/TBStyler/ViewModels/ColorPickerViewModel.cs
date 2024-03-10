@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static TBStyler.WPF.Win32;
 using System.Windows.Threading;
 using System.Drawing;
 using System.Windows.Automation.Peers;
@@ -12,9 +11,10 @@ using System.Windows;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
 using System.Windows.Media;
-using TBStyler.Settings;
+using Personate.Settings;
+using static Personate.General.Win32;
 
-namespace TBStyler.WPF.ViewModels;
+namespace Personate.Modules.TBStyler.ViewModels;
 
 internal class ColorPickerViewModel : ObservableObject
 {

@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TBStyler.Settings;
+using Personate.Settings;
 
-namespace TBStyler.WPF.ViewModels;
+namespace Personate.Modules.TBStyler.ViewModels;
 
 class StyleViewModel : ObservableObject
 {

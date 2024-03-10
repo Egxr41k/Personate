@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TBStyler.WPF.ViewModels;
+namespace Personate.Modules.TBStyler.ViewModels;
 
 internal class AllViewModel : ObservableObject
 {

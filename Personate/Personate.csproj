@@ -49,4 +49,12 @@
     <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Modules\TBStyler\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Personate.Settings\Personate.Settings.csproj" />
+  </ItemGroup>
+
 </Project>

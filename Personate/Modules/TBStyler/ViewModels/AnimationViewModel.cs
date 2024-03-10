@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using TBStyler.Settings;
+using Personate.Settings;
+using Personate.Modules.TBStyler.Models;
 
-namespace TBStyler.WPF.ViewModels;
+namespace Personate.Modules.TBStyler.ViewModels;
 
 class AnimationViewModel : ObservableObject
 {
