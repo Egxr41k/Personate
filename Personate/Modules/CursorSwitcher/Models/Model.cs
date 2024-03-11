@@ -1,7 +1,7 @@
 ﻿using System.Windows.Media.Imaging;
 using Personate.General;
 
-namespace Personate.Modules.CursorSwitcher;
+namespace Personate.Modules.CursorSwitcher.Models;
 internal class Model
 {
     public BitmapImage Image { get; private set; }

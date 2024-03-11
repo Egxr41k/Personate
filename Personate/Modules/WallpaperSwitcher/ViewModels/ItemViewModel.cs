@@ -1,6 +1,7 @@
-﻿using System.Windows.Media.Imaging;
+﻿using Personate.Modules.WallpaperSwitcher.Models;
+using System.Windows.Media.Imaging;
 
-namespace Personate.Modules.WallpaperSwitcher;
+namespace Personate.Modules.WallpaperSwitcher.ViewModels;
 internal class ItemViewModel : ObservableObject
 {
     public Model Wallpaper { get; private set; }

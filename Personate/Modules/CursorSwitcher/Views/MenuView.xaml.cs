@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Personate.Modules.CursorSwitcher
+namespace Personate.Modules.CursorSwitcher.Views
 {
     /// <summary>
-    /// Interaction logic for CursorView.xaml
+    /// Interaction logic for CursorMenuView.xaml
     /// </summary>
-    public partial class DetailsView : UserControl
+    public partial class MenuView : UserControl
     {
-        public DetailsView()
+        public MenuView()
         {
             InitializeComponent();
         }

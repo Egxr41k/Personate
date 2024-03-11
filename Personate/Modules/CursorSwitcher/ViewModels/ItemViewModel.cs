@@ -1,6 +1,7 @@
-﻿using System.Windows.Media.Imaging;
+﻿using Personate.Modules.CursorSwitcher.Models;
+using System.Windows.Media.Imaging;
 
-namespace Personate.Modules.CursorSwitcher;
+namespace Personate.Modules.CursorSwitcher.ViewModels;
 internal class ItemViewModel : ObservableObject
 {
     public Model Cursor { get; private set; }

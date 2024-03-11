@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Personate.Modules.WallpaperSwitcher
+namespace Personate.Modules.WallpaperSwitcher.Views
 {
     /// <summary>
-    /// Interaction logic for WallCardView.xaml
+    /// Interaction logic for WallView.xaml
     /// </summary>
-    public partial class ItemView : UserControl
+    public partial class DetailsView : UserControl
     {
-        public ItemView()
+        public DetailsView()
         {
             InitializeComponent();
         }

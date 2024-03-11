@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 using Personate.General;
 
-namespace Personate.Modules.WallpaperSwitcher;
+namespace Personate.Modules.WallpaperSwitcher.Models;
 internal class Model
 {
     public BitmapImage Image { get; private set; }

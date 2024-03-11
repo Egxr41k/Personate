@@ -1,19 +1,21 @@
-﻿using System.Collections.Generic;
+﻿using Personate.General;
+using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using Personate.General;
 
-namespace Personate.Modules.WallpaperSwitcher;
+namespace Personate.Modules.CursorSwitcher.ViewModels;
 internal class MenuViewModel : ObservableObject
 {
-    private readonly static string WallpaperDirectory = MainViewModel.PersonateLibPath + "\\Wallpapers";
-    private readonly string[] PathToWallpapers = Directory.GetFiles(WallpaperDirectory);
+    private readonly static string CursorDirectory = MainViewModel.PersonateLibPath + "\\Cursors";
+    private readonly string[] PathToCursors = Directory.GetDirectories(CursorDirectory);
+    public static string PathToDefaultCursor = CursorDirectory + "\\default";
 
     private const int InitialItemsCount = 10;
     private const int ItemsToShowPerClick = 5;
 
     public RelayCommand UploadCommand { get; set; }
     public RelayCommand ShowMoreCommand { get; set; }
-    public RelayCommand ToDetailsCommand { get; set; }
+    public RelayCommand DetailsViewCommand { get; set; }
 
     public IEnumerable<ItemViewModel> Items => items;
     private readonly ObservableCollection<ItemViewModel> items = [];
@@ -25,7 +27,7 @@ internal class MenuViewModel : ObservableObject
         set
         {
             SetProperty(ref selectedItem, value);
-            ToDetailsCommand.Execute(null);
+            DetailsViewCommand.Execute(null);
         }
     }
 
@@ -35,18 +37,19 @@ internal class MenuViewModel : ObservableObject
         ShowMoreCommand = new(() => ShowItems(ItemsToShowPerClick));
     }
 
-    private void ShowItems(int itemsCount)
+    private void ShowItems(int ItemsCount)
     {
         int initialCount = items.Count;
-        int targetCount = initialCount + itemsCount;
-        int maxCount = PathToWallpapers.Length;
+        int targetCount = initialCount + ItemsCount;
+        int maxCount = PathToCursors.Length;
 
         for (int i = initialCount; i < targetCount; i++)
         {
             if (i == maxCount) break;
+            if (PathToCursors[i] == PathToDefaultCursor) continue;
 
-            Model wallpaper = new(PathToWallpapers[i]);
-            ItemViewModel item = new(wallpaper);
+            Model cursor = new(PathToCursors[i]);
+            ItemViewModel item = new(cursor);
             items.Add(item);
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace Personate.Modules.CursorSwitcher;
+﻿using Personate.Modules.CursorSwitcher.Models;
+
+namespace Personate.Modules.CursorSwitcher.ViewModels;
 internal class DetailsViewModel : ItemViewModel
 {
     public RelayCommand ToDefaultCommand { get; set; }

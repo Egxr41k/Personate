@@ -13,10 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Personate.Modules.CursorSwitcher
+namespace Personate.Modules.WallpaperSwitcher.Views
 {
     /// <summary>
-    /// Interaction logic for CursorMenuView.xaml
+    /// Interaction logic for WallsMenuView.xaml
     /// </summary>
     public partial class MenuView : UserControl
     {
