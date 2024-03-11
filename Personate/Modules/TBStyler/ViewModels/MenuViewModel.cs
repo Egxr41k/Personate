@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Personate.Settings;
+using Personate.Modules.TBStyler.Models;
 
 namespace Personate.Modules.TBStyler.ViewModels;
 
@@ -49,7 +50,7 @@ class MenuViewModel : ObservableObject
     public MenuViewModel()
     {
         settingsService = new SettingsService();
-        SettingsDTO defaultSettings = settingsService.Settings;
+        TaskbarSettingsDTO defaultSettings = settingsService.Settings.Taskbar;
 
         model = new MainModel(settingsService);
 
@@ -59,7 +60,7 @@ class MenuViewModel : ObservableObject
         BehaviorCommandsInit();
     }
 
-    private void SectionsInit(SettingsDTO settings)
+    private void SectionsInit(TaskbarSettingsDTO settings)
     {
         StyleSection = new StyleViewModel(settings);
         ColorPickerSection = new ColorPickerViewModel(settings);

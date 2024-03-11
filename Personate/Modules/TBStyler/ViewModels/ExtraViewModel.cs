@@ -122,8 +122,8 @@ class ExtraViewModel : ObservableObject
         }
 	}
 
-    private SettingsDTO settings { get; set; }
-    public ExtraViewModel(SettingsDTO settings)
+    private TaskbarSettingsDTO settings { get; set; }
+    public ExtraViewModel(TaskbarSettingsDTO settings)
 	{
 		this.settings = settings;
 

@@ -98,8 +98,8 @@ internal class ColorPickerViewModel : ObservableObject
     }
 
     public ICommand GetColorFromPixelCommand;
-    private SettingsDTO settings { get; set; }
-    public ColorPickerViewModel(SettingsDTO settings)
+    private TaskbarSettingsDTO settings { get; set; }
+    public ColorPickerViewModel(TaskbarSettingsDTO settings)
     {
         this.settings = settings;
 
@@ -110,10 +110,10 @@ internal class ColorPickerViewModel : ObservableObject
 
         GetColorFromPixelCommand = new RelayCommand(() =>
         {
-            new Thread(() =>
+            Task.Run(() =>
             {
-                ColorThread();
-            }).Start();
+                ColorTask();
+            });
         });
     }
 
@@ -154,7 +154,7 @@ internal class ColorPickerViewModel : ObservableObject
         );
     }
 
-    private void ColorThread()
+    private void ColorTask()
     {
         PointAPI lpPoint = new PointAPI();
         bool x = (GetAsyncKeyState(1) == 0);

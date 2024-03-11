@@ -101,8 +101,8 @@ class PositionViewModel : ObservableObject
         }
     }
 
-    private SettingsDTO settings { get; set; }
-    public PositionViewModel(SettingsDTO settings)
+    private TaskbarSettingsDTO settings { get; set; }
+    public PositionViewModel(TaskbarSettingsDTO settings)
     {
         this.settings = settings;
 

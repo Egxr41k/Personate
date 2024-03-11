@@ -103,8 +103,8 @@ class AnimationViewModel : ObservableObject
         }
     }
 
-    private SettingsDTO settings { get; set; }
-    public AnimationViewModel(SettingsDTO settings)
+    private TaskbarSettingsDTO settings { get; set; }
+    public AnimationViewModel(TaskbarSettingsDTO settings)
     {
         this.settings = settings;
 

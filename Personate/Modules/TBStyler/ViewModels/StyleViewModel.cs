@@ -103,8 +103,8 @@ class StyleViewModel : ObservableObject
         }
     }
 
-    private SettingsDTO settings { get; set; }
-    public StyleViewModel(SettingsDTO settings)
+    private TaskbarSettingsDTO settings { get; set; }
+    public StyleViewModel(TaskbarSettingsDTO settings)
     {
         this.settings = settings;
 

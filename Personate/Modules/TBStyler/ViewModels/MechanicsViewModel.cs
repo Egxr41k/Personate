@@ -48,8 +48,8 @@ class MechanicsViewModel : ObservableObject
 
     public ICommand MoreDetailsCommand;
 
-    private SettingsDTO settings { get; set; }
-    public MechanicsViewModel(SettingsDTO settings)
+    private TaskbarSettingsDTO settings { get; set; }
+    public MechanicsViewModel(TaskbarSettingsDTO settings)
     {
         this.settings = settings;
 
