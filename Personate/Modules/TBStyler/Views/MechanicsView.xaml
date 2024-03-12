@@ -11,7 +11,8 @@
             <StackPanel Orientation="Horizontal">
                 <TextBlock 
                     TextWrapping="Wrap" 
-                    Text="Refresh Rate(ms)" 
+                    Text="Refresh Rate(ms)"
+                    Foreground="White"
                     Width="150" 
                     />
                 <TextBox 
@@ -32,6 +33,7 @@
                     HorizontalAlignment="Left" 
                     TextWrapping="Wrap" 
                     Text="Refresh Rate OnBattery(ms)"
+                    Foreground="White"
                     VerticalAlignment="Top"
                     Width="150" 
                     />
@@ -47,6 +49,7 @@
                     HorizontalAlignment="Left" 
                     TextWrapping="Wrap" 
                     Text="Way to retrieve data"
+                    Foreground="White"
                     VerticalAlignment="Top"
                     Width="150" 
                     />

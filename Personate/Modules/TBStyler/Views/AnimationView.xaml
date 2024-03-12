@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Personate.TBStyler.Views"
+             xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
              mc:Ignorable="d"
              xmlns:ui="http://schemas.modernwpf.com/2019"
              Height="200" Width="500">
@@ -20,6 +20,7 @@
                     Width="150" 
                     TextWrapping="Wrap" 
                     Text="Animation Style" 
+                    Foreground="White"
                     />
                 <ComboBox 
                     Width="150"
@@ -35,7 +36,8 @@
                 <TextBlock 
                     Width="150" 
                     TextWrapping="Wrap" 
-                    Text="Animation Style OnBattery" 
+                    Text="Animation Style OnBattery"
+                    Foreground="White"
                     />
                 <ComboBox 
                     Width="150" 
@@ -51,7 +53,8 @@
                     Grid.ColumnSpan="2" 
                     Width="150" 
                     TextWrapping="Wrap" 
-                    Text="Animation Speed(ms)"  
+                    Text="Animation Speed(ms)"
+                    Foreground="White"
                     />
                 <TextBox
                     ToolTip="Set the speed of the Animation in milliseconds." 

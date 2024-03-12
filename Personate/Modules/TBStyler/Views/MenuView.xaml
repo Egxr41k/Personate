@@ -4,6 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
+             xmlns:view="clr-namespace:Personate.Modules.TBStyler.Views"
+             xmlns:viewmodel="clr-namespace:Personate.Modules.TBStyler.ViewModels"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>

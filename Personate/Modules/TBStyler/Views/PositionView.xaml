@@ -13,6 +13,7 @@
                     HorizontalAlignment="Left" 
                     TextWrapping="Wrap" 
                     Text="Primary Offset(px)" 
+                    Foreground="White"
                     VerticalAlignment="Top" 
                     Width="140" 
                     Grid.ColumnSpan="2" 
@@ -31,6 +32,7 @@
                     HorizontalAlignment="Left" 
                     TextWrapping="Wrap" 
                     Text="Secondary Offset(px)" 
+                    Foreground="White"
                     VerticalAlignment="Top" 
                     Grid.ColumnSpan="2" 
                     Width="140" 
@@ -38,7 +40,6 @@
                 <TextBox 
                     ToolTip="Set the offset position based on the center position for the secondary taskbar(s) in pixels. 
                         Use '-' for negative numbers." 
-                    x:Name="NumericUpDown2" 
                     HorizontalAlignment="Left" 
                     Text="{Binding SecondaryOffset, Mode=TwoWay}"  
                     VerticalAlignment="Top" 
@@ -51,6 +52,7 @@
                         HorizontalAlignment="Left" 
                         TextWrapping="Wrap" 
                         Text="Skip Resolution" 
+                        Foreground="White"
                         Width="140" 
                         />
                     <StackPanel>
@@ -81,22 +83,22 @@
                 <StackPanel HorizontalAlignment="Left">
                     <CheckBox 
                         ToolTip="Center between Start, Search etc... and the tray on the right with the clock, volume etc... (Keep the distance equal between them)" 
-                        x:Name="CheckBox1" 
                         Content="Compensate Tray Clock etc..." 
+                        Foreground="White"
                         Width="220" 
                         IsChecked="{Binding CompensateTrayClock, Mode=TwoWay}"
                         />
                     <CheckBox 
                         ToolTip="Stop TaskbarX from centering the Taskbar." 
                         Content="Don't center Taskbar" 
-                        x:Name="CheckBox11" 
+                        Foreground="White"
                         Width="220" 
                         IsChecked="{Binding DontCenter, Mode=TwoWay}"
                         />
                     <CheckBox 
                         ToolTip="Revert the taskbar back to the left when the icons start overlapping with the Tray area." 
-                        x:Name="CheckBox4_Copy" 
                         Content="Revert to zero beyond Tray" 
+                        Foreground="White"
                         Width="220" 
                         IsChecked="{Binding RevertToZeroBeyondTray, Mode=TwoWay}"
                         />

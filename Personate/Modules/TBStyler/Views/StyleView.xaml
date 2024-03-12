@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
              mc:Ignorable="d"
              Width="500" Height="250">
-    <Grid >
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="75"/>
             <RowDefinition/>
@@ -17,73 +17,58 @@
             <StackPanel Orientation="Horizontal">
                 <TextBlock 
                     Text="Style" 
-                    Margin="0" 
+                    Foreground="White"
                     Height="19" 
-                    Grid.ColumnSpan="2" 
                     />
                 <ComboBox
                     ItemsSource="{Binding Styles}"
                     SelectedItem="{Binding SelectedStyle}"
                     Margin="10, 0"
+                    Width="200"
                     />
             </StackPanel>
 
             <CheckBox 
                 ToolTip="Revert the taskbar to the default background when a window is maximized." 
-                x:Name="Checkbox10" 
                 Content="Switch back to Default on maximized window" 
-                Width="364" 
-                Grid.Row="0" 
-                Height="32" 
+                Foreground="White"
                 IsChecked="{Binding BackToDefault, Mode=TwoWay}"
                 />
         </StackPanel>
 
-        <StackPanel
-            Grid.Row="1"
-            >
-            <Label 
-                Content="Total Opacity" 
-                HorizontalAlignment="Left" 
-                VerticalAlignment="Top" 
-                FontWeight="Bold" 
-                />
-            <StackPanel
-                Orientation="Horizontal"
-                >
+        <StackPanel Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
                 <TextBlock 
                     TextWrapping="Wrap" 
                     Text="Primary taskbar(%)" 
+                    Foreground="White"
                     Height="19" 
                     Width="120" 
-                    Grid.Column="1" 
                     />
                 <TextBlock 
-                    x:Name="tpopla" 
                     TextWrapping="Wrap" 
                     Text="{Binding PrimaryOpacity}"
+                    Foreground="White"
                     Height="19" 
                     Width="30"
-                    Grid.Column="1" 
                     />
                 <Slider 
                     x:Name="tpop" 
                     VerticalAlignment="Top" 
                     Maximum="100" 
                     Foreground="#FF898989" 
-                    Height="32"
                     Width="200"
                     Grid.Column="1"
                     Value="{Binding PrimaryOpacity, Mode=TwoWay}"
+                    HorizontalAlignment="Right"
                     />
             </StackPanel>
 
-            <StackPanel
-                Orientation="Horizontal"
-                >
+            <StackPanel Orientation="Horizontal">
                 <TextBlock 
                     TextWrapping="Wrap" 
                     Text="Secondary taskbar(%)" 
+                    Foreground="White"
                     Height="19"
                     Width="120" 
                     Grid.Column="1" 
@@ -92,6 +77,7 @@
                     x:Name="tsopla" 
                     TextWrapping="Wrap" 
                     Text="{Binding SecondaryOpacity}" 
+                    Foreground="White"
                     Height="19" 
                     Width="30" 
                     Grid.Column="1" 
@@ -101,7 +87,6 @@
                     VerticalAlignment="Top" 
                     Maximum="100"  
                     Foreground="#FF898989" 
-                    Height="32"
                     Width="200"
                     Grid.Column="1" 
                     Value="{Binding SecondaryOpacity, Mode=TwoWay}" 
@@ -109,27 +94,26 @@
             </StackPanel>
         </StackPanel>
 
-        <StackPanel
-            Grid.Row="2">
+        <StackPanel Grid.Row="2">
             <CheckBox
-                x:Name="tbsegments" 
                 ToolTip="Only show taskbar background on taskbar icons."
                 Content="Separate to Segments" 
+                Foreground="White"
                 Width="200" 
-                Height="32" 
                 IsChecked="{Binding SeparateToSegments, Mode=TwoWay}"
-                />
-            <StackPanel Orientation="Horizontal"
-                >
+                HorizontalAlignment="Left"/>
+            <StackPanel Orientation="Horizontal">
                 <TextBlock
                     TextWrapping="Wrap" 
                     Text="Corner Radius(px)"
+                    Foreground="White"
                     Height="19" 
                     Width="120" 
                     />
                 <TextBlock
                     TextWrapping="Wrap" 
                     Text="{Binding CornerRadius}"
+                    Foreground="White"
                     Height="19" 
                     Width="30" 
                     />
@@ -137,9 +121,7 @@
                     x:Name="tbrounding" 
                     Maximum="20" 
                     Foreground="#FF898989" 
-                    Height="32"
-                    Width="200"
-                    Grid.Column="1" 
+                    Width="200" 
                     Value="{Binding CornerRadius, Mode=TwoWay}"
                     />
             </StackPanel>
