@@ -13,17 +13,16 @@
                     TextWrapping="Wrap" 
                     Text="Refresh Rate(ms)"
                     Foreground="White"
-                    Width="150" 
+                    Width="450" 
                     />
                 <TextBox 
                     ToolTip="TaskbarX uses a looper to detect changes in the taskbar. 
                         The delay is 400ms by default. 
                         Making it faster will make TaskbarX respond faster to a change but, 
                         will increase CPU Usage." 
-                    x:Name="NumericUpDown3" 
                     Text="{Binding RefreshRate, Mode=TwoWay}" 
                     VerticalAlignment="Top" 
-                    Width="65" 
+                    Width="50" 
                     
                     />
             </StackPanel>
@@ -35,13 +34,13 @@
                     Text="Refresh Rate OnBattery(ms)"
                     Foreground="White"
                     VerticalAlignment="Top"
-                    Width="150" 
+                    Width="450" 
                     />
                 <TextBox
                     ToolTip="Override the Refresh Rate when your laptop is running on battery." 
                     x:Name="NumericUpDown5" 
                     Text="{Binding RefreshRateOnBattery, Mode=TwoWay}" 
-                    Width="65"  
+                    Width="50"  
                     />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
@@ -56,13 +55,16 @@
                 <Button Content="More Details" 
                     Grid.Column="1" 
                     HorizontalAlignment="Left" 
-                    Width="100" 
+                    Width="100"
+                    Margin="75,0"
                     Command="{Binding MoreDetailsCommand}"
                     />
                 <ComboBox
                     ItemsSource="{Binding WaysToRetriveData}"
                     SelectedItem="{Binding SelectedWayToRetriveData}"
-                    IsEnabled="False"/>
+                    IsEnabled="False"
+                    Width="100"
+                    />
             </StackPanel>
         </StackPanel>
     </Grid>

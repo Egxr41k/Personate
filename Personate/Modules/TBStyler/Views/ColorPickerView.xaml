@@ -41,7 +41,6 @@
                 Command="{Binding GetColorFromPixelCommand}"
                 />
             <TextBox 
-                x:Name="hexcolorbox" 
                 Height="23" 
                 TextWrapping="Wrap" 
                 Text="{Binding HexValue, Mode=TwoWay}" 
@@ -53,26 +52,25 @@
             Grid.Row="0"
             Grid.Column="1"
             Orientation="Horizontal"
+            Margin="10,0,0,0"
             >
             <TextBlock 
                 Height="19" 
                 Width="60"
-                TextAlignment="Center"                 
                 TextWrapping="Wrap" 
                 Text="Red"
                 Foreground="White"
                 />
             <TextBlock 
-                x:Name="tRed" 
                 TextWrapping="Wrap" 
                 Text="{Binding RedValue}" 
-                Height="19" 
-                Width="20"
+                Height="18" 
+                Width="80"
                 Foreground="White"
                 />
             <Slider 
                 x:Name="sRed" 
-                Width="255" 
+                Width="200" 
                 Maximum="255" 
                 Foreground="#FFD70000" 
                 Height="32"
@@ -84,26 +82,25 @@
             Grid.Row="1"
             Grid.Column="1"
             Orientation="Horizontal"
+            Margin="10,0,0,0"
+
             >
             <TextBlock 
                 TextWrapping="Wrap" 
-                TextAlignment="Center"
                 Text="Green"
                 Foreground="White"
                 Height="19" 
                 Width="60" 
                 />
             <TextBlock 
-                x:Name="tGreen" 
                 Height="19" 
-                Width="20" 
+                Width="80"
                 TextWrapping="Wrap" 
                 Text="{Binding GreenValue}"
                 Foreground="White"
                 />
             <Slider 
-                x:Name="sGreen" 
-                Width="255" 
+                Width="200" 
                 Height="32" 
                 Maximum="255"
                 Foreground="#FF29B01C" 
@@ -115,26 +112,24 @@
             Grid.Row="2"
             Grid.Column="1"
             Orientation="Horizontal"
+            Margin="10,0,0,0"
             >
             <TextBlock 
                 TextWrapping="Wrap" 
-                TextAlignment="Center"
                 Text="Blue"
                 Foreground="White"
                 Height="19" 
                 Width="60" 
                 />
             <TextBlock 
-                x:Name="tBlue" 
                 TextWrapping="Wrap" 
                 Text="{Binding BlueValue}"
                 Foreground="White"
                 Height="19" 
-                Width="20" 
+                Width="80"
                 />
             <Slider 
-                x:Name="sBlue" 
-                Width="255" 
+                Width="200" 
                 Height="32"                 
                 Maximum="255" 
                 Foreground="#FF0023FF"
@@ -146,26 +141,24 @@
             Grid.Row="3"
             Grid.Column="1"
             Orientation="Horizontal"
+            Margin="10,0,0,0"
             >
             <TextBlock 
                 TextWrapping="Wrap" 
-                TextAlignment="Center"
                 Text="Alpha"
                 Foreground="White"
                 Height="19" 
                 Width="60" 
                 />
             <TextBlock 
-                x:Name="tAlpha" 
                 TextWrapping="Wrap" 
                 Text="{Binding AlphaValue}"
                 Foreground="White"
                 Height="19" 
-                Width="20" 
+                Width="80"
                 />
             <Slider 
-                x:Name="sAlpha" 
-                Width="255" 
+                Width="200" 
                 Height="32" 
                 Maximum="255" 
                 Foreground="#FF898989"

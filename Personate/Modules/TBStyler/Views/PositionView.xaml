@@ -15,16 +15,15 @@
                     Text="Primary Offset(px)" 
                     Foreground="White"
                     VerticalAlignment="Top" 
-                    Width="140" 
+                    Width="450" 
                     Grid.ColumnSpan="2" 
                     />
                 <TextBox 
                     ToolTip="Set the offset position based on the center position for the primary taskbar in pixels. Use '-' for negative numbers." 
-                    x:Name="NumericUpDown1" 
                     HorizontalAlignment="Left" 
                     Text="{Binding PrimaryOffset, Mode=TwoWay}"  
                     VerticalAlignment="Top" 
-                    Width="80" 
+                    Width="50" 
                     />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
@@ -35,7 +34,7 @@
                     Foreground="White"
                     VerticalAlignment="Top" 
                     Grid.ColumnSpan="2" 
-                    Width="140" 
+                    Width="450" 
                     />
                 <TextBox 
                     ToolTip="Set the offset position based on the center position for the secondary taskbar(s) in pixels. 
@@ -43,7 +42,7 @@
                     HorizontalAlignment="Left" 
                     Text="{Binding SecondaryOffset, Mode=TwoWay}"  
                     VerticalAlignment="Top" 
-                    Width="80" 
+                    Width="50" 
                     />
             </StackPanel>
             <StackPanel>
@@ -53,30 +52,27 @@
                         TextWrapping="Wrap" 
                         Text="Skip Resolution" 
                         Foreground="White"
-                        Width="140" 
+                        Width="450" 
                         />
                     <StackPanel>
                         <TextBox 
                             ToolTip="If your resolutions width becomes this value in pixels then TaskbarX will pause and put the icons back to the left. If it changes then it will start centering the icons again." 
-                            x:Name="NumericUpDown7"
                             HorizontalAlignment="Left" 
                             Text="{Binding FirstSkipResiolution, Mode=TwoWay}"  
-                            Width="80" 
+                            Width="50" 
                             />
                         <TextBox
                             ToolTip="If your resolutions width becomes this value in pixels then TaskbarX will pause and put the icons back to the left. If it changes then it will start centering the icons again." 
-                            x:Name="NumericUpDown7_Copy" 
                             HorizontalAlignment="Left" 
                             Text="{Binding SecondSkipResiolution, Mode=TwoWay}"  
-                            Width="80" 
+                            Width="50" 
                             />
                         <TextBox
                             ToolTip="If your resolutions width becomes this value in pixels then TaskbarX will pause and put the icons back to the left. If it changes then it will start centering the icons again." 
-                            x:Name="NumericUpDown7_Copy1" 
                             Text="{Binding ThirdSkipResiolution, Mode=TwoWay}"  
                             HorizontalAlignment="Left" 
                             VerticalAlignment="Top"
-                            Width="80" 
+                            Width="50" 
                             />
                     </StackPanel>
                 </StackPanel>

@@ -53,7 +53,7 @@ namespace Personate.Modules.Settings {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Personate;component/modules/settings/settingsview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Personate;V1.0.0.0;component/modules/settings/settingsview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Modules\Settings\SettingsView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
