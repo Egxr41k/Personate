@@ -1,0 +1,121 @@
+﻿<UserControl x:Class="Personate.Modules.TBStyler.Views.PositionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
+             mc:Ignorable="d" Width="780">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Grid.Row="0"
+            Text="Position"
+            Foreground="White"
+            FontSize="20"
+            />
+        <Border
+            Grid.Row="1"
+            Style="{StaticResource DarkBg}"
+            >
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20,5">
+                    <TextBlock 
+                        HorizontalAlignment="Left" 
+                        TextWrapping="Wrap" 
+                        Text="Primary Offset(px)" 
+                        Foreground="White"
+                        VerticalAlignment="Top" 
+                        Width="670" 
+                        Grid.ColumnSpan="2" 
+                        />
+                    <TextBox 
+                        ToolTip="Set the offset position based on the center position for the primary taskbar in pixels. Use '-' for negative numbers." 
+                        HorizontalAlignment="Left" 
+                        Text="{Binding PrimaryOffset, Mode=TwoWay}"  
+                        VerticalAlignment="Top" 
+                        Width="50" 
+                        />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20,5">
+                    <TextBlock 
+                        HorizontalAlignment="Left" 
+                        TextWrapping="Wrap" 
+                        Text="Secondary Offset(px)" 
+                        Foreground="White"
+                        VerticalAlignment="Top" 
+                        Grid.ColumnSpan="2" 
+                        Width="670" 
+                        />
+                    <TextBox 
+                        ToolTip="Set the offset position based on the center position for the secondary taskbar(s) in pixels. 
+                            Use '-' for negative numbers." 
+                        HorizontalAlignment="Left" 
+                        Text="{Binding SecondaryOffset, Mode=TwoWay}"  
+                        VerticalAlignment="Top" 
+                        Width="50" 
+                        />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="20,5">
+                        <TextBlock 
+                            HorizontalAlignment="Left" 
+                            TextWrapping="Wrap" 
+                            Text="Skip Resolution" 
+                            Foreground="White"
+                            Width="670" 
+                            />
+                        <StackPanel>
+                            <TextBox 
+                                ToolTip="If your resolutions width becomes this value in pixels then TaskbarX will pause and put the icons back to the left. If it changes then it will start centering the icons again." 
+                                HorizontalAlignment="Left" 
+                                Text="{Binding FirstSkipResiolution, Mode=TwoWay}"  
+                                Width="50" 
+                                />
+                            <TextBox
+                                ToolTip="If your resolutions width becomes this value in pixels then TaskbarX will pause and put the icons back to the left. If it changes then it will start centering the icons again." 
+                                HorizontalAlignment="Left" 
+                                Text="{Binding SecondSkipResiolution, Mode=TwoWay}"  
+                                Width="50" 
+                                Margin="0, 5"
+                                />
+                            <TextBox
+                                ToolTip="If your resolutions width becomes this value in pixels then TaskbarX will pause and put the icons back to the left. If it changes then it will start centering the icons again." 
+                                Text="{Binding ThirdSkipResiolution, Mode=TwoWay}"  
+                                HorizontalAlignment="Left" 
+                                VerticalAlignment="Top"
+                                Width="50" 
+                                />
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Left">
+                        <CheckBox 
+                            ToolTip="Center between Start, Search etc... and the tray on the right with the clock, volume etc... (Keep the distance equal between them)" 
+                            Content="Compensate Tray Clock etc..." 
+                            Foreground="White"
+                            Width="220" 
+                            Margin="20,5"
+                            IsChecked="{Binding CompensateTrayClock, Mode=TwoWay}"
+                            />
+                        <CheckBox 
+                            ToolTip="Stop TaskbarX from centering the Taskbar." 
+                            Content="Don't center Taskbar" 
+                            Foreground="White"
+                            Width="220" 
+                            Margin="20,5"
+                            IsChecked="{Binding DontCenter, Mode=TwoWay}"
+                            />
+                        <CheckBox 
+                            ToolTip="Revert the taskbar back to the left when the icons start overlapping with the Tray area." 
+                            Content="Revert to zero beyond Tray" 
+                            Foreground="White"
+                            Width="220" 
+                            Margin="20,5"
+                            IsChecked="{Binding RevertToZeroBeyondTray, Mode=TwoWay}"
+                            />
+                    </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

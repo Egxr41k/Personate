@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Egxr41k\Desktop\Personate\Personate\App.xaml
-17349324677
+25-1751990421
 9-871379067
-25869932510
-202-1522918422
-CustomTitleBar.xaml;General\MainWindow.xaml;Modules\CursorSwitcher\DetailsView.xaml;Modules\CursorSwitcher\ItemView.xaml;Modules\CursorSwitcher\MenuView.xaml;Modules\Home\HomeView.xaml;Modules\Settings\SettingsView.xaml;Modules\WallpaperSwitcher\DetailsView.xaml;Modules\WallpaperSwitcher\ItemView.xaml;Modules\WallpaperSwitcher\MenuView.xaml;Themes\DarkUI\DarkBg.xaml;Themes\DarkUI\DarkBtn.xaml;Themes\DarkUI\DarkMenu.xaml;Themes\DarkUI\DarkScrollBar.xaml;Themes\DarkUI\DarkText.xaml;Themes\DarkUI\DarkTitle.xaml;Themes\General\IconsTheme.xaml;
+43126651945
+203-441358126
+CustomTitleBar.xaml;General\MainWindow.xaml;Modules\CursorSwitcher\Views\DetailsView.xaml;Modules\CursorSwitcher\Views\ItemView.xaml;Modules\CursorSwitcher\Views\MenuView.xaml;Modules\Home\HomeView.xaml;Modules\Settings\SettingsView.xaml;Modules\TBStyler\Views\AllView.xaml;Modules\TBStyler\Views\AnimationView.xaml;Modules\TBStyler\Views\ColorPickerView.xaml;Modules\TBStyler\Views\ExtraView.xaml;Modules\TBStyler\Views\MechanicsView.xaml;Modules\TBStyler\Views\MenuView.xaml;Modules\TBStyler\Views\PositionView.xaml;Modules\TBStyler\Views\StyleView.xaml;Modules\WallpaperSwitcher\Views\DetailsView.xaml;Modules\WallpaperSwitcher\Views\ItemView.xaml;Modules\WallpaperSwitcher\Views\MenuView.xaml;Themes\DarkUI\DarkBg.xaml;Themes\DarkUI\DarkBtn.xaml;Themes\DarkUI\DarkMenu.xaml;Themes\DarkUI\DarkScrollBar.xaml;Themes\DarkUI\DarkText.xaml;Themes\DarkUI\DarkTitle.xaml;Themes\General\IconsTheme.xaml;
 
 False
 

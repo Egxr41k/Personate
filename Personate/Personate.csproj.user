@@ -7,16 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Modules\CursorSwitcher\ItemView.xaml.cs">
+    <Compile Update="Modules\CursorSwitcher\Views\ItemView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Modules\CursorSwitcher\MenuView.xaml.cs">
+    <Compile Update="Modules\CursorSwitcher\Views\MenuView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Modules\CursorSwitcher\DetailsView.xaml.cs">
+    <Compile Update="Modules\CursorSwitcher\Views\DetailsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Modules\WallpaperSwitcher\ItemView.xaml.cs">
+    <Compile Update="Modules\TBStyler\Views\MenuView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Modules\WallpaperSwitcher\Views\ItemView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -24,16 +27,19 @@
     <Page Update="CustomTitleBar.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Modules\CursorSwitcher\ItemView.xaml">
+    <Page Update="Modules\CursorSwitcher\Views\ItemView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Modules\CursorSwitcher\MenuView.xaml">
+    <Page Update="Modules\CursorSwitcher\Views\MenuView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Modules\CursorSwitcher\DetailsView.xaml">
+    <Page Update="Modules\CursorSwitcher\Views\DetailsView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Modules\WallpaperSwitcher\ItemView.xaml">
+    <Page Update="Modules\TBStyler\Views\MenuView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Modules\WallpaperSwitcher\Views\ItemView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
