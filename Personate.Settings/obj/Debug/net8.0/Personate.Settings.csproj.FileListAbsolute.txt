@@ -1,0 +1,12 @@
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\bin\Debug\net8.0\Personate.Settings.deps.json
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\bin\Debug\net8.0\Personate.Settings.dll
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\bin\Debug\net8.0\Personate.Settings.pdb
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\obj\Debug\net8.0\Personate.Settings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\obj\Debug\net8.0\Personate.Settings.AssemblyInfoInputs.cache
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\obj\Debug\net8.0\Personate.Settings.AssemblyInfo.cs
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\obj\Debug\net8.0\Personate.Settings.csproj.CoreCompileInputs.cache
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\obj\Debug\net8.0\Personate.Settings.sourcelink.json
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\obj\Debug\net8.0\Personate.Settings.dll
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\obj\Debug\net8.0\refint\Personate.Settings.dll
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\obj\Debug\net8.0\Personate.Settings.pdb
+C:\Users\Egxr41k\Desktop\Personate\Personate.Settings\obj\Debug\net8.0\ref\Personate.Settings.dll

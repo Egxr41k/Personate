@@ -1,0 +1,14 @@
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\obj\Debug\net8.0-windows\TaskbarStyler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\obj\Debug\net8.0-windows\TaskbarStyler.AssemblyInfoInputs.cache
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\obj\Debug\net8.0-windows\TaskbarStyler.AssemblyInfo.cs
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\obj\Debug\net8.0-windows\TaskbarStyler.csproj.CoreCompileInputs.cache
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\bin\Debug\net8.0-windows\TaskbarStyler.exe
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\bin\Debug\net8.0-windows\TaskbarStyler.deps.json
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\bin\Debug\net8.0-windows\TaskbarStyler.runtimeconfig.json
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\bin\Debug\net8.0-windows\TaskbarStyler.dll
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\bin\Debug\net8.0-windows\TaskbarStyler.pdb
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\obj\Debug\net8.0-windows\TaskbarStyler.dll
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\obj\Debug\net8.0-windows\refint\TaskbarStyler.dll
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\obj\Debug\net8.0-windows\TaskbarStyler.pdb
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\obj\Debug\net8.0-windows\TaskbarStyler.genruntimeconfig.cache
+C:\Users\Egxr41k\Desktop\TaskbarStyler\TaskbarStyler\obj\Debug\net8.0-windows\ref\TaskbarStyler.dll
