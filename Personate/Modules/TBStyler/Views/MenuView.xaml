@@ -21,26 +21,32 @@
             >
             <Button
                 Content="All"
+                Style="{StaticResource DarkMenuBtn}"
                 Command="{Binding ToAllCommand}"
                 />
             <Button
                 Content="Appearance"
+                Style="{StaticResource DarkMenuBtn}"
                 Command="{Binding ToStyleCommand}"
                 />
             <Button
                 Content="Animation"
+                Style="{StaticResource DarkMenuBtn}"
                 Command="{Binding ToAnimationCommand}"
                 />
             <Button
                 Content="Position"
+                Style="{StaticResource DarkMenuBtn}"
                 Command="{Binding ToPositionCommand}"
                 />
             <Button
                 Content="Extra"
+                Style="{StaticResource DarkMenuBtn}"
                 Command="{Binding ToExtraCommand}"
                 />
             <Button
                 Content="Mechanics"
+                Style="{StaticResource DarkMenuBtn}"
                 Command="{Binding ToMechanicsCommand}"
                 />
         </StackPanel>

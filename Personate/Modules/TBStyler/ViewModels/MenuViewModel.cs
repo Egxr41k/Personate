@@ -77,7 +77,7 @@ class MenuViewModel : ObservableObject
             ExtraSection,
             MechanicsSection
         );
-        CurrentSection = StyleSection;
+        CurrentSection = AllSection;
     }
 
     private void MenuCommandsInit()

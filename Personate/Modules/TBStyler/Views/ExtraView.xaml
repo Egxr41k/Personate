@@ -5,74 +5,89 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
              mc:Ignorable="d"
-             Height="350" Width="500">
+             Height="200" Width="500">
     <Grid>
-        <StackPanel HorizontalAlignment="Left">
-            <CheckBox 
-                ToolTip="Only center the primary/default taskbar on your main monitor." 
-                Content="Only Center Primary Taskbar" 
-                Foreground="White"
-                IsChecked="{Binding OnlyCenterPrimaryTaskbar, Mode=TwoWay}"
-                />
-            <CheckBox 
-                ToolTip="Only center the secondary taskbar(s) on your secondary monitor(s)." 
-                Content="Only Center Secondary Taskbar" 
-                Foreground="White"
-                IsChecked="{Binding OnlyCenterSecondaryTaskbar, Mode=TwoWay}"
-                />
-            <CheckBox 
-                ToolTip="Do you have custom toolbars like NetSpeedMonitor?
-                    Enable this to update the toolbars position when the size of the tray changes." 
-                Content="Update Taskbar Toolbars" 
-                Foreground="White"
-                IsChecked="{Binding UpdateTaskbarToolbars, Mode=TwoWay}"
-                />
-            <CheckBox 
-                ToolTip="Are you a gamer? 
-                    Well MSAA may interfere with your game while playing. 
-                    It can cause keyboard ghosting in some games. 
-                    Enable this to Pause TaskbarX when you are running a game in fullscreen." 
-                Content="Pause looper when fullscreen app is running" 
-                Foreground="White"
-                IsChecked="{Binding PauseLooperWhenFullScreen, Mode=TwoWay}"                
-                />
-            <CheckBox 
-                ToolTip="Hide the Primary Start button." 
-                Content="Hide Primary Start button"
-                Foreground="White"
-                IsChecked="{Binding HidePrimaryStartButton, Mode=TwoWay}"                                
-                />
-            <CheckBox 
-                ToolTip="Hide the Secondary Start button." 
-                Content="Hide Secondary Start button" 
-                Foreground="White"
-                IsChecked="{Binding HideSecondaryStartButton, Mode=TwoWay}"                                                
-                />
-            <CheckBox 
-                ToolTip="Hide the Primary Tray area with the clock."
-                Content="Hide Primary Tray area" 
-                Foreground="White"
-                IsChecked="{Binding HidePrimaryTrayArea, Mode=TwoWay}"                                                                
-                />
-            <CheckBox 
-                ToolTip="Hide the Secondary Tray area with the clock." 
-                Content="Hide Secondary Tray area" 
-                Foreground="White"
-                IsChecked="{Binding HideSecondaryTrayArea, Mode=TwoWay}"                                                                
-                />
-            <CheckBox  
-                ToolTip="Show console output for debugging." 
-                Content="Show Console"
-                Foreground="White"
-                IsChecked="{Binding ShowConsole, Mode=TwoWay}"                                                                                
-                />
-            <CheckBox 
-                ToolTip="Show a trayicon to quickly restart and stop TaskbarX." 
-                Content="Show Tray icon" 
-                Foreground="White"
-                Visibility="{Binding EnableToShowTrayIcon, Mode=TwoWay}"
-                IsChecked="{Binding ShowTrayIcon}"
-                />
-        </StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Grid.Row="0"
+            Text="Extra"
+            Foreground="White"
+            FontSize="20"
+            />
+        <Border
+            Grid.Row="1"
+            Style="{StaticResource DarkBg}"
+            >
+            <StackPanel HorizontalAlignment="Left">
+                <CheckBox 
+                    ToolTip="Only center the primary/default taskbar on your main monitor." 
+                    Content="Only Center Primary Taskbar" 
+                    Foreground="White"
+                    IsChecked="{Binding OnlyCenterPrimaryTaskbar, Mode=TwoWay}"
+                    />
+                <CheckBox 
+                    ToolTip="Only center the secondary taskbar(s) on your secondary monitor(s)." 
+                    Content="Only Center Secondary Taskbar" 
+                    Foreground="White"
+                    IsChecked="{Binding OnlyCenterSecondaryTaskbar, Mode=TwoWay}"
+                    />
+                <CheckBox 
+                    ToolTip="Do you have custom toolbars like NetSpeedMonitor?
+                        Enable this to update the toolbars position when the size of the tray changes." 
+                    Content="Update Taskbar Toolbars" 
+                    Foreground="White"
+                    IsChecked="{Binding UpdateTaskbarToolbars, Mode=TwoWay}"
+                    />
+                <CheckBox 
+                    ToolTip="Are you a gamer? 
+                        Well MSAA may interfere with your game while playing. 
+                        It can cause keyboard ghosting in some games. 
+                        Enable this to Pause TaskbarX when you are running a game in fullscreen." 
+                    Content="Pause looper when fullscreen app is running" 
+                    Foreground="White"
+                    IsChecked="{Binding PauseLooperWhenFullScreen, Mode=TwoWay}"                
+                    />
+                <CheckBox 
+                    ToolTip="Hide the Primary Start button." 
+                    Content="Hide Primary Start button"
+                    Foreground="White"
+                    IsChecked="{Binding HidePrimaryStartButton, Mode=TwoWay}"                                
+                    />
+                <CheckBox 
+                    ToolTip="Hide the Secondary Start button." 
+                    Content="Hide Secondary Start button" 
+                    Foreground="White"
+                    IsChecked="{Binding HideSecondaryStartButton, Mode=TwoWay}"                                                
+                    />
+                <CheckBox 
+                    ToolTip="Hide the Primary Tray area with the clock."
+                    Content="Hide Primary Tray area" 
+                    Foreground="White"
+                    IsChecked="{Binding HidePrimaryTrayArea, Mode=TwoWay}"                                                                
+                    />
+                <CheckBox 
+                    ToolTip="Hide the Secondary Tray area with the clock." 
+                    Content="Hide Secondary Tray area" 
+                    Foreground="White"
+                    IsChecked="{Binding HideSecondaryTrayArea, Mode=TwoWay}"                                                                
+                    />
+                <CheckBox  
+                    ToolTip="Show console output for debugging." 
+                    Content="Show Console"
+                    Foreground="White"
+                    IsChecked="{Binding ShowConsole, Mode=TwoWay}"                                                                                
+                    />
+                <CheckBox 
+                    ToolTip="Show a trayicon to quickly restart and stop TaskbarX." 
+                    Content="Show Tray icon" 
+                    Foreground="White"
+                    Visibility="{Binding EnableToShowTrayIcon, Mode=TwoWay}"
+                    IsChecked="{Binding ShowTrayIcon}"
+                    />
+            </StackPanel>
+        </Border>
     </Grid>
 </UserControl>

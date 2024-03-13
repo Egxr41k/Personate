@@ -4,166 +4,183 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
-             mc:Ignorable="d" Height="200" Width="500">
+             mc:Ignorable="d" Height="250" Width="500">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="30"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="150"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-
-        <Rectangle 
-            x:Name="colorprev"
+        <TextBlock
             Grid.Row="0"
-            Grid.RowSpan="3"
-            Height="150"  
-            Width="150" 
-            Fill="{Binding PreviewColor}" 
+            Text="Color"
+            Foreground="White"
+            FontSize="20"
             />
-
-        <StackPanel
-            Grid.Row="3"
-            Orientation="Horizontal"
-            HorizontalAlignment="Center"
-            >
-            <Button 
-                ToolTip="Pick a color from the screen. 
-                    (Left click to pick a color on the screen from your mouse cursor.)" 
-                FontFamily="Segoe MDL2 Assets" 
-                Content="&#xEF3C;" 
-                Width="33" 
-                Margin="10"
-                Command="{Binding GetColorFromPixelCommand}"
-                />
-            <TextBox 
-                Height="23" 
-                TextWrapping="Wrap" 
-                Text="{Binding HexValue, Mode=TwoWay}" 
-                Width="76" 
-                />
-        </StackPanel>
-
-        <StackPanel
-            Grid.Row="0"
-            Grid.Column="1"
-            Orientation="Horizontal"
-            Margin="10,0,0,0"
-            >
-            <TextBlock 
-                Height="19" 
-                Width="60"
-                TextWrapping="Wrap" 
-                Text="Red"
-                Foreground="White"
-                />
-            <TextBlock 
-                TextWrapping="Wrap" 
-                Text="{Binding RedValue}" 
-                Height="18" 
-                Width="80"
-                Foreground="White"
-                />
-            <Slider 
-                x:Name="sRed" 
-                Width="200" 
-                Maximum="255" 
-                Foreground="#FFD70000" 
-                Height="32"
-                Value="{Binding RedValue, Mode=TwoWay}"
-                />
-        </StackPanel>
-
-        <StackPanel
+        <Border
             Grid.Row="1"
-            Grid.Column="1"
-            Orientation="Horizontal"
-            Margin="10,0,0,0"
-
+            Style="{StaticResource DarkBg}"
             >
-            <TextBlock 
-                TextWrapping="Wrap" 
-                Text="Green"
-                Foreground="White"
-                Height="19" 
-                Width="60" 
-                />
-            <TextBlock 
-                Height="19" 
-                Width="80"
-                TextWrapping="Wrap" 
-                Text="{Binding GreenValue}"
-                Foreground="White"
-                />
-            <Slider 
-                Width="200" 
-                Height="32" 
-                Maximum="255"
-                Foreground="#FF29B01C" 
-                Value="{Binding GreenValue, Mode=TwoWay}"
-                />
-        </StackPanel>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
 
-        <StackPanel
-            Grid.Row="2"
-            Grid.Column="1"
-            Orientation="Horizontal"
-            Margin="10,0,0,0"
-            >
-            <TextBlock 
-                TextWrapping="Wrap" 
-                Text="Blue"
-                Foreground="White"
-                Height="19" 
-                Width="60" 
-                />
-            <TextBlock 
-                TextWrapping="Wrap" 
-                Text="{Binding BlueValue}"
-                Foreground="White"
-                Height="19" 
-                Width="80"
-                />
-            <Slider 
-                Width="200" 
-                Height="32"                 
-                Maximum="255" 
-                Foreground="#FF0023FF"
-                Value="{Binding BlueValue, Mode=TwoWay}"
-                />
-        </StackPanel>
+                <Rectangle 
+                    x:Name="colorprev"
+                    Grid.Row="0"
+                    Grid.RowSpan="3"
+                    Height="150"  
+                    Width="150" 
+                    Fill="{Binding PreviewColor}" 
+                    />
 
-        <StackPanel
-            Grid.Row="3"
-            Grid.Column="1"
-            Orientation="Horizontal"
-            Margin="10,0,0,0"
-            >
-            <TextBlock 
-                TextWrapping="Wrap" 
-                Text="Alpha"
-                Foreground="White"
-                Height="19" 
-                Width="60" 
-                />
-            <TextBlock 
-                TextWrapping="Wrap" 
-                Text="{Binding AlphaValue}"
-                Foreground="White"
-                Height="19" 
-                Width="80"
-                />
-            <Slider 
-                Width="200" 
-                Height="32" 
-                Maximum="255" 
-                Foreground="#FF898989"
-                Value="{Binding AlphaValue, Mode=TwoWay}"
-                />
-        </StackPanel>
+                <StackPanel
+                    Grid.Row="3"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    >
+                    <Button 
+                        ToolTip="Pick a color from the screen. 
+                            (Left click to pick a color on the screen from your mouse cursor.)" 
+                        FontFamily="Segoe MDL2 Assets" 
+                        Content="&#xEF3C;" 
+                        Width="33" 
+                        Margin="10"
+                        Command="{Binding GetColorFromPixelCommand}"
+                        />
+                    <TextBox 
+                        Height="23" 
+                        TextWrapping="Wrap" 
+                        Text="{Binding HexValue, Mode=TwoWay}" 
+                        Width="76" 
+                        />
+                </StackPanel>
+
+                <StackPanel
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Orientation="Horizontal"
+                    Margin="10,0,0,0"
+                    >
+                    <TextBlock 
+                        Height="19" 
+                        Width="60"
+                        TextWrapping="Wrap" 
+                        Text="Red"
+                        Foreground="White"
+                        />
+                    <TextBlock 
+                        TextWrapping="Wrap" 
+                        Text="{Binding RedValue}" 
+                        Height="18" 
+                        Width="80"
+                        Foreground="White"
+                        />
+                    <Slider 
+                        x:Name="sRed" 
+                        Width="200" 
+                        Maximum="255" 
+                        Foreground="#FFD70000" 
+                        Height="32"
+                        Value="{Binding RedValue, Mode=TwoWay}"
+                        />
+                </StackPanel>
+
+                <StackPanel
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Orientation="Horizontal"
+                    Margin="10,0,0,0"
+
+                    >
+                    <TextBlock 
+                        TextWrapping="Wrap" 
+                        Text="Green"
+                        Foreground="White"
+                        Height="19" 
+                        Width="60" 
+                        />
+                    <TextBlock 
+                        Height="19" 
+                        Width="80"
+                        TextWrapping="Wrap" 
+                        Text="{Binding GreenValue}"
+                        Foreground="White"
+                        />
+                    <Slider 
+                        Width="200" 
+                        Height="32" 
+                        Maximum="255"
+                        Foreground="#FF29B01C" 
+                        Value="{Binding GreenValue, Mode=TwoWay}"
+                        />
+                </StackPanel>
+
+                <StackPanel
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Orientation="Horizontal"
+                    Margin="10,0,0,0"
+                    >
+                    <TextBlock 
+                        TextWrapping="Wrap" 
+                        Text="Blue"
+                        Foreground="White"
+                        Height="19" 
+                        Width="60" 
+                        />
+                    <TextBlock 
+                        TextWrapping="Wrap" 
+                        Text="{Binding BlueValue}"
+                        Foreground="White"
+                        Height="19" 
+                        Width="80"
+                        />
+                    <Slider 
+                        Width="200" 
+                        Height="32"                 
+                        Maximum="255" 
+                        Foreground="#FF0023FF"
+                        Value="{Binding BlueValue, Mode=TwoWay}"
+                        />
+                </StackPanel>
+
+                <StackPanel
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Orientation="Horizontal"
+                    Margin="10,0,0,0"
+                    >
+                    <TextBlock 
+                        TextWrapping="Wrap" 
+                        Text="Alpha"
+                        Foreground="White"
+                        Height="19" 
+                        Width="60" 
+                        />
+                    <TextBlock 
+                        TextWrapping="Wrap" 
+                        Text="{Binding AlphaValue}"
+                        Foreground="White"
+                        Height="19" 
+                        Width="80"
+                        />
+                    <Slider 
+                        Width="200" 
+                        Height="32" 
+                        Maximum="255" 
+                        Foreground="#FF898989"
+                        Value="{Binding AlphaValue, Mode=TwoWay}"
+                        />
+                </StackPanel>
+            </Grid>
+        </Border>
     </Grid>
 </UserControl>

@@ -41,7 +41,7 @@ internal class MainViewModel : ObservableObject
     public Wallpapers.ViewModels.MenuViewModel WallpapersMenu = new();
     public Taskbar.ViewModels.MenuViewModel TaskbarMenu = new();
     public Cursors.ViewModels.MenuViewModel CursorsMenu = new();
-    //public Settings..SettignsViewModel SettingsVM = new();
+    //public Settings.SettignsViewModel SettingsVM = new();
 
     private void MenuCommandsInit()
     {

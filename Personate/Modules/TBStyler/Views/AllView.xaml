@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
              xmlns:viewmodel="clr-namespace:Personate.Modules.TBStyler.ViewModels"
              xmlns:view="clr-namespace:Personate.Modules.TBStyler.Views"
-             mc:Ignorable="d" Width="499" Height="1377">
+             mc:Ignorable="d">
     <StackPanel>
         <view:StyleView DataContext="{Binding StyleSection}"/>
         <view:ColorPickerView DataContext="{Binding ColorPickerSection}"/>

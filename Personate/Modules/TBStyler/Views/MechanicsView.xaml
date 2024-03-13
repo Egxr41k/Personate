@@ -5,67 +5,82 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
              mc:Ignorable="d"
-             Height="100" Width="500">
+             Height="150" Width="500">
     <Grid>
-        <StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock 
-                    TextWrapping="Wrap" 
-                    Text="Refresh Rate(ms)"
-                    Foreground="White"
-                    Width="450" 
-                    />
-                <TextBox 
-                    ToolTip="TaskbarX uses a looper to detect changes in the taskbar. 
-                        The delay is 400ms by default. 
-                        Making it faster will make TaskbarX respond faster to a change but, 
-                        will increase CPU Usage." 
-                    Text="{Binding RefreshRate, Mode=TwoWay}" 
-                    VerticalAlignment="Top" 
-                    Width="50" 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Grid.Row="0"
+            Text="Mechanics"
+            Foreground="White"
+            FontSize="20"
+            />
+        <Border
+            Grid.Row="1"
+            Style="{StaticResource DarkBg}"
+            >
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock 
+                        TextWrapping="Wrap" 
+                        Text="Refresh Rate(ms)"
+                        Foreground="White"
+                        Width="450" 
+                        />
+                    <TextBox 
+                        ToolTip="TaskbarX uses a looper to detect changes in the taskbar. 
+                            The delay is 400ms by default. 
+                            Making it faster will make TaskbarX respond faster to a change but, 
+                            will increase CPU Usage." 
+                        Text="{Binding RefreshRate, Mode=TwoWay}" 
+                        VerticalAlignment="Top" 
+                        Width="50" 
                     
-                    />
-            </StackPanel>
+                        />
+                </StackPanel>
 
-            <StackPanel Orientation="Horizontal">
-                <TextBlock 
-                    HorizontalAlignment="Left" 
-                    TextWrapping="Wrap" 
-                    Text="Refresh Rate OnBattery(ms)"
-                    Foreground="White"
-                    VerticalAlignment="Top"
-                    Width="450" 
-                    />
-                <TextBox
-                    ToolTip="Override the Refresh Rate when your laptop is running on battery." 
-                    x:Name="NumericUpDown5" 
-                    Text="{Binding RefreshRateOnBattery, Mode=TwoWay}" 
-                    Width="50"  
-                    />
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock 
+                        HorizontalAlignment="Left" 
+                        TextWrapping="Wrap" 
+                        Text="Refresh Rate OnBattery(ms)"
+                        Foreground="White"
+                        VerticalAlignment="Top"
+                        Width="450" 
+                        />
+                    <TextBox
+                        ToolTip="Override the Refresh Rate when your laptop is running on battery." 
+                        x:Name="NumericUpDown5" 
+                        Text="{Binding RefreshRateOnBattery, Mode=TwoWay}" 
+                        Width="50"  
+                        />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock 
+                        HorizontalAlignment="Left" 
+                        TextWrapping="Wrap" 
+                        Text="Way to retrieve data"
+                        Foreground="White"
+                        VerticalAlignment="Top"
+                        Width="150" 
+                        />
+                    <Button Content="More Details" 
+                        Grid.Column="1" 
+                        HorizontalAlignment="Left" 
+                        Width="100"
+                        Margin="75,0"
+                        Command="{Binding MoreDetailsCommand}"
+                        />
+                    <ComboBox
+                        ItemsSource="{Binding WaysToRetriveData}"
+                        SelectedItem="{Binding SelectedWayToRetriveData}"
+                        IsEnabled="False"
+                        Width="100"
+                        />
+                </StackPanel>
             </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock 
-                    HorizontalAlignment="Left" 
-                    TextWrapping="Wrap" 
-                    Text="Way to retrieve data"
-                    Foreground="White"
-                    VerticalAlignment="Top"
-                    Width="150" 
-                    />
-                <Button Content="More Details" 
-                    Grid.Column="1" 
-                    HorizontalAlignment="Left" 
-                    Width="100"
-                    Margin="75,0"
-                    Command="{Binding MoreDetailsCommand}"
-                    />
-                <ComboBox
-                    ItemsSource="{Binding WaysToRetriveData}"
-                    SelectedItem="{Binding SelectedWayToRetriveData}"
-                    IsEnabled="False"
-                    Width="100"
-                    />
-            </StackPanel>
-        </StackPanel>
+        </Border>
     </Grid>
 </UserControl>

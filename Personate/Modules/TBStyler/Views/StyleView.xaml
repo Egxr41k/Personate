@@ -8,122 +8,139 @@
              Width="500" Height="250">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="75"/>
+            <RowDefinition Height="30"/>
             <RowDefinition/>
-            <RowDefinition Height="75"/>
         </Grid.RowDefinitions>
+        <TextBlock
+            Grid.Row="0"
+            Text="Style"
+            Foreground="White"
+            FontSize="20"
+            />
+        <Border
+            Grid.Row="1"
+            Style="{StaticResource DarkBg}"
+            >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
 
-        <StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock 
-                    Text="Style" 
-                    Foreground="White"
-                    Height="19" 
-                    Width="400"
-                    />
-                <ComboBox
-                    ItemsSource="{Binding Styles}"
-                    SelectedItem="{Binding SelectedStyle}"
-                    Width="100"
-                    />
-            </StackPanel>
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock 
+                            Text="Style" 
+                            Foreground="White"
+                            Height="19" 
+                            Width="400"
+                            />
+                        <ComboBox
+                            ItemsSource="{Binding Styles}"
+                            SelectedItem="{Binding SelectedStyle}"
+                            Width="100"
+                            />
+                    </StackPanel>
 
-            <CheckBox 
-                ToolTip="Revert the taskbar to the default background when a window is maximized." 
-                Content="Switch back to Default on maximized window" 
-                Foreground="White"
-                IsChecked="{Binding BackToDefault, Mode=TwoWay}"
-                />
-        </StackPanel>
+                    <CheckBox 
+                        ToolTip="Revert the taskbar to the default background when a window is maximized." 
+                        Content="Switch back to Default on maximized window" 
+                        Foreground="White"
+                        IsChecked="{Binding BackToDefault, Mode=TwoWay}"
+                        />
+                </StackPanel>
 
-        <StackPanel Grid.Row="1">
-            <StackPanel Orientation="Horizontal">
-                <TextBlock 
-                    TextWrapping="Wrap" 
-                    Text="Primary taskbar(%)" 
-                    Foreground="White"
-                    Height="19" 
-                    Width="150" 
-                    />
-                <TextBlock 
-                    TextWrapping="Wrap" 
-                    Text="{Binding PrimaryOpacity}"
-                    Foreground="White"
-                    Height="19" 
-                    Width="150"
-                    />
-                <Slider 
-                    x:Name="tpop" 
-                    VerticalAlignment="Top" 
-                    Maximum="100" 
-                    Foreground="#FF898989" 
-                    Width="200"
-                    Grid.Column="1"
-                    Value="{Binding PrimaryOpacity, Mode=TwoWay}"
-                    HorizontalAlignment="Right"
-                    />
-            </StackPanel>
+                <StackPanel Grid.Row="1">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock 
+                            TextWrapping="Wrap" 
+                            Text="Primary taskbar(%)" 
+                            Foreground="White"
+                            Height="19" 
+                            Width="150" 
+                            />
+                        <TextBlock 
+                            TextWrapping="Wrap" 
+                            Text="{Binding PrimaryOpacity}"
+                            Foreground="White"
+                            Height="19" 
+                            Width="150"
+                            />
+                        <Slider 
+                            x:Name="tpop" 
+                            VerticalAlignment="Top" 
+                            Maximum="100" 
+                            Foreground="#FF898989" 
+                            Width="200"
+                            Grid.Column="1"
+                            Value="{Binding PrimaryOpacity, Mode=TwoWay}"
+                            HorizontalAlignment="Right"
+                            />
+                    </StackPanel>
 
-            <StackPanel Orientation="Horizontal">
-                <TextBlock 
-                    TextWrapping="Wrap" 
-                    Text="Secondary taskbar(%)" 
-                    Foreground="White"
-                    Height="19"
-                    Width="150" 
-                    Grid.Column="1" 
-                    />
-                <TextBlock 
-                    x:Name="tsopla" 
-                    TextWrapping="Wrap" 
-                    Text="{Binding SecondaryOpacity}" 
-                    Foreground="White"
-                    Height="19" 
-                    Width="150" 
-                    Grid.Column="1" 
-                    />
-                <Slider
-                    x:Name="tsop" 
-                    VerticalAlignment="Top" 
-                    Maximum="100"  
-                    Foreground="#FF898989" 
-                    Width="200"
-                    Grid.Column="1" 
-                    Value="{Binding SecondaryOpacity, Mode=TwoWay}" 
-                    />
-            </StackPanel>
-        </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock 
+                            TextWrapping="Wrap" 
+                            Text="Secondary taskbar(%)" 
+                            Foreground="White"
+                            Height="19"
+                            Width="150" 
+                            Grid.Column="1" 
+                            />
+                        <TextBlock 
+                            x:Name="tsopla" 
+                            TextWrapping="Wrap" 
+                            Text="{Binding SecondaryOpacity}" 
+                            Foreground="White"
+                            Height="19" 
+                            Width="150" 
+                            Grid.Column="1" 
+                            />
+                        <Slider
+                            x:Name="tsop" 
+                            VerticalAlignment="Top" 
+                            Maximum="100"  
+                            Foreground="#FF898989" 
+                            Width="200"
+                            Grid.Column="1" 
+                            Value="{Binding SecondaryOpacity, Mode=TwoWay}" 
+                            />
+                    </StackPanel>
+                </StackPanel>
 
-        <StackPanel Grid.Row="2">
-            <CheckBox
-                ToolTip="Only show taskbar background on taskbar icons."
-                Content="Separate to Segments" 
-                Foreground="White"
-                Width="200" 
-                IsChecked="{Binding SeparateToSegments, Mode=TwoWay}"
-                HorizontalAlignment="Left"/>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock
-                    TextWrapping="Wrap" 
-                    Text="Corner Radius(px)"
-                    Foreground="White"
-                    Height="19" 
-                    Width="150" 
-                    />
-                <TextBlock
-                    TextWrapping="Wrap" 
-                    Text="{Binding CornerRadius}"
-                    Foreground="White"
-                    Height="19" 
-                    Width="150" 
-                    />
-                <Slider 
-                    Maximum="20" 
-                    Foreground="#FF898989" 
-                    Width="200" 
-                    Value="{Binding CornerRadius, Mode=TwoWay}"
-                    />
-            </StackPanel>
-        </StackPanel>
+                <StackPanel Grid.Row="2">
+                    <CheckBox
+                        ToolTip="Only show taskbar background on taskbar icons."
+                        Content="Separate to Segments" 
+                        Foreground="White"
+                        Width="200" 
+                        IsChecked="{Binding SeparateToSegments, Mode=TwoWay}"
+                        HorizontalAlignment="Left"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock
+                            TextWrapping="Wrap" 
+                            Text="Corner Radius(px)"
+                            Foreground="White"
+                            Height="19" 
+                            Width="150" 
+                            />
+                        <TextBlock
+                            TextWrapping="Wrap" 
+                            Text="{Binding CornerRadius}"
+                            Foreground="White"
+                            Height="19" 
+                            Width="150" 
+                            />
+                        <Slider 
+                            Maximum="20" 
+                            Foreground="#FF898989" 
+                            Width="200" 
+                            Value="{Binding CornerRadius, Mode=TwoWay}"
+                            />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
     </Grid>
 </UserControl>
