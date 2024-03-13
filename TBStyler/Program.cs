@@ -2,7 +2,7 @@ using System.Diagnostics;
 using System.Text;
 using System.Collections;
 using System.Collections.ObjectModel;
-using TBStyler.Settings;
+using Personate.Settings;
 
 namespace TBStyler;
 
@@ -28,7 +28,7 @@ public class Program
                     case "-update":
                         taskbar.Stop();
                         Cancellation.Cancel();
-                        settingsService.Actualize();
+                        //settingsService.Actualize();
                         taskbar = new Setuper(settingsService);
                         taskbar.Start();
                         break;

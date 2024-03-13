@@ -4,8 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Personate"
-        xmlns:wallpaperSwitcher="clr-namespace:Personate.Modules.WallpaperSwitcher"
-        xmlns:cursorSwitcher="clr-namespace:Personate.Modules.CursorSwitcher"
+        xmlns:wallpapersviews="clr-namespace:Personate.Modules.WallpaperSwitcher.Views"
+        xmlns:wallpapersviewmodels="clr-namespace:Personate.Modules.WallpaperSwitcher.ViewModels"
+        xmlns:cursorsviews="clr-namespace:Personate.Modules.CursorSwitcher.Views"
+        xmlns:cursorsviewmodels="clr-namespace:Personate.Modules.CursorSwitcher.ViewModels"
+        xmlns:taskbarviews="clr-namespace:Personate.Modules.TBStyler.Views"
+        xmlns:taskbarviewmodels="clr-namespace:Personate.Modules.TBStyler.ViewModels"
         xmlns:home="clr-namespace:Personate.Modules.Home"
         xmlns:settings="clr-namespace:Personate.Modules.Settings"
         mc:Ignorable="d" ResizeMode="NoResize" 
@@ -101,32 +105,32 @@
                     <view:IconsView/>
                 </DataTemplate>-->
 
-                <DataTemplate DataType="{x:Type wallpaperSwitcher:MenuViewModel}">
-                    <wallpaperSwitcher:MenuView/>
+                <DataTemplate DataType="{x:Type wallpapersviewmodels:MenuViewModel}">
+                    <wallpapersviews:MenuView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type wallpaperSwitcher:ItemViewModel}">
-                    <wallpaperSwitcher:ItemView/>
+                <DataTemplate DataType="{x:Type wallpapersviewmodels:ItemViewModel}">
+                    <wallpapersviews:ItemView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type wallpaperSwitcher:DetailsViewModel}">
-                    <wallpaperSwitcher:DetailsView/>
+                <DataTemplate DataType="{x:Type wallpapersviewmodels:DetailsViewModel}">
+                    <wallpapersviews:DetailsView/>
                 </DataTemplate>
 
-                <!--<DataTemplate DataType="{x:Type viewModel:TaskbarViewModel}">
-                    <view:TaskbarView/>
-                </DataTemplate>-->
-
-                <DataTemplate DataType="{x:Type cursorSwitcher:MenuViewModel}">
-                    <cursorSwitcher:MenuView/>
+                <DataTemplate DataType="{x:Type taskbarviewmodels:MenuViewModel}">
+                    <taskbarviews:MenuView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type cursorSwitcher:ItemViewModel}">
-                    <cursorSwitcher:ItemView/>
+                <DataTemplate DataType="{x:Type cursorsviewmodels:MenuViewModel}">
+                    <cursorsviews:MenuView/>
                 </DataTemplate>
 
-                <DataTemplate DataType="{x:Type cursorSwitcher:DetailsViewModel}">
-                    <cursorSwitcher:DetailsView/>
+                <DataTemplate DataType="{x:Type cursorsviewmodels:ItemViewModel}">
+                    <cursorsviews:ItemView/>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type cursorsviewmodels:DetailsViewModel}">
+                    <cursorsviews:DetailsView/>
                 </DataTemplate>
 
                 <DataTemplate DataType="{x:Type settings:SettignsViewModel}">

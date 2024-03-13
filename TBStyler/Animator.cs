@@ -6,16 +6,16 @@ using System.Text;
 using TBStyler.MSAA;
 using TBStyler.Win32;
 using TBStyler.Win32.Types;
-using TBStyler.Settings;
+using Personate.Settings;
 
 namespace TBStyler;
 
 public class Animator
 {
     private List<IntPtr> current { get; set; }
-    private SettingsDTO settings { get; set; }
+    private TaskbarSettingsDTO settings { get; set; }
 
-    public Animator(SettingsDTO settings)
+    public Animator(TaskbarSettingsDTO settings)
     {
         this.settings = settings;
         current = [];

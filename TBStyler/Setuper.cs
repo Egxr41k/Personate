@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Security.Cryptography.Pkcs;
 using TBStyler.Win32.Types;
-using TBStyler.Settings;
+using Personate.Settings;
 
 namespace TBStyler;
 
@@ -15,8 +15,8 @@ public class Setuper
     {
         this.settingsService = settingsService;
 
-        taskbarCenter = new Centerer(settingsService.Settings);
-        taskbarStyle = new Styler(settingsService.Settings);
+        taskbarCenter = new Centerer(settingsService.Settings.Taskbar);
+        taskbarStyle = new Styler(settingsService.Settings.Taskbar);
 
         PerformanceOptimizer.KillProcessByName("TBStyler");
 

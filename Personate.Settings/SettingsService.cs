@@ -15,30 +15,38 @@ public class SettingsService
     public UserSettingsDTO Settings { get; private set; }
     public SettingsService()
     {
-        Settings = GetFromFile(pathToLast);
+        Settings = new(); //GetFromFile(pathToLast);
+        Settings.Taskbar = CreateDefault();
     }
 
-    public void Actualize()
-    {
-        Settings = GetFromFile(pathToLast);
-    }
+    //public void Actualize()
+    //{
+    //    Settings = GetFromFile(pathToLast);
+    //}
 
-    private UserSettingsDTO GetFromFile(string pathToSettings)
-    {
-        if (!File.Exists(pathToSettings)) return GetDefault();
-        string jsonString = File.ReadAllText(pathToSettings);
+    //private UserSettingsDTO GetFromFile(string pathToSettings)
+    //{
+    //    if (!File.Exists(pathToSettings)) return GetDefault();
+    //    string jsonString = File.ReadAllText(pathToSettings);
 
-        UserSettingsDTO? settings = JsonSerializer.Deserialize<UserSettingsDTO>(jsonString, new JsonSerializerOptions()
-        {
-            PropertyNameCaseInsensitive = true
-        });
+    //    UserSettingsDTO? settings = JsonSerializer.Deserialize<UserSettingsDTO>(jsonString, new JsonSerializerOptions()
+    //    {
+    //        PropertyNameCaseInsensitive = true
+    //    });
 
-        return settings;// ?? CreateDefault();
-    }
+    //    return settings;// ?? CreateDefault();
+    //}
 
     private UserSettingsDTO GetDefault()
     {
-        return GetFromFile(pathToDefault);
+        Settings = new()
+        {
+            Wallpaper = "",
+            Cursor = "",
+            Taskbar = CreateDefault()
+        }; 
+        return Settings;
+        //return GetFromFile(pathToDefault);
     }
 
     public void Save()

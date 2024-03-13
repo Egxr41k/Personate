@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Runtime.InteropServices;
-using TBStyler.Settings;
+using Personate.Settings;
 
 
 namespace TBStyler;
@@ -14,8 +14,8 @@ public class Styler
     private ArrayList normalwindows = [];
     private ArrayList resetted = [];
 
-    private SettingsDTO settings { get; set; }
-    public Styler(SettingsDTO settings)
+    private TaskbarSettingsDTO settings { get; set; }
+    public Styler(TaskbarSettingsDTO settings)
     {
         this.settings = settings;
     }

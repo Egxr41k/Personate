@@ -7,7 +7,7 @@ using Accessibility;
 using TBStyler.Win32;
 using TBStyler.Win32.Types;
 using TBStyler.MSAA;
-using TBStyler.Settings;
+using Personate.Settings;
 
 namespace TBStyler;
 
@@ -16,9 +16,9 @@ public class Centerer
     private UserPreferenceChangedEventHandler UserPref;
     private Position position { get; set; }
     private TrayLoopFixer trayLoopFixer { get; set; }
-    private SettingsDTO settings { get; set; }
+    private TaskbarSettingsDTO settings { get; set; }
 
-    public Centerer(SettingsDTO settings)
+    public Centerer(TaskbarSettingsDTO settings)
     {
         this.settings = settings;
         position = new Position(settings);

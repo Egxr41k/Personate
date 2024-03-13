@@ -2,6 +2,7 @@
 using Home = Personate.Modules.Home;
 using Settings = Personate.Modules.Settings;
 using Wallpapers = Personate.Modules.WallpaperSwitcher;
+using Taskbar = Personate.Modules.TBStyler;
 
 namespace Personate.General;
 internal class MainViewModel : ObservableObject
@@ -37,10 +38,10 @@ internal class MainViewModel : ObservableObject
     //public FontsViewModel FontsVM = new();
     //public ThemesViewModel ThemesVM = new();
     //public IconsViewModel IconsVM = new();
-    public Wallpapers.MenuViewModel WallpapersMenu = new();
-    //public TaskbarViewModel TaskbarVM = new();
-    public Cursors.MenuViewModel CursorsMenu = new();
-    public Settings.SettignsViewModel SettingsVM = new();
+    public Wallpapers.ViewModels.MenuViewModel WallpapersMenu = new();
+    public Taskbar.ViewModels.MenuViewModel TaskbarMenu = new();
+    public Cursors.ViewModels.MenuViewModel CursorsMenu = new();
+    //public Settings..SettignsViewModel SettingsVM = new();
 
     private void MenuCommandsInit()
     {
@@ -49,9 +50,9 @@ internal class MainViewModel : ObservableObject
         //ThemesViewCommand = new(() => NavigateTo(ThemesVM);
         //IconsViewCommand = new(() => NavigateTo(IconsVM);
         WallpapersCommand = new(() => NavigateTo(WallpapersMenu));
-        //TaskbarViewCommand = new(() => NavigateTo(TaskbarVM);
+        TaskbarViewCommand = new(() => NavigateTo(TaskbarMenu));
         CursorsCommand = new(() => NavigateTo(CursorsMenu));
-        SettingsViewCommand = new(() => NavigateTo(SettingsVM));
+        //SettingsViewCommand = new(() => NavigateTo(SettingsVM));
     }
 
     public MainViewModel()
@@ -62,29 +63,29 @@ internal class MainViewModel : ObservableObject
 
         WallpapersMenu.UploadCommand = new(() =>
         {
-            Wallpapers.Model wallpaper = Wallpapers.Model.FromFileExplorer();
-            Wallpapers.DetailsViewModel wallpaperDetails = new(wallpaper);
+            Wallpapers.Models.Model wallpaper = Wallpapers.Models.Model.FromFileExplorer();
+            Wallpapers.ViewModels.DetailsViewModel wallpaperDetails = new(wallpaper);
             NavigateTo(wallpaperDetails);
         });
 
         WallpapersMenu.ToDetailsCommand = new(() =>
         {
-            Wallpapers.Model wallpaper = WallpapersMenu.SelectedItem.Wallpaper;
-            Wallpapers.DetailsViewModel wallpaperDetails = new(wallpaper);
+            Wallpapers.Models.Model wallpaper = WallpapersMenu.SelectedItem.Wallpaper;
+            Wallpapers.ViewModels.DetailsViewModel wallpaperDetails = new(wallpaper);
             NavigateTo(wallpaperDetails);
         });
 
         CursorsMenu.UploadCommand = new(() =>
         {
-            Cursors.Model cursor = Cursors.Model.FromFileExplorer();
-            Cursors.DetailsViewModel cursorDetails = new(cursor);
+            Cursors.Models.Model cursor = Cursors.Models.Model.FromFileExplorer();
+            Cursors.ViewModels.DetailsViewModel cursorDetails = new(cursor);
             NavigateTo(cursorDetails);
         });
 
         CursorsMenu.DetailsViewCommand = new(() =>
         {
-            Cursors.Model cursor = CursorsMenu.SelectedItem.Cursor;
-            Cursors.DetailsViewModel cursorDetails = new(cursor);
+            Cursors.Models.Model cursor = CursorsMenu.SelectedItem.Cursor;
+            Cursors.ViewModels.DetailsViewModel cursorDetails = new(cursor);
             NavigateTo(cursorDetails);
         });
 

@@ -7,16 +7,16 @@ using TBStyler.MSAA;
 using TBStyler.Win32;
 using TBStyler.Win32.Types;
 using Accessibility;
-using TBStyler.Settings;
+using Personate.Settings;
 
 namespace TBStyler;
 
 internal class Position
 {
-    private SettingsDTO settings { get; set; }
+    private TaskbarSettingsDTO settings { get; set; }
     private Animator animator { get; set; }
 
-    public Position(SettingsDTO settings)
+    public Position(TaskbarSettingsDTO settings)
     {
         this.settings = settings;
         animator = new Animator(settings);

@@ -1,5 +1,6 @@
 ﻿using System.Windows.Media.Imaging;
 using Personate.General;
+using Personate.Modules.CursorSwitcher.ViewModels;
 
 namespace Personate.Modules.CursorSwitcher.Models;
 internal class Model
