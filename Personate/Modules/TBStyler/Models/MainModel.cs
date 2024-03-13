@@ -45,7 +45,7 @@ class MainModel
             UseShellExecute = false,
             RedirectStandardInput = true,
             RedirectStandardOutput = true,
-            CreateNoWindow = !Debugger.IsAttached,
+            CreateNoWindow = true,
         };
         return DefaultStartInfo;
     }

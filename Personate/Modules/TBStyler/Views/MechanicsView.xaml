@@ -4,8 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
-             mc:Ignorable="d"
-             Height="150" Width="500">
+             mc:Ignorable="d" Width="780">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -22,12 +21,12 @@
             Style="{StaticResource DarkBg}"
             >
             <StackPanel>
-                <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal" Margin="20,5">
                     <TextBlock 
                         TextWrapping="Wrap" 
                         Text="Refresh Rate(ms)"
                         Foreground="White"
-                        Width="450" 
+                        Width="670" 
                         />
                     <TextBox 
                         ToolTip="TaskbarX uses a looper to detect changes in the taskbar. 
@@ -41,14 +40,14 @@
                         />
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal" Margin="20,5">
                     <TextBlock 
                         HorizontalAlignment="Left" 
                         TextWrapping="Wrap" 
                         Text="Refresh Rate OnBattery(ms)"
                         Foreground="White"
                         VerticalAlignment="Top"
-                        Width="450" 
+                        Width="670" 
                         />
                     <TextBox
                         ToolTip="Override the Refresh Rate when your laptop is running on battery." 
@@ -57,7 +56,7 @@
                         Width="50"  
                         />
                 </StackPanel>
-                <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal" Margin="20,5">
                     <TextBlock 
                         HorizontalAlignment="Left" 
                         TextWrapping="Wrap" 
@@ -70,8 +69,9 @@
                         Grid.Column="1" 
                         HorizontalAlignment="Left" 
                         Width="100"
-                        Margin="75,0"
+                        Margin="0,0,370,0"
                         Command="{Binding MoreDetailsCommand}"
+                        Style="{StaticResource DarkMenuBtn}"
                         />
                     <ComboBox
                         ItemsSource="{Binding WaysToRetriveData}"

@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
-             mc:Ignorable="d" Height="250" Width="500">
+             mc:Ignorable="d" Width="780">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -80,7 +80,7 @@
                         TextWrapping="Wrap" 
                         Text="{Binding RedValue}" 
                         Height="18" 
-                        Width="80"
+                        Width="330"
                         Foreground="White"
                         />
                     <Slider 
@@ -109,7 +109,7 @@
                         />
                     <TextBlock 
                         Height="19" 
-                        Width="80"
+                        Width="330"
                         TextWrapping="Wrap" 
                         Text="{Binding GreenValue}"
                         Foreground="White"
@@ -141,7 +141,7 @@
                         Text="{Binding BlueValue}"
                         Foreground="White"
                         Height="19" 
-                        Width="80"
+                        Width="330"
                         />
                     <Slider 
                         Width="200" 
@@ -170,7 +170,7 @@
                         Text="{Binding AlphaValue}"
                         Foreground="White"
                         Height="19" 
-                        Width="80"
+                        Width="330"
                         />
                     <Slider 
                         Width="200" 

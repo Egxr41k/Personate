@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
              mc:Ignorable="d"
-             Width="500" Height="250">
+             Width="780" Height="250">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -23,18 +23,18 @@
             >
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition />
                     <RowDefinition/>
-                    <RowDefinition />
+                    <RowDefinition/>
+                    <RowDefinition/>
                 </Grid.RowDefinitions>
 
                 <StackPanel>
-                    <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Horizontal" Margin="20,5">
                         <TextBlock 
                             Text="Style" 
                             Foreground="White"
                             Height="19" 
-                            Width="400"
+                            Width="620"
                             />
                         <ComboBox
                             ItemsSource="{Binding Styles}"
@@ -47,12 +47,13 @@
                         ToolTip="Revert the taskbar to the default background when a window is maximized." 
                         Content="Switch back to Default on maximized window" 
                         Foreground="White"
+                        Margin="20,5"
                         IsChecked="{Binding BackToDefault, Mode=TwoWay}"
                         />
                 </StackPanel>
 
                 <StackPanel Grid.Row="1">
-                    <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Horizontal" Margin="20,5">
                         <TextBlock 
                             TextWrapping="Wrap" 
                             Text="Primary taskbar(%)" 
@@ -65,7 +66,7 @@
                             Text="{Binding PrimaryOpacity}"
                             Foreground="White"
                             Height="19" 
-                            Width="150"
+                            Width="370"
                             />
                         <Slider 
                             x:Name="tpop" 
@@ -79,7 +80,7 @@
                             />
                     </StackPanel>
 
-                    <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Horizontal" Margin="20,5">
                         <TextBlock 
                             TextWrapping="Wrap" 
                             Text="Secondary taskbar(%)" 
@@ -94,7 +95,7 @@
                             Text="{Binding SecondaryOpacity}" 
                             Foreground="White"
                             Height="19" 
-                            Width="150" 
+                            Width="370" 
                             Grid.Column="1" 
                             />
                         <Slider
@@ -115,9 +116,11 @@
                         Content="Separate to Segments" 
                         Foreground="White"
                         Width="200" 
+                        Margin="20,5"
                         IsChecked="{Binding SeparateToSegments, Mode=TwoWay}"
-                        HorizontalAlignment="Left"/>
-                    <StackPanel Orientation="Horizontal">
+                        HorizontalAlignment="Left"
+                        />
+                    <StackPanel Orientation="Horizontal" Margin="20,5">
                         <TextBlock
                             TextWrapping="Wrap" 
                             Text="Corner Radius(px)"
@@ -130,7 +133,7 @@
                             Text="{Binding CornerRadius}"
                             Foreground="White"
                             Height="19" 
-                            Width="150" 
+                            Width="370" 
                             />
                         <Slider 
                             Maximum="20" 

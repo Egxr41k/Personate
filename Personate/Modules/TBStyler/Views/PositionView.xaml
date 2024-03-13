@@ -4,8 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Personate.Modules.TBStyler.Views"
-             mc:Ignorable="d"
-             Height="200" Width="500">
+             mc:Ignorable="d" Width="780">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -22,14 +21,14 @@
             Style="{StaticResource DarkBg}"
             >
             <StackPanel>
-                <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal" Margin="20,5">
                     <TextBlock 
                         HorizontalAlignment="Left" 
                         TextWrapping="Wrap" 
                         Text="Primary Offset(px)" 
                         Foreground="White"
                         VerticalAlignment="Top" 
-                        Width="450" 
+                        Width="670" 
                         Grid.ColumnSpan="2" 
                         />
                     <TextBox 
@@ -40,7 +39,7 @@
                         Width="50" 
                         />
                 </StackPanel>
-                <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal" Margin="20,5">
                     <TextBlock 
                         HorizontalAlignment="Left" 
                         TextWrapping="Wrap" 
@@ -48,7 +47,7 @@
                         Foreground="White"
                         VerticalAlignment="Top" 
                         Grid.ColumnSpan="2" 
-                        Width="450" 
+                        Width="670" 
                         />
                     <TextBox 
                         ToolTip="Set the offset position based on the center position for the secondary taskbar(s) in pixels. 
@@ -59,14 +58,13 @@
                         Width="50" 
                         />
                 </StackPanel>
-                <StackPanel>
-                    <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal" Margin="20,5">
                         <TextBlock 
                             HorizontalAlignment="Left" 
                             TextWrapping="Wrap" 
                             Text="Skip Resolution" 
                             Foreground="White"
-                            Width="450" 
+                            Width="670" 
                             />
                         <StackPanel>
                             <TextBox 
@@ -80,6 +78,7 @@
                                 HorizontalAlignment="Left" 
                                 Text="{Binding SecondSkipResiolution, Mode=TwoWay}"  
                                 Width="50" 
+                                Margin="0, 5"
                                 />
                             <TextBox
                                 ToolTip="If your resolutions width becomes this value in pixels then TaskbarX will pause and put the icons back to the left. If it changes then it will start centering the icons again." 
@@ -96,6 +95,7 @@
                             Content="Compensate Tray Clock etc..." 
                             Foreground="White"
                             Width="220" 
+                            Margin="20,5"
                             IsChecked="{Binding CompensateTrayClock, Mode=TwoWay}"
                             />
                         <CheckBox 
@@ -103,6 +103,7 @@
                             Content="Don't center Taskbar" 
                             Foreground="White"
                             Width="220" 
+                            Margin="20,5"
                             IsChecked="{Binding DontCenter, Mode=TwoWay}"
                             />
                         <CheckBox 
@@ -110,10 +111,10 @@
                             Content="Revert to zero beyond Tray" 
                             Foreground="White"
                             Width="220" 
+                            Margin="20,5"
                             IsChecked="{Binding RevertToZeroBeyondTray, Mode=TwoWay}"
                             />
                     </StackPanel>
-                </StackPanel>
             </StackPanel>
         </Border>
     </Grid>
