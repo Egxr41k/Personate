@@ -26,13 +26,15 @@ public class Program
                         taskbar.Start();
                         break;
                     case "-update":
-                        taskbar.Stop();
                         Cancellation.Cancel();
-                        //settingsService.Actualize();
+                        taskbar.Stop();
+                        Cancellation = new CancellationTokenSource();
+                        settingsService = new SettingsService();
                         taskbar = new Setuper(settingsService);
                         taskbar.Start();
                         break;
                     case "-stop":
+                        Cancellation.Cancel();
                         taskbar.Stop();
                         Environment.Exit(0);
                         break;

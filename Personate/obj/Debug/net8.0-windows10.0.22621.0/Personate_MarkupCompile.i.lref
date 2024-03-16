@@ -2,12 +2,20 @@
 FC:\Users\Egxr41k\Desktop\Personate\Personate\App.xaml;;
 FC:\Users\Egxr41k\Desktop\Personate\Personate\CustomTitleBar.xaml;;
 FC:\Users\Egxr41k\Desktop\Personate\Personate\General\MainWindow.xaml;;
-FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\CursorSwitcher\DetailsView.xaml;;
-FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\CursorSwitcher\ItemView.xaml;;
-FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\CursorSwitcher\MenuView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\CursorSwitcher\Views\DetailsView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\CursorSwitcher\Views\ItemView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\CursorSwitcher\Views\MenuView.xaml;;
 FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\Home\HomeView.xaml;;
 FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\Settings\SettingsView.xaml;;
-FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\WallpaperSwitcher\DetailsView.xaml;;
-FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\WallpaperSwitcher\ItemView.xaml;;
-FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\WallpaperSwitcher\MenuView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\TBStyler\Views\AllView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\TBStyler\Views\AnimationView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\TBStyler\Views\ColorPickerView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\TBStyler\Views\ExtraView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\TBStyler\Views\MechanicsView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\TBStyler\Views\MenuView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\TBStyler\Views\PositionView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\TBStyler\Views\StyleView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\WallpaperSwitcher\Views\DetailsView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\WallpaperSwitcher\Views\ItemView.xaml;;
+FC:\Users\Egxr41k\Desktop\Personate\Personate\Modules\WallpaperSwitcher\Views\MenuView.xaml;;
 

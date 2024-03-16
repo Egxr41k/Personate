@@ -9,33 +9,32 @@ using System.Threading.Tasks;
 namespace Personate.Settings;
 public class SettingsService
 {
-    private readonly string pathToLast = "";
+    private readonly string pathToLast = "C:\\Users\\Egxr41k\\Desktop\\Personate\\Personate.Settings\\user-settings.json";
     private readonly string pathToDefault = "";
 
     public UserSettingsDTO Settings { get; private set; }
     public SettingsService()
     {
-        Settings = new(); //GetFromFile(pathToLast);
-        Settings.Taskbar = CreateDefault();
+        Settings = GetFromFile(pathToLast);
     }
 
-    //public void Actualize()
-    //{
-    //    Settings = GetFromFile(pathToLast);
-    //}
+    public void Actualize()
+    {
+        Settings = GetFromFile(pathToLast);
+    }
 
-    //private UserSettingsDTO GetFromFile(string pathToSettings)
-    //{
-    //    if (!File.Exists(pathToSettings)) return GetDefault();
-    //    string jsonString = File.ReadAllText(pathToSettings);
+    private UserSettingsDTO GetFromFile(string pathToSettings)
+    {
+        if (!File.Exists(pathToSettings)) return GetDefault();
+        string jsonString = File.ReadAllText(pathToSettings);
 
-    //    UserSettingsDTO? settings = JsonSerializer.Deserialize<UserSettingsDTO>(jsonString, new JsonSerializerOptions()
-    //    {
-    //        PropertyNameCaseInsensitive = true
-    //    });
+        UserSettingsDTO? settings = JsonSerializer.Deserialize<UserSettingsDTO>(jsonString, new JsonSerializerOptions()
+        {
+            PropertyNameCaseInsensitive = true
+        });
 
-    //    return settings;// ?? CreateDefault();
-    //}
+        return settings ?? GetDefault();
+    }
 
     private UserSettingsDTO GetDefault()
     {
@@ -51,7 +50,10 @@ public class SettingsService
 
     public void Save()
     {
-        string modifiedJson = JsonSerializer.Serialize(Settings);
+        string modifiedJson = JsonSerializer.Serialize(Settings, options: new JsonSerializerOptions()
+        {
+            WriteIndented = true,
+        });
 
         File.WriteAllText(pathToLast, modifiedJson);
     }

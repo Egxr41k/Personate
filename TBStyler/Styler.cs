@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Runtime.InteropServices;
 using Personate.Settings;
+using TBStyler.Win32.Types;
 
 
 namespace TBStyler;
@@ -45,7 +46,7 @@ public class Styler
             {
                 SetStyles();
             }, Program.Cancellation.Token);
-        }
+        } else ResetStyles();
     }
 
     private bool CheckIsEnable()
@@ -112,25 +113,35 @@ public class Styler
                 Win32.Intertop.SetWindowCompositionAttribute(trayptr, ref data);
             }
 
-            do
+
+            Task.Run(() =>
             {
-                try
-                {
-                    foreach (IntPtr tray in trays)
-                    {
-                        Win32.Intertop.SetWindowCompositionAttribute(tray, ref data);
-                    }
-                    Task.Delay(10);
-                }
-                catch
-                {
-                }
-            } while (true);
+                Looper(data);
+            }, Program.Cancellation.Token);
         }
         catch (Exception ex)
         {
             Console.WriteLine(ex.Message);
         }
+    }
+
+    private void Looper(WindowCompositionAttributeData data)
+    {
+        do
+        {
+            if (Program.Cancellation.IsCancellationRequested) break;
+            try
+            {
+                foreach (IntPtr tray in trays)
+                {
+                    Win32.Intertop.SetWindowCompositionAttribute(tray, ref data);
+                }
+                Task.Delay(10);
+            }
+            catch
+            {
+            }
+        } while (true);
     }
 
     private void Tbsm()

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TBStyler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f19892eeac16df56550342e57959c3cd628af872")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+997615b73d32fa39c271452ea27ed25a913d855b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TBStyler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TBStyler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

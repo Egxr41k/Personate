@@ -37,12 +37,17 @@ public class Centerer
             {
                 SetCenter();
             }, Program.Cancellation.Token);
-        }
+        } else position.Restore();
     }
 
     private bool CheckIsEnable()
     {
         return settings.DontCenterTaskbar != 1;
+    }
+
+    public void RestorePosition()
+    {
+        position.Restore();
     }
 
     private void SetCenter()
@@ -286,6 +291,8 @@ public class Centerer
 
             while (true)
             {
+                if (Program.Cancellation.IsCancellationRequested) break;
+
                 try
                 {
                     if (Screen.PrimaryScreen != null && 
@@ -445,6 +452,7 @@ public class Centerer
             Console.WriteLine("@Looper2 | " + ex.Message);
         }
     }
+
     private void WaitingForShellTrayWnd()
     {
         Console.WriteLine();

@@ -18,13 +18,13 @@ public class Setuper
         taskbarCenter = new Centerer(settingsService.Settings.Taskbar);
         taskbarStyle = new Styler(settingsService.Settings.Taskbar);
 
-        PerformanceOptimizer.KillProcessByName("TBStyler");
+        //PerformanceOptimizer.KillProcessByName("TBStyler");
 
         Win32.Api.CalculateRightPosition();
 
         WaitForShell_TrayWnd();
 
-        PerformanceOptimizer.ClearMemory();
+        //PerformanceOptimizer.ClearMemory();
 
         taskbarStyle.ResetStyles();
 
@@ -39,7 +39,8 @@ public class Setuper
 
     public void Stop()
     {
-
+        taskbarCenter.RestorePosition();
+        taskbarStyle.ResetStyles();
     }
 
     private void WaitForShell_TrayWnd()
@@ -50,11 +51,11 @@ public class Setuper
             Console.WriteLine("Waiting for Shell_TrayWnd");
             handle = default;
             Task.Delay(250);
-            nint Shell_TrayWnd = Win32.Intertop.FindWindowByClass("Shell_TrayWnd", 0);
-            nint TrayNotifyWnd = Win32.Intertop.FindWindowEx(Shell_TrayWnd, 0, "TrayNotifyWnd", null);
-            nint ReBarWindow32 = Win32.Intertop.FindWindowEx(Shell_TrayWnd, 0, "ReBarWindow32", null);
-            nint MSTaskSwWClass = Win32.Intertop.FindWindowEx(ReBarWindow32, 0, "MSTaskSwWClass", null);
-            nint MSTaskListWClass = Win32.Intertop.FindWindowEx(MSTaskSwWClass, 0, "MSTaskListWClass", null);
+            IntPtr Shell_TrayWnd = Win32.Intertop.FindWindowByClass("Shell_TrayWnd", 0);
+            IntPtr TrayNotifyWnd = Win32.Intertop.FindWindowEx(Shell_TrayWnd, 0, "TrayNotifyWnd", null);
+            IntPtr ReBarWindow32 = Win32.Intertop.FindWindowEx(Shell_TrayWnd, 0, "ReBarWindow32", null);
+            IntPtr MSTaskSwWClass = Win32.Intertop.FindWindowEx(ReBarWindow32, 0, "MSTaskSwWClass", null);
+            IntPtr MSTaskListWClass = Win32.Intertop.FindWindowEx(MSTaskSwWClass, 0, "MSTaskListWClass", null);
             handle = MSTaskListWClass;
         }
         while (handle == 0);

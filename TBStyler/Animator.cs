@@ -85,7 +85,7 @@ public class Animator
             }
             sw.Stop();
             current.Remove(hwnd);
-            PerformanceOptimizer.ClearMemory();
+            //PerformanceOptimizer.ClearMemory();
         }
         catch (Exception ex)
         {

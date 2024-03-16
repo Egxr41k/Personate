@@ -53,7 +53,7 @@ namespace Personate.Modules.CursorSwitcher.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Personate;component/modules/cursorswitcher/views/itemview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Personate;V1.0.0.0;component/modules/cursorswitcher/views/itemview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Modules\CursorSwitcher\Views\ItemView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

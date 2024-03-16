@@ -24,14 +24,12 @@ class MainModel
     public void StartConsoleApp()
     {
         consoleApp = Process.GetProcessesByName("TBStyler").FirstOrDefault();
+        consoleApp?.Kill();
 
-        if (consoleApp == null)
-        {
-            consoleApp = new Process();
-            consoleApp.StartInfo = GetDefaultStartInfo();
-            consoleApp.Start();
-            consoleApp.PriorityClass = ProcessPriorityClass.Idle;
-        }
+        consoleApp = new Process();
+        consoleApp.StartInfo = GetDefaultStartInfo();
+        consoleApp.Start();
+        consoleApp.PriorityClass = ProcessPriorityClass.Idle;
 
         WriteLineToConsole("-start");
     }
@@ -72,13 +70,13 @@ class MainModel
     public void Stop()
     {
         WriteLineToConsole("-stop");
-        consoleApp.Kill();
+        //consoleApp.Kill();
     }
 
     public void Restart()
     {
         WriteLineToConsole("-stop");
-        consoleApp.Kill();
+        //consoleApp.Kill();
 
         StartConsoleApp();
     }
