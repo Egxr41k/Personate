@@ -95,185 +95,15 @@ public class Centerer
 
     private void Looper()
     {
+        // This loop will check if the taskbar changes and requires a move
         try
         {
-            // This loop will check if the taskbar changes and requires a move
-            List<IntPtr> windowHandles = Win32.Api.GetActiveWindows();
-            List<IntPtr> taskbars = [];
+            List<IntPtr> taskbars = Win32.Api.GetTaskbars();
+            ConfigureTaskbars();
 
-            // Put all Taskbars into an ArrayList based on each TrayWnd in the TrayWnds ArrayList
-            foreach (IntPtr taskbar in windowHandles)
+            foreach (IntPtr taskbar in taskbars)
             {
-                string sClassName = Win32.Api.GetClassName(taskbar);
-                IntPtr mSTaskListWClass = 0;
-
-                Console.WriteLine(sClassName);
-
-                if (sClassName == "Shell_TrayWnd")
-                {
-                    var reBarWindow32 = Win32.Intertop.FindWindowEx(
-                        taskbar, 
-                        0, 
-                        "ReBarWindow32",
-                        null);
-
-                    if (settings.TotalPrimaryOpacity != 0)
-                    {
-                        Win32.Intertop.SetWindowLong(
-                            taskbar, 
-                            (WindowStyles)Win32.Intertop.GWL_EXSTYLE, 
-                            0x80000);
-
-                        Win32.Intertop.SetLayeredWindowAttributes(
-                            taskbar, 
-                            0, 
-                            Convert.ToByte(255 / 100 * settings.TotalPrimaryOpacity), 
-                            0x2);
-                    }
-
-                    if (settings.HidePrimaryStartButton == 1)
-                    {
-                        var mStart = Win32.Intertop.FindWindowEx(
-                            taskbar, 
-                            0, 
-                            "Start",
-                            null);
-
-                        Win32.Intertop.ShowWindow(
-                            mStart, 
-                            ShowWindowCommands.Hide);
-
-                        Win32.Intertop.SetLayeredWindowAttributes(
-                            mStart, 
-                            0, 
-                            0, 
-                            0x2);
-                    }
-
-                    if (settings.HidePrimaryNotifyWnd == 1)
-                    {
-                        var mTray = Win32.Intertop.FindWindowEx(
-                            taskbar, 
-                            0, 
-                            "TrayNotifyWnd",
-                            null);
-
-                        Win32.Intertop.ShowWindow(
-                            mTray, 
-                            ShowWindowCommands.Hide);
-
-                        Win32.Intertop.SetWindowLong(
-                            mTray, 
-                            (WindowStyles)Win32.Intertop.GWL_STYLE, 
-                            0x7E000000);
-
-                        Win32.Intertop.SetWindowLong(
-                            mTray, 
-                            (WindowStyles)Win32.Intertop.GWL_EXSTYLE, 
-                            0x80000);
-
-                        Win32.Intertop.SendMessage(
-                            mTray, 
-                            11, 
-                            false, 
-                            0);
-
-                        Win32.Intertop.SetLayeredWindowAttributes(
-                            mTray, 
-                            0, 
-                            0, 
-                            0x2);
-                    }
-
-                    var mSTaskSwWClass = Win32.Intertop.FindWindowEx(
-                        reBarWindow32, 
-                        0, 
-                        "MSTaskSwWClass",
-                        null);
-
-                    mSTaskListWClass = Win32.Intertop.FindWindowEx(
-                        mSTaskSwWClass, 
-                        0, 
-                        "MSTaskListWClass",
-                        null);
-                }
-
-                if (sClassName == "Shell_SecondaryTrayWnd")
-                {
-                    var workerW = Win32.Intertop.FindWindowEx(
-                        taskbar, 
-                        0, 
-                        "WorkerW",
-                        null);
-
-                    if (settings.TotalSecondaryOpacity != 0)
-                    {
-                        Win32.Intertop.SetWindowLong(
-                            taskbar, 
-                            (WindowStyles)Win32.Intertop.GWL_EXSTYLE, 
-                            0x80000);
-
-                        Win32.Intertop.SetLayeredWindowAttributes(
-                            taskbar, 
-                            0, 
-                            (byte)(255 / 100 * (byte)settings.TotalSecondaryOpacity), 
-                            0x2);
-                    }
-
-                    if (settings.HideSecondaryStartButton == 1)
-                    {
-                        var sStart = Win32.Intertop.FindWindowEx(
-                            taskbar, 
-                            0, 
-                            "Start",
-                            null);
-
-                        Win32.Intertop.ShowWindow(
-                            sStart, 
-                            ShowWindowCommands.Hide);
-
-                        Win32.Intertop.SetLayeredWindowAttributes(
-                            sStart, 
-                            0, 
-                            0, 
-                            0x2);
-                    }
-
-                    if (settings.HideSecondaryNotifyWnd == 1)
-                    {
-                        var sTray = Win32.Intertop.FindWindowEx(
-                            taskbar, 
-                            0, 
-                            "ClockButton",
-                            null);
-
-                        Win32.Intertop.ShowWindow(
-                            sTray, 
-                            ShowWindowCommands.Hide);
-
-                        Win32.Intertop.SetLayeredWindowAttributes(
-                            sTray, 
-                            0, 
-                            0, 
-                            0x2);
-                    }
-
-                    mSTaskListWClass = Win32.Intertop.FindWindowEx(
-                        workerW, 
-                        0, 
-                        "MSTaskListWClass",
-                        null);
-                }
-
-                if (mSTaskListWClass == 0)
-                {
-                    Console.WriteLine("TaskbarX: " +
-                        "Could not find the handle of the taskbar. " +
-                        "Your current version or build of Windows may not be supported.");
-                    Environment.Exit(0);
-                }
-
-                taskbars.Add(mSTaskListWClass);
+                HandleZero(taskbar);
             }
 
             var taskObjects = new List<Accessibility.IAccessible>();
@@ -289,17 +119,15 @@ public class Centerer
             string results = "";
             bool initposcalcready;
 
-            while (true)
+            while (Program.IsntCancel)
             {
-                if (Program.Cancellation.IsCancellationRequested) break;
-
                 try
                 {
-                    if (Screen.PrimaryScreen != null && 
+                    if (Screen.PrimaryScreen != null &&
                         Screen.PrimaryScreen.Bounds.Width != 0 &&
-                        (Screen.PrimaryScreen.Bounds.Width == 
+                        (Screen.PrimaryScreen.Bounds.Width ==
                         settings.SkipResolution ||
-                        Screen.PrimaryScreen.Bounds.Width == 
+                        Screen.PrimaryScreen.Bounds.Width ==
                         settings.SkipResolution2 ||
                         Screen.PrimaryScreen.Bounds.Width ==
                         settings.SkipResolution3
@@ -315,16 +143,16 @@ public class Centerer
                         var activeWindowSize = new Rect();
                         Win32.Intertop.GetWindowRect(activeWindow, ref activeWindowSize);
 
-                        if (activeWindowSize.Top == curMonX.Bounds.Top && 
+                        if (activeWindowSize.Top == curMonX.Bounds.Top &&
                             activeWindowSize.Bottom == curMonX.Bounds.Bottom &&
-                            activeWindowSize.Left == curMonX.Bounds.Left && 
+                            activeWindowSize.Left == curMonX.Bounds.Left &&
                             activeWindowSize.Right == curMonX.Bounds.Right)
                         {
                             Console.WriteLine(
-                                "Fullscreen App detected " + 
+                                "Fullscreen App detected " +
                                 activeWindowSize.Bottom + "," +
                                 activeWindowSize.Top + "," +
-                                activeWindowSize.Left + "," + 
+                                activeWindowSize.Left + "," +
                                 activeWindowSize.Right);
 
                             settings.Pause = true;
@@ -335,9 +163,9 @@ public class Centerer
                                 Win32.Intertop.GetWindowRect(activeWindow, ref activeWindowSize);
                                 Task.Delay(500);
 
-                            } while (activeWindowSize.Top == curMonX.Bounds.Top && 
+                            } while (activeWindowSize.Top == curMonX.Bounds.Top &&
                                      activeWindowSize.Bottom == curMonX.Bounds.Bottom &&
-                                     activeWindowSize.Left == curMonX.Bounds.Left && 
+                                     activeWindowSize.Left == curMonX.Bounds.Left &&
                                      activeWindowSize.Right == curMonX.Bounds.Right);
 
                             Console.WriteLine("Fullscreen App deactivated");
@@ -407,7 +235,7 @@ public class Centerer
                         initposcalcready = false;
 
                         // Start the PositionCalculator
-                        Task.Run(() => 
+                        Task.Run(() =>
                         {
                             while (!initposcalcready) Task.Delay(10);
                             bool noChanges = oldresults == results;
@@ -425,7 +253,7 @@ public class Centerer
                     // Save current results for the next loop
                     oldresults = results;
 
-                    if (SystemInformation.PowerStatus.PowerLineStatus == 
+                    if (SystemInformation.PowerStatus.PowerLineStatus ==
                         PowerLineStatus.Offline)
                     {
                         Task.Delay(settings.OnBatteryLoopRefreshRate);
@@ -450,6 +278,152 @@ public class Centerer
         catch (Exception ex)
         {
             Console.WriteLine("@Looper2 | " + ex.Message);
+        }
+    }
+
+    private void ConfigureTaskbars()
+    {
+        Win32.Api.GetActiveWindows().ForEach(taskbar =>
+        {
+            ConfigurePrimary(taskbar);
+            ConfigureSecondary(taskbar);
+        });
+    }
+
+    private static void HandleZero(nint mSTaskListWClass)
+    {
+        if (mSTaskListWClass == 0)
+        {
+            Console.WriteLine("TaskbarX: " +
+                "Could not find the handle of the taskbar. " +
+                "Your current version or build of Windows may not be supported.");
+            Environment.Exit(0);
+        }
+    }
+
+    private void ConfigureSecondary(nint taskbar)
+    {
+        if (settings.TotalSecondaryOpacity != 0)
+        {
+            Win32.Intertop.SetWindowLong(
+                taskbar,
+                (WindowStyles)Win32.Intertop.GWL_EXSTYLE,
+                0x80000);
+
+            Win32.Intertop.SetLayeredWindowAttributes(
+                taskbar,
+                0,
+                (byte)(255 / 100 * (byte)settings.TotalSecondaryOpacity),
+                0x2);
+        }
+
+        if (settings.HideSecondaryStartButton == 1)
+        {
+            var sStart = Win32.Intertop.FindWindowEx(
+                taskbar,
+                0,
+                "Start",
+                null);
+
+            Win32.Intertop.ShowWindow(
+                sStart,
+                ShowWindowCommands.Hide);
+
+            Win32.Intertop.SetLayeredWindowAttributes(
+                sStart,
+                0,
+                0,
+                0x2);
+        }
+
+        if (settings.HideSecondaryNotifyWnd == 1)
+        {
+            var sTray = Win32.Intertop.FindWindowEx(
+                taskbar,
+                0,
+                "ClockButton",
+                null);
+
+            Win32.Intertop.ShowWindow(
+                sTray,
+                ShowWindowCommands.Hide);
+
+            Win32.Intertop.SetLayeredWindowAttributes(
+                sTray,
+                0,
+                0,
+                0x2);
+        }
+    }
+
+    private void ConfigurePrimary(nint taskbar)
+    {
+        if (settings.TotalPrimaryOpacity != 0)
+        {
+            Win32.Intertop.SetWindowLong(
+                taskbar,
+                (WindowStyles)Win32.Intertop.GWL_EXSTYLE,
+                0x80000);
+
+            Win32.Intertop.SetLayeredWindowAttributes(
+                taskbar,
+                0,
+                Convert.ToByte(255 / 100 * settings.TotalPrimaryOpacity),
+                0x2);
+        }
+
+        if (settings.HidePrimaryStartButton == 1)
+        {
+            var mStart = Win32.Intertop.FindWindowEx(
+                taskbar,
+                0,
+                "Start",
+                null);
+
+            Win32.Intertop.ShowWindow(
+                mStart,
+                ShowWindowCommands.Hide);
+
+            Win32.Intertop.SetLayeredWindowAttributes(
+                mStart,
+                0,
+                0,
+                0x2);
+        }
+
+        if (settings.HidePrimaryNotifyWnd == 1)
+        {
+            var mTray = Win32.Intertop.FindWindowEx(
+                taskbar,
+                0,
+                "TrayNotifyWnd",
+                null);
+
+            Win32.Intertop.ShowWindow(
+                mTray,
+                ShowWindowCommands.Hide);
+
+            Win32.Intertop.SetWindowLong(
+                mTray,
+                (WindowStyles)Win32.Intertop.GWL_STYLE,
+                0x7E000000);
+
+            Win32.Intertop.SetWindowLong(
+                mTray,
+                (WindowStyles)Win32.Intertop.GWL_EXSTYLE,
+                0x80000);
+
+            Win32.Intertop.SendMessage(
+                mTray,
+                11,
+                false,
+                0);
+
+            Win32.Intertop.SetLayeredWindowAttributes(
+                mTray,
+                0,
+                0,
+                0x2);
         }
     }
 

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using TBStyler.Win32.Types;
 
 namespace TBStyler.Win32;
@@ -41,6 +36,69 @@ public class Api
                 null);
 
         return Win11Taskbar != 0;
+    }
+
+    public static List<nint> GetTaskbars(bool setLong = false)
+    {
+        List<IntPtr> windowHandles = GetActiveWindows();
+        List<IntPtr> taskbars = [];
+
+        foreach (IntPtr taskbar in windowHandles)
+        {
+            string sClassName = GetClassName(taskbar);
+            IntPtr mSTaskListWClass = 0;
+
+
+            if (sClassName == "Shell_TrayWnd")
+            {
+                IntPtr ReBarWindow32 = Intertop.FindWindowEx(
+                    taskbar,
+                    0,
+                    "ReBarWindow32",
+                    null);
+
+                IntPtr MSTaskSwWClass = Intertop.FindWindowEx(
+                    ReBarWindow32,
+                    0,
+                    "MSTaskSwWClass",
+                    null);
+
+                mSTaskListWClass = Intertop.FindWindowEx(
+                    MSTaskSwWClass,
+                    0,
+                    "MSTaskListWClass",
+                    null);
+            }
+
+            if (sClassName == "Shell_SecondaryTrayWnd")
+            {
+                IntPtr WorkerW = Intertop.FindWindowEx(
+                    taskbar,
+                    0,
+                    "WorkerW",
+                    null);
+
+                mSTaskListWClass = Intertop.FindWindowEx(
+                    WorkerW,
+                    0,
+                    "MSTaskListWClass",
+                    null);
+            }
+
+            if (setLong) SetHwndlong(taskbar);
+
+            taskbars.Add(mSTaskListWClass);
+        }
+
+        return taskbars;
+    }
+
+    private static void SetHwndlong(nint taskbar)
+    {
+        Intertop.SetWindowLong(
+                        taskbar,
+                        (WindowStyles)Win32.Intertop.GWL_EXSTYLE,
+                        0x80);
     }
 
     public static List<IntPtr> GetActiveWindows()
@@ -103,6 +161,55 @@ public class Api
         StringBuilder lpClassName = new StringBuilder("", 256);
         Intertop.GetClassName(hwnd, lpClassName, 256);
         return lpClassName.ToString();
+    }
+
+    public static void SetDeafaultStyle(IntPtr trayptr)
+    {
+        Intertop.SendMessage(
+                        trayptr,
+                        Intertop.WM_THEMECHANGED,
+                        true,
+                        0);
+        Intertop.SendMessage(
+            trayptr,
+            Intertop.WM_DWMCOLORIZATIONCOLORCHANGED,
+            true,
+            0);
+        Intertop.SendMessage(
+            trayptr,
+            Intertop.WM_DWMCOMPOSITIONCHANGED,
+            true,
+            0);
+
+        Rect tt = new Rect();
+        Intertop.GetClientRect(
+            trayptr,
+            ref tt);
+
+        Intertop.SetWindowRgn(
+            trayptr,
+            Intertop.CreateRectRgn(
+                tt.Left,
+                tt.Top,
+                tt.Right,
+                tt.Bottom),
+            true);
+    }
+
+    public static void SetDefaultPosition(IntPtr taskbar)
+    {
+        Intertop.GetParent(taskbar);
+        Intertop.SendMessage(
+            Intertop.GetParent(
+                Intertop.GetParent(taskbar)),
+                11,
+                true,
+                0);
+
+        SetHwndPosition(
+            taskbar,
+            0,
+            0);
     }
 
     public static void SetHwndPosition(nint hwnd, int x, int y)
