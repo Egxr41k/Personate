@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace TBStyler;
 
-public delegate double AnimationStyle(double currentTime, double minValue, double maxValue, double duration);
+public delegate double EasingDelegate(double currentTime, double minValue, double maxValue, double duration);
 
-public class AnimationStyles
+internal class Easings
 {
     public static double None(double currentTime, double minHeight, double maxHeight, double duration)
     {
         return maxHeight;
     }
+
     public static double Linear(double currentTime, double minHeight, double maxHeight, double duration)
     {
         return maxHeight * currentTime / duration + minHeight;
@@ -53,8 +54,8 @@ public class AnimationStyles
     public static double ExpoEaseOutIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.ExpoEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
-        return AnimationStyles.ExpoEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
+            return Easings.ExpoEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
+        return Easings.ExpoEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
     }
 
     public static double CircEaseOut(double currentTime, double minHeight, double maxHeight, double duration)
@@ -92,8 +93,8 @@ public class AnimationStyles
     public static double CircEaseOutIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.CircEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
-        return AnimationStyles.CircEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
+            return Easings.CircEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
+        return Easings.CircEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
     }
 
     public static double QuadEaseOut(double currentTime, double minHeight, double maxHeight, double duration)
@@ -126,8 +127,8 @@ public class AnimationStyles
     public static double QuadEaseOutIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.QuadEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
-        return AnimationStyles.QuadEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
+            return Easings.QuadEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
+        return Easings.QuadEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
     }
 
     public static double SineEaseOut(double currentTime, double minHeight, double maxHeight, double duration)
@@ -155,8 +156,8 @@ public class AnimationStyles
     public static double SineEaseOutIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.SineEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
-        return AnimationStyles.SineEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
+            return Easings.SineEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
+        return Easings.SineEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
     }
 
     public static double CubicEaseOut(double currentTime, double minHeight, double maxHeight, double duration)
@@ -188,8 +189,8 @@ public class AnimationStyles
     public static double CubicEaseOutIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.CubicEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
-        return AnimationStyles.CubicEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
+            return Easings.CubicEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
+        return Easings.CubicEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
     }
 
     public static double QuartEaseOut(double currentTime, double minHeight, double maxHeight, double duration)
@@ -222,8 +223,8 @@ public class AnimationStyles
     public static double QuartEaseOutIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.QuartEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
-        return AnimationStyles.QuartEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
+            return Easings.QuartEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
+        return Easings.QuartEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
     }
 
     public static double QuintEaseOut(double currentTime, double minHeight, double maxHeight, double duration)
@@ -255,8 +256,8 @@ public class AnimationStyles
     public static double QuintEaseOutIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.QuintEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
-        return AnimationStyles.QuintEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
+            return Easings.QuintEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
+        return Easings.QuintEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
     }
 
     public static double ElasticEaseOut(double currentTime, double minHeight, double maxHeight, double duration)
@@ -312,8 +313,8 @@ public class AnimationStyles
     public static double ElasticEaseOutIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.ElasticEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
-        return AnimationStyles.ElasticEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
+            return Easings.ElasticEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
+        return Easings.ElasticEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
     }
 
     public static double BounceEaseOut(double currentTime, double minHeight, double maxHeight, double duration)
@@ -344,21 +345,21 @@ public class AnimationStyles
 
     public static double BounceEaseIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
-        return maxHeight - AnimationStyles.BounceEaseOut(duration - currentTime, 0.0, maxHeight, duration) + minHeight;
+        return maxHeight - Easings.BounceEaseOut(duration - currentTime, 0.0, maxHeight, duration) + minHeight;
     }
 
     public static double BounceEaseInOut(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.BounceEaseIn(currentTime * 2.0, 0.0, maxHeight, duration) * 0.5 + minHeight;
-        return AnimationStyles.BounceEaseOut(currentTime * 2.0 - duration, 0.0, maxHeight, duration) * 0.5 + maxHeight * 0.5 + minHeight;
+            return Easings.BounceEaseIn(currentTime * 2.0, 0.0, maxHeight, duration) * 0.5 + minHeight;
+        return Easings.BounceEaseOut(currentTime * 2.0 - duration, 0.0, maxHeight, duration) * 0.5 + maxHeight * 0.5 + minHeight;
     }
 
     public static double BounceEaseOutIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.BounceEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
-        return AnimationStyles.BounceEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
+            return Easings.BounceEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
+        return Easings.BounceEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
     }
 
     public static double BackEaseOut(double currentTime, double minHeight, double maxHeight, double duration)
@@ -400,7 +401,7 @@ public class AnimationStyles
     public static double BackEaseOutIn(double currentTime, double minHeight, double maxHeight, double duration)
     {
         if (currentTime < duration / 2.0)
-            return AnimationStyles.BackEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
-        return AnimationStyles.BackEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
+            return Easings.BackEaseOut(currentTime * 2.0, minHeight, maxHeight / 2.0, duration);
+        return Easings.BackEaseIn(currentTime * 2.0 - duration, minHeight + maxHeight / 2.0, maxHeight / 2.0, duration);
     }
 }

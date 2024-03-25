@@ -2,7 +2,7 @@
 using System.Text;
 using Accessibility;
 
-namespace TBStyler;
+namespace TBStyler.MSAA;
 
 public class Intertop
 {

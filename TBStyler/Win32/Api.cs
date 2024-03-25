@@ -5,6 +5,45 @@ namespace TBStyler.Win32;
 
 public class Api
 {
+    private const byte keyControl = 0x11;
+    private const byte keyEscape = 0x1B;
+    private const uint KEYEVENTF_KEYUP = 0x2;
+    private const byte VK_LWIN = 0x5B;
+    private const uint WM_SYSCOMMAND = 0x112;
+    private const uint SC_CLOSE = 0xF060;
+    public static void ShowStartMenu()
+    {
+        IntPtr shell = Intertop.FindWindow("Shell_TrayWnd", null);
+        //Intertop.keybd_event(keyControl, 0, 0, UIntPtr.Zero);
+        //Intertop.keybd_event(keyEscape, 0, 0, UIntPtr.Zero);
+        //Intertop.keybd_event(keyControl, 0, KEYEVENTF_KEYUP, UIntPtr.Zero);
+        //Intertop.keybd_event(keyEscape, 0, KEYEVENTF_KEYUP, UIntPtr.Zero);
+        //Intertop.keybd_event(VK_LWIN, 0, 0, UIntPtr.Zero);
+        //Intertop.keybd_event(VK_LWIN, 0, 0, UIntPtr.Zero);
+        //Rect tt;
+        //Intertop.GetWindowRect(shell, out tt);
+        //MessageBox.Show(tt.Top.ToString());
+        //Intertop.SendMessage(shell, 0x400 + 377, new IntPtr(1), IntPtr.Zero);
+        //StringBuilder sClassName = new StringBuilder("", 256);
+        //Intertop.GetClassName(Intertop.GetActiveWindow(), sClassName, 256);
+        //Intertop.PostMessage(shell, 0x400 + 465, new IntPtr(1), new IntPtr(0x10001));
+        //Intertop.PostMessage(shell, 0x127, new IntPtr(0x30001), IntPtr.Zero);
+        //Intertop.SendMessage(shell, 0x400 + 377, new IntPtr(256), new IntPtr(1));
+        //Intertop.PostMessage(shell, 0x400 + 243, shell, IntPtr.Zero);
+        //Intertop.SetFocus(shell);
+        Intertop.keybd_event(VK_LWIN, 0, 0, UIntPtr.Zero);
+        Intertop.keybd_event(VK_LWIN, 0, 2, UIntPtr.Zero);
+        //Intertop.SetFocus(shell);
+        //Intertop.SetFocus(shell);
+        //Intertop.keybd_event(VK_LWIN, 0, 2, UIntPtr.Zero);
+        //Intertop.keybd_event(VK_LWIN, 0, 2, UIntPtr.Zero);
+        //Intertop.PostMessage(shell, WM_SYSCOMMAND, new IntPtr(SC_CLOSE), new IntPtr(1));
+        //Intertop.PostMessage(shell, 0x400 + 465, new IntPtr(1), new IntPtr(0x10001));
+        //Intertop.PostMessage(shell, 0x400 + 443, new IntPtr(1), IntPtr.Zero);
+        //Intertop.PostMessage(shell, 0x400 + 377, new IntPtr(0), IntPtr.Zero);
+        //Intertop.keybd_event(VK_LWIN, 0, 2, UIntPtr.Zero);
+    }
+
     public static AccentState GetAccentState(int style)
     {
         return style switch
