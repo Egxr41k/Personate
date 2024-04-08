@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Personate.Settings")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+162ecdf590ca1becd824f0dd5f75c7922bc9f026")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fad62528badbfd57949b82a2a3fc269d21e46586")]
 [assembly: System.Reflection.AssemblyProductAttribute("Personate.Settings")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Personate.Settings")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

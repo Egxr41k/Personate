@@ -5,14 +5,22 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Personate.Settings;
+
 
 namespace TBStyler;
 
 public class TaskbarAnimate
 {
     public static ArrayList current = new ArrayList();
+    private TaskbarSettingsDTO Settings { get; set; }
 
-    public static void Animate(IntPtr hwnd, int oldpos, string orient, EasingDelegate easing, int valueToReach, int duration, bool isPrimary, int width)
+    public TaskbarAnimate(TaskbarSettingsDTO settings)
+    {
+        Settings = settings;
+    }
+
+    public void Animate(IntPtr hwnd, int oldpos, string orient, EasingDelegate easing, int valueToReach, int duration, bool isPrimary, int width)
     {
         try
         {
@@ -108,7 +116,7 @@ public class TaskbarAnimate
             sw.Stop();
             current.Remove(hwnd);
 
-            Program.ClearMemory();
+            Setuper.ClearMemory();
         }
         catch (Exception ex)
         {

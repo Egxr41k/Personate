@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using Personate.Settings;
 
 namespace TBStyler;
 
@@ -185,7 +186,14 @@ public class TaskbarStyle
         } while (true);
     }
 
-    public static void TaskbarStyler()
+    private TaskbarSettingsDTO Settings { get; set; }
+
+    public TaskbarStyle(TaskbarSettingsDTO settings)
+    {
+        Settings = settings;
+    }
+
+    public void TaskbarStyler()
     {
         try
         {

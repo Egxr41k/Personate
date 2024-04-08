@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
 using TBStyler.Win32.Types;
+using Personate.Settings;
 
 namespace TBStyler;
 
@@ -25,7 +26,14 @@ public class TaskbarCenter
 
     #endregion
 
-    public static void TaskbarCenterer()
+    private TaskbarSettingsDTO Settings { get; set; }
+
+    public TaskbarCenter(TaskbarSettingsDTO settings)
+    {
+        Settings = settings;
+    }
+
+    public void TaskbarCenterer()
     {
         RevertToZero();
 
@@ -153,11 +161,12 @@ public class TaskbarCenter
         }
     }
 
-    public static void Animate(IntPtr hwnd, int oldpos, string orient, EasingDelegate easing, int valueToReach, int duration, bool isPrimary, int width)
+    public void Animate(IntPtr hwnd, int oldpos, string orient, EasingDelegate easing, int valueToReach, int duration, bool isPrimary, int width)
     {
         try
         {
-            Thread t1 = new Thread(() => TaskbarAnimate.Animate(hwnd, oldpos, orient, easing, valueToReach, duration, isPrimary, width));
+            TaskbarAnimate taskbarAnimate = new TaskbarAnimate(Settings);
+            Thread t1 = new Thread(() => taskbarAnimate.Animate(hwnd, oldpos, orient, easing, valueToReach, duration, isPrimary, width));
             t1.Start();
         }
         catch (Exception ex)
@@ -285,7 +294,7 @@ public class TaskbarCenter
 
     #region Looper
 
-    public static void Looper()
+    public void Looper()
     {
         try
         {
@@ -647,7 +656,7 @@ public class TaskbarCenter
 
     #region PositionCalculator
 
-    public static void InitPositionCalculator()
+    public void InitPositionCalculator()
     {
         string mm;
         string mm2;
@@ -669,7 +678,7 @@ public class TaskbarCenter
         }
     }
 
-    public static void PositionCalculator()
+    public void PositionCalculator()
     {
         try
         {
@@ -1487,7 +1496,7 @@ public class TaskbarCenter
     }
 
 
-    private static void DaAnimator(string animationStyle, IntPtr taskList, int taskListc, int rebarc, string orient, int position, bool isprimary, int width)
+    private void DaAnimator(string animationStyle, IntPtr taskList, int taskListc, int rebarc, string orient, int position, bool isprimary, int width)
     {
         if (animationStyle == "linear")
         {
