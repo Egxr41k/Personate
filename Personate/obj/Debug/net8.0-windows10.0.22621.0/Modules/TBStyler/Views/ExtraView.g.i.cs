@@ -53,7 +53,7 @@ namespace Personate.Modules.TBStyler.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Personate;V1.0.0.0;component/modules/tbstyler/views/extraview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Personate;component/modules/tbstyler/views/extraview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Modules\TBStyler\Views\ExtraView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

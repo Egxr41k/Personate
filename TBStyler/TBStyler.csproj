@@ -10,6 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Personate.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Personate.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Personate.Settings\Personate.Settings.csproj" />
   </ItemGroup>
 

@@ -53,7 +53,7 @@ namespace Personate.Modules.WallpaperSwitcher.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Personate;V1.0.0.0;component/modules/wallpaperswitcher/views/detailsview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Personate;component/modules/wallpaperswitcher/views/detailsview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Modules\WallpaperSwitcher\Views\DetailsView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

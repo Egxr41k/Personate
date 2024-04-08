@@ -307,7 +307,7 @@ public class TaskbarCenter
                 {
                     IntPtr ReBarWindow32 = Win32.Intertop.FindWindowEx((IntPtr)Taskbar, IntPtr.Zero, "ReBarWindow32", null);
 
-                    if (Settings.TotalPrimaryOpacity != null)
+                    if (Settings.TotalPrimaryOpacity != 0)
                     {
                         Win32.Intertop.SetWindowLong((IntPtr)Taskbar, (WindowStyles)Win32.Intertop.GWL_EXSTYLE, 0x80000);
                         Win32.Intertop.SetLayeredWindowAttributes((IntPtr)Taskbar, 0, (byte)(255 / 100 * Convert.ToByte(Settings.TotalPrimaryOpacity)), 0x2);
@@ -338,7 +338,7 @@ public class TaskbarCenter
                 {
                     IntPtr WorkerW = Win32.Intertop.FindWindowEx((IntPtr)Taskbar, IntPtr.Zero, "WorkerW", null);
 
-                    if (Settings.TotalSecondaryOpacity != null)
+                    if (Settings.TotalSecondaryOpacity != 0)
                     {
                         Win32.Intertop.SetWindowLong((IntPtr)Taskbar, (WindowStyles)Win32.Intertop.GWL_EXSTYLE, 0x80000);
                         Win32.Intertop.SetLayeredWindowAttributes((IntPtr)Taskbar, 0, (byte)(255 / 100 * Convert.ToByte(Settings.TotalSecondaryOpacity)), 0x2);
@@ -378,13 +378,12 @@ public class TaskbarCenter
             }
 
             // Start the endless loop
+            string results = "";
+            string oldresults = "";
             while (true)
             {
                 try
                 {
-                    string results = null;
-                    string oldresults = null;
-
                     if (Settings.SkipResolution != 0)
                     {
                         if (Screen.PrimaryScreen.Bounds.Width == Settings.SkipResolution)
@@ -502,7 +501,7 @@ public class TaskbarCenter
                         TrayWndSize = Orientation == "H" ? tW : tH;
 
                         // Put the results into a string ready to be matched for differences with last loop
-                        results += Orientation + TaskbarCount + TrayWndSize;
+                        results = Orientation + TaskbarCount + TrayWndSize;
 
                         initposcalcready = true;
                     }
@@ -847,37 +846,18 @@ public class TaskbarCenter
                     {
                         if (Orientation == "H")
                         {
-                            int offset = (TrayNotifyPos.width / 2 - (TaskbarLeft / 2)) + NewsAndInterestsPos.width / 2;
-                            NewPosition = Math.Abs(TrayWndLeft - offset);
+                            var offset = (TrayNotifyPos.width / (double)2 - (TaskbarLeft / 2)) + NewsAndInterestsPos.width / (double)2;
+                            NewPosition = Math.Abs(Convert.ToInt32((TrayWndWidth / (double)2 - (TaskbarWidth / (double)2) - TaskbarLeft - offset))) + Settings.PrimaryTaskbarOffset;
                         }
                         else
                         {
-                            NewPosition = Math.Abs(TrayWndLeft + (TaskbarWidth / 2) - (TrayWndWidth / 2));
+                            var offset = (TrayNotifyPos.height / (double)2 - (TaskbarLeft / 2)) + NewsAndInterestsPos.height / (double)2;
+                            NewPosition = Math.Abs(Convert.ToInt32((TrayWndWidth / (double)2 - (TaskbarWidth / (double)2) - TaskbarLeft - offset))) + Settings.PrimaryTaskbarOffset;
                         }
                     }
-                    else
-                    {
-                        if (Settings.CenterPrimaryOnly == 1)
-                        {
-                            NewPosition = Math.Abs(TrayWndLeft + (TaskbarWidth / 2) - (TrayWndWidth / 2));
-                        }
-                        else
-                        {
-                            NewPosition = TrayWndLeft;
-                        }
-                    }
+                    else NewPosition = Math.Abs(Convert.ToInt32(Convert.ToInt32((TrayWndWidth / (double)2) - (TaskbarWidth / (double)2) - TaskbarLeft))) + Settings.PrimaryTaskbarOffset;
                 }
-                else
-                {
-                    if (Settings.CenterSecondaryOnly == 1)
-                    {
-                        NewPosition = Math.Abs(TrayWndLeft + (TaskbarWidth / 2) - (TrayWndWidth / 2));
-                    }
-                    else
-                    {
-                        NewPosition = TrayWndLeft;
-                    }
-                }
+                else NewPosition = Math.Abs(Convert.ToInt32(Convert.ToInt32((TrayWndWidth / (double)2) - (TaskbarWidth / (double)2) - TaskbarLeft))) + Settings.SecondaryTaskbarOffset;
 
 
                 if (Settings.TaskbarSegments == 1)
