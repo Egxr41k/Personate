@@ -9,9 +9,42 @@ namespace TBStyler;
 
 internal class Program
 {
+    public static CancellationTokenSource Cancellation = new CancellationTokenSource();
     public static void Main(string[] args)
     {
-        SettingsService settingsService = new SettingsService();
-        Setuper taskbar = new Setuper(settingsService.Settings.Taskbar);
+        TaskbarSettingsDTO taskbarSettings = new SettingsService().Settings.Taskbar;
+        Setuper setuper = new Setuper(taskbarSettings);
+        while (true)
+        {
+            try
+            {
+                string? input = Console.ReadLine();
+
+                switch (input)
+                {
+                    case "-start":
+                        setuper = new Setuper(taskbarSettings);
+                        //taskbar.Start();
+                        break;
+                    case "-update":
+                        //taskbar.Stop();
+                        Cancellation.Cancel();
+                        setuper = new Setuper(taskbarSettings);
+                        //taskbar.Start();
+                        break;
+                    case "-stop":
+                        //taskbar.Stop();
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("command isn`t exist");
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
     }
 }
